@@ -77,7 +77,7 @@ EMA 是指数移动平均线。它把过去多个交易日的价格压缩成一�
 - Daily EMA 100 的可靠度相对低一些；
 - 当 EMA 200 离当前价格太远，EMA 100 才更有实际交易意义。
 
-![图 1-1：日线 EMA100 与 EMA200 的位置关系，视频约 04:00](<../02-visual-index/01-daily-ema-resistance/frame_013.jpg>)
+![图 1-1：日线 EMA100 与 EMA200 的位置关系，视频约 04:00](<assets/01-daily-ema-resistance/frame_013.jpg>)
 
 **图 1-1 怎么看：**
 
@@ -119,7 +119,7 @@ EMA 是指数移动平均线。它把过去多个交易日的价格压缩成一�
 
 `近端 EMA 100 → 若被突破则看 EMA 200 → 再检查是否与整数位重合`
 
-![图 1-2：EMA200 与整数位重合后的盘中回落，视频约 05:40](<../02-visual-index/01-daily-ema-resistance/frame_018.jpg>)
+![图 1-2：EMA200 与整数位重合后的盘中回落，视频约 05:40](<assets/01-daily-ema-resistance/frame_018.jpg>)
 
 **图 1-2 怎么看：**
 
@@ -140,7 +140,7 @@ MEDS 的 EMA 200 同样与 whole dollar 接近，但股票当时持续出现快�
 - 停牌频繁、量能急剧增加的股票可能越过通常有效的技术位置；
 - “价格到了 EMA”不是立刻逆势做空的充分条件。
 
-![图 1-3：强动能直接穿越 EMA200，视频约 06:20](<../02-visual-index/01-daily-ema-resistance/frame_020.jpg>)
+![图 1-3：强动能直接穿越 EMA200，视频约 06:20](<assets/01-daily-ema-resistance/frame_020.jpg>)
 
 **图 1-3 怎么看：**
 
@@ -160,7 +160,7 @@ TOP 第一天因新闻上涨，盘后继续走高；第二天再次 gap up，开
 - 开盘快速下跌后，成交量迅速衰减；
 - 量能下降使之后的反弹越来越弱。
 
-![图 1-4：隔夜 Gap Up 后在 Daily EMA200 附近转弱，视频约 07:00](<../02-visual-index/01-daily-ema-resistance/frame_022.jpg>)
+![图 1-4：隔夜 Gap Up 后在 Daily EMA200 附近转弱，视频约 07:00](<assets/01-daily-ema-resistance/frame_022.jpg>)
 
 **图 1-4 怎么看：**
 
@@ -184,7 +184,7 @@ OCEA 在盘前 gap up 到 EMA 200 + whole dollar + 历史阻力附近，之后�
 - 突破并站稳后回踩：可能由阻力转为支撑；
 - 从上方下跌接近：可能直接表现为支撑。
 
-![图 1-5：同一 EMA 在不同接近方向下可表现为阻力或支撑，视频约 07:40](<../02-visual-index/01-daily-ema-resistance/frame_024.jpg>)
+![图 1-5：同一 EMA 在不同接近方向下可表现为阻力或支撑，视频约 07:40](<assets/01-daily-ema-resistance/frame_024.jpg>)
 
 **图 1-5 怎么看：**
 
@@ -199,7 +199,7 @@ OCEA 在盘前 gap up 到 EMA 200 + whole dollar + 历史阻力附近，之后�
 
 这一案例说明，EMA 100 不是固定使用，而是取决于它在当前价格路径中是否是“下一个有实际意义的障碍”。
 
-![图 1-6：Daily EMA100 与 10.50 美元半整数位叠加，视频约 08:40](<../02-visual-index/01-daily-ema-resistance/frame_027.jpg>)
+![图 1-6：Daily EMA100 与 10.50 美元半整数位叠加，视频约 08:40](<assets/01-daily-ema-resistance/frame_027.jpg>)
 
 **图 1-6 怎么看：**
 
@@ -219,7 +219,7 @@ OCEA 在盘前 gap up 到 EMA 200 + whole dollar + 历史阻力附近，之后�
 - 频繁触发 volatility halt；
 - 空头被迫回补，形成 short squeeze。
 
-![图 1-7：视频列出的 EMA 阻力失效条件，视频约 09:20](<../02-visual-index/01-daily-ema-resistance/frame_029.jpg>)
+![图 1-7：视频列出的 EMA 阻力失效条件，视频约 09:20](<assets/01-daily-ema-resistance/frame_029.jpg>)
 
 **图 1-7 怎么看：**
 
@@ -238,7 +238,7 @@ OCEA 在盘前 gap up 到 EMA 200 + whole dollar + 历史阻力附近，之后�
 
 视频最后的示例展示了高量和强 momentum 突破 EMA 100、再突破 EMA 200，之后 EMA 200 成为支撑，并推动 short squeeze。
 
-![图 1-8：突破 EMA 后由阻力转为支撑的完整结果，视频约 10:20](<../02-visual-index/01-daily-ema-resistance/frame_032.jpg>)
+![图 1-8：突破 EMA 后由阻力转为支撑的完整结果，视频约 10:20](<assets/01-daily-ema-resistance/frame_032.jpg>)
 
 **图 1-8 怎么看：**
 

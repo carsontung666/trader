@@ -71,7 +71,7 @@ Level 2 主要让你看到部分 passive liquidity；Time & Sales 显示实际�
 
 不需要精确计算百分比，但必须建立量级感。
 
-![图 4-1：显示订单必须与每分钟成交量比较，视频约 01:00](<../02-visual-index/04-trading-with-level-2/frame_004.jpg>)
+![图 4-1：显示订单必须与每分钟成交量比较，视频约 01:00](<assets/04-trading-with-level-2/frame_004.jpg>)
 
 **图 4-1 怎么看：**
 
@@ -113,7 +113,7 @@ Level 2 每秒都在变化。视频要求观察：
 
 这些都只是可能解释，必须结合 Time & Sales、成交量、图表位置和实际价格移动。
 
-![图 4-2：Level 2 数量变化的方向性解释，视频约 02:40](<../02-visual-index/04-trading-with-level-2/frame_009.jpg>)
+![图 4-2：Level 2 数量变化的方向性解释，视频约 02:40](<assets/04-trading-with-level-2/frame_009.jpg>)
 
 **图 4-2 怎么看：**
 
@@ -137,7 +137,7 @@ Level 2 每秒都在变化。视频要求观察：
 
 Hidden buyer 则相反：大量卖单打到某个 bid，但该价格仍不断吸收，无法跌破。
 
-![图 4-3：Hidden buyer / seller 的识别条件，视频约 05:40](<../02-visual-index/04-trading-with-level-2/frame_018.jpg>)
+![图 4-3：Hidden buyer / seller 的识别条件，视频约 05:40](<assets/04-trading-with-level-2/frame_018.jpg>)
 
 **图 4-3 怎么看：**
 
@@ -166,7 +166,7 @@ Hidden buyer 则相反：大量卖单打到某个 bid，但该价格仍不断吸
 
 持仓周期越短，无法突破几秒就可能破坏交易逻辑；持仓周期较长，则可以给它更多时间。
 
-![图 4-4：真实盘面中同时观察图表、Level 2 与 Time & Sales，视频约 08:40](<../02-visual-index/04-trading-with-level-2/frame_027.jpg>)
+![图 4-4：真实盘面中同时观察图表、Level 2 与 Time & Sales，视频约 08:40](<assets/04-trading-with-level-2/frame_027.jpg>)
 
 **图 4-4 怎么看：**
 
@@ -208,7 +208,7 @@ Hidden buyer 则相反：大量卖单打到某个 bid，但该价格仍不断吸
 4. Bid 逐步下移或变薄；
 5. 才考虑 short，并把阻力突破定义为风险。
 
-![图 4-5：Breakout Long 与 Dip Buy 的盘口示意，视频约 13:00](<../02-visual-index/04-trading-with-level-2/frame_040.jpg>)
+![图 4-5：Breakout Long 与 Dip Buy 的盘口示意，视频约 13:00](<assets/04-trading-with-level-2/frame_040.jpg>)
 
 **图 4-5 怎么看：**
 
@@ -259,7 +259,7 @@ Level 2 的价值是帮助决定“当前继续持有还有没有即时优势”
 - 说明有隐藏流动性阻挡；
 - 不知道真实 size 时，讲师倾向立即退出，而不是等待。
 
-![图 4-6：用盘口处理止盈、止损和保本的场景，视频约 15:00](<../02-visual-index/04-trading-with-level-2/frame_046.jpg>)
+![图 4-6：用盘口处理止盈、止损和保本的场景，视频约 15:00](<assets/04-trading-with-level-2/frame_046.jpg>)
 
 **图 4-6 怎么看：**
 
@@ -278,7 +278,7 @@ Level 2 的价值是帮助决定“当前继续持有还有没有即时优势”
 - 价格尝试突破 $5，但卖单持续存在；
 - 这支持继续持有 short。
 
-![图 4-7：$5 整数位附近建立 Short 的实盘画面，视频约 18:00](<../02-visual-index/04-trading-with-level-2/frame_055.jpg>)
+![图 4-7：$5 整数位附近建立 Short 的实盘画面，视频约 18:00](<assets/04-trading-with-level-2/frame_055.jpg>)
 
 **图 4-7 怎么看：**
 
@@ -304,7 +304,7 @@ Level 2 的价值是帮助决定“当前继续持有还有没有即时优势”
 - 下方继续突破的即时难度增加；
 - 讲师 cover / take profit。
 
-![图 4-8：下跌到约 $4.77 后由大 Bid 提示止盈，视频约 21:00](<../02-visual-index/04-trading-with-level-2/frame_064.jpg>)
+![图 4-8：下跌到约 $4.77 后由大 Bid 提示止盈，视频约 21:00](<assets/04-trading-with-level-2/frame_064.jpg>)
 
 **图 4-8 怎么看：**
 

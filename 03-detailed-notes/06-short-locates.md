@@ -75,7 +75,7 @@
 
 这里输入的应该是“你计划可能做空的数量”，不是随意填得越大越好，因为费用通常会随股数线性增加。
 
-![图 6-1：在右上区域输入股票与 Locate 股数，视频约 00:24](<../02-visual-index/06-short-locates-024s.jpg>)
+![图 6-1：在右上区域输入股票与 Locate 股数，视频约 00:24](<assets/06-short-locates/06-short-locates-024s.jpg>)
 
 **图 6-1 怎么看：**
 
@@ -107,7 +107,7 @@
 | KXIN（稍后实际示范） | $0.0765 | 100 | $7.65 |
 | HOFV | $0.4170 | 5,000 | $2,085.00 |
 
-![图 6-2：HOFV 与 KXIN 的 Locate 报价，视频约 01:12](<../02-visual-index/06-short-locates-072s.jpg>)
+![图 6-2：HOFV 与 KXIN 的 Locate 报价，视频约 01:12](<assets/06-short-locates/06-short-locates-072s.jpg>)
 
 **图 6-2 怎么看：**
 
@@ -153,7 +153,7 @@
 2. 当你买回股票时，叫 `cover`；
 3. 如果已经 cover，并确定当天不会再做空这只股票，可以在库存区域选择数量并按 `Credit`，尝试把库存归还。
 
-![图 6-3：接受报价后 KXIN 出现在 Inventory，视频约 02:12](<../02-visual-index/06-short-locates-132s.jpg>)
+![图 6-3：接受报价后 KXIN 出现在 Inventory，视频约 02:12](<assets/06-short-locates/06-short-locates-132s.jpg>)
 
 **图 6-3 怎么看：**
 

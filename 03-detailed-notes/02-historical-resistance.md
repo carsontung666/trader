@@ -47,7 +47,7 @@ EMA 100/200 是平台直接计算出来的线；Historical Resistance 需要交�
 
 `过去支撑 → Gap down / breakdown → 长期在下方 → 反弹回测 → 潜在阻力`
 
-![图 2-1：Historical 底部的两种形成方式，视频约 01:20](<../02-visual-index/02-historical-resistance/frame_005.jpg>)
+![图 2-1：Historical 底部的两种形成方式，视频约 01:20](<assets/02-historical-resistance/frame_005.jpg>)
 
 **图 2-1 怎么看：**
 
@@ -76,7 +76,7 @@ EMA 100/200 是平台直接计算出来的线；Historical Resistance 需要交�
 
 这里不是“$5 永远不能过”，而是 Historical 底部与 whole dollar 叠加，让 $5 附近成为一个更显眼的决策区域。
 
-![图 2-2：旧底部与整数位重合后的两次测试，视频约 02:40](<../02-visual-index/02-historical-resistance/frame_009.jpg>)
+![图 2-2：旧底部与整数位重合后的两次测试，视频约 02:40](<assets/02-historical-resistance/frame_009.jpg>)
 
 **图 2-2 怎么看：**
 
@@ -132,7 +132,7 @@ K 线实体顶部的计算：
 - Green candle：实体顶部是 close；
 - 上影线区间：`当日 high → 实体顶部`。
 
-![图 2-3：小山顶及上影线区域的标记方法，视频约 05:00](<../02-visual-index/02-historical-resistance/frame_016.jpg>)
+![图 2-3：小山顶及上影线区域的标记方法，视频约 05:00](<assets/02-historical-resistance/frame_016.jpg>)
 
 **图 2-3 怎么看：**
 
@@ -161,7 +161,7 @@ K 线实体顶部的计算：
 
 TradingView 可以显示/辅助画出部分历史水平，但自动线仍需人工判断，不应因为平台画出来就默认有效。
 
-![图 2-4：多个日线小山顶形成逐层阻力，视频约 07:20](<../02-visual-index/02-historical-resistance/frame_023.jpg>)
+![图 2-4：多个日线小山顶形成逐层阻力，视频约 07:20](<assets/02-historical-resistance/frame_023.jpg>)
 
 **图 2-4 怎么看：**
 
@@ -198,7 +198,7 @@ Daily Chart 只能告诉你“哪一天值得深入”，不能准确告诉你�
 1. **高成交 consolidation 区域**；
 2. **大幅 flush 发生前最后维持住的价格区域**。
 
-![图 2-5：从 Daily 进入 1m/5m/15m 寻找具体成交区，视频约 08:40](<../02-visual-index/02-historical-resistance/frame_027.jpg>)
+![图 2-5：从 Daily 进入 1m/5m/15m 寻找具体成交区，视频约 08:40](<assets/02-historical-resistance/frame_027.jpg>)
 
 **图 2-5 怎么看：**
 
@@ -246,7 +246,7 @@ Daily Chart 只能告诉你“哪一天值得深入”，不能准确告诉你�
 
 视频显示，当前交易日价格接近过去平台后无法保持，形成回落。这里真正有意义的是过去高位“有大量人完成交易”，不是日线 K 线颜色本身。
 
-![图 2-6：Daily、历史 5 分钟图与当前交易日的三层对照，视频约 11:20](<../02-visual-index/02-historical-resistance/frame_035.jpg>)
+![图 2-6：Daily、历史 5 分钟图与当前交易日的三层对照，视频约 11:20](<assets/02-historical-resistance/frame_035.jpg>)
 
 **图 2-6 怎么看：**
 
@@ -265,7 +265,7 @@ Daily Chart 只能告诉你“哪一天值得深入”，不能准确告诉你�
 
 复盘后应更新图表，而不是永远只保留几年前的线。
 
-![图 2-7：约 13 美元的新失败区成为下一次阻力，视频约 12:40](<../02-visual-index/02-historical-resistance/frame_039.jpg>)
+![图 2-7：约 13 美元的新失败区成为下一次阻力，视频约 12:40](<assets/02-historical-resistance/frame_039.jpg>)
 
 **图 2-7 怎么看：**
 
@@ -285,7 +285,7 @@ Daily Chart 只能告诉你“哪一天值得深入”，不能准确告诉你�
 
 这提醒我们：形状相似，不代表筹码规模相同。还要看成交量、持续时间、float 和当时价格。
 
-![图 2-8：Choppy 日线中仍需回到盘中图核对成交结构，视频约 14:20](<../02-visual-index/02-historical-resistance/frame_044.jpg>)
+![图 2-8：Choppy 日线中仍需回到盘中图核对成交结构，视频约 14:20](<assets/02-historical-resistance/frame_044.jpg>)
 
 **图 2-8 怎么看：**
 

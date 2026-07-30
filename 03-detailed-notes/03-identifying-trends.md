@@ -59,7 +59,7 @@ Trend 指价格在一段时间内的总体移动方向。视频分为三类：
 
 单独一根红 K 不足以证明 uptrend 结束。
 
-![图 3-1：Uptrend 的 Higher High 与 Higher Low，视频约 00:40](<../02-visual-index/03-identifying-trends/frame_003.jpg>)
+![图 3-1：Uptrend 的 Higher High 与 Higher Low，视频约 00:40](<assets/03-identifying-trends/frame_003.jpg>)
 
 **图 3-1 怎么看：**
 
@@ -88,7 +88,7 @@ Trend 指价格在一段时间内的总体移动方向。视频分为三类：
 - 低量反弹很容易只是 downtrend 中的 lower high；
 - 不应只因“已经跌很多”就认定趋势会反转。
 
-![图 3-2：Downtrend 的 Lower Low 与 Lower High，视频约 01:00](<../02-visual-index/03-identifying-trends/frame_004.jpg>)
+![图 3-2：Downtrend 的 Lower Low 与 Lower High，视频约 01:00](<assets/03-identifying-trends/frame_004.jpg>)
 
 **图 3-2 怎么看：**
 
@@ -108,7 +108,7 @@ Trend 指价格在一段时间内的总体移动方向。视频分为三类：
 - 成交量通常下降；
 - 最终向一侧突破时，量和波动可能突然增大。
 
-![图 3-3：三类趋势的总定义，视频约 00:00](<../02-visual-index/03-identifying-trends/frame_001.jpg>)
+![图 3-3：三类趋势的总定义，视频约 00:00](<assets/03-identifying-trends/frame_001.jpg>)
 
 **图 3-3 怎么看：**
 
@@ -117,7 +117,7 @@ Trend 指价格在一段时间内的总体移动方向。视频分为三类：
 - 真实价格会有噪声，应只挑足以改变结构的 swing point；
 - 当高低点都没有明显抬高或降低时，先标为 consolidation 比强行猜方向更安全。
 
-![图 3-4：Consolidation 的水平高低点与收窄波动，视频约 01:40](<../02-visual-index/03-identifying-trends/frame_006.jpg>)
+![图 3-4：Consolidation 的水平高低点与收窄波动，视频约 01:40](<assets/03-identifying-trends/frame_006.jpg>)
 
 **图 3-4 怎么看：**
 
@@ -150,7 +150,7 @@ Trend 指价格在一段时间内的总体移动方向。视频分为三类：
 - 拉到更大的 5 分钟图看，这段 downtrend 可能只是大结构中的 pullback；
 - Consolidation 后继续上涨，整体仍是 uptrend。
 
-![图 3-5：同一走势在不同时间框架下的含义，视频约 05:00](<../02-visual-index/03-identifying-trends/frame_016.jpg>)
+![图 3-5：同一走势在不同时间框架下的含义，视频约 05:00](<assets/03-identifying-trends/frame_016.jpg>)
 
 **图 3-5 怎么看：**
 
@@ -204,7 +204,7 @@ Trend 指价格在一段时间内的总体移动方向。视频分为三类：
 4. 该红 K 成交量显著放大；
 5. 突破未能保持。
 
-![图 3-6：High-volume false breakout 的结构，视频约 08:00](<../02-visual-index/03-identifying-trends/frame_025.jpg>)
+![图 3-6：High-volume false breakout 的结构，视频约 08:00](<assets/03-identifying-trends/frame_025.jpg>)
 
 **图 3-6 怎么看：**
 
@@ -245,7 +245,7 @@ Trend 指价格在一段时间内的总体移动方向。视频分为三类：
 - 前一明确 low；
 - 预期中的 higher low。
 
-![图 3-7：Downtrend 尝试在支撑与 Higher Low 处稳定，视频约 12:00](<../02-visual-index/03-identifying-trends/frame_037.jpg>)
+![图 3-7：Downtrend 尝试在支撑与 Higher Low 处稳定，视频约 12:00](<assets/03-identifying-trends/frame_037.jpg>)
 
 **图 3-7 怎么看：**
 
@@ -271,7 +271,7 @@ Trend 指价格在一段时间内的总体移动方向。视频分为三类：
 7. 向上突破区间时触发 cover；
 8. Short squeeze 帮助建立新 uptrend。
 
-![图 3-8：Downtrend 后先横盘，再由突破触发反转，视频约 13:40](<../02-visual-index/03-identifying-trends/frame_042.jpg>)
+![图 3-8：Downtrend 后先横盘，再由突破触发反转，视频约 13:40](<assets/03-identifying-trends/frame_042.jpg>)
 
 **图 3-8 怎么看：**
 
@@ -304,7 +304,7 @@ Trend 指价格在一段时间内的总体移动方向。视频分为三类：
 - Level 2 大单更少；
 - 大仓位止损时缺少买家承接，slippage 更严重。
 
-![图 3-9：Downtrend 转 Uptrend 的执行困难，视频约 16:00](<../02-visual-index/03-identifying-trends/frame_049.jpg>)
+![图 3-9：Downtrend 转 Uptrend 的执行困难，视频约 16:00](<assets/03-identifying-trends/frame_049.jpg>)
 
 **图 3-9 怎么看：**
 

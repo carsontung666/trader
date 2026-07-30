@@ -31,7 +31,7 @@
 
 “Leader”和“laggard”不是永久身份。同一时段中，GME 可能先动；几分钟后 AMC 又可能成为先动的一只。
 
-![图 8-1：股票同步与 Leader–Laggard 的基本概念，视频约 00:00](<../02-visual-index/08-leader-laggard-strategy/frame_001.jpg>)
+![图 8-1：股票同步与 Leader–Laggard 的基本概念，视频约 00:00](<assets/08-leader-laggard-strategy/frame_001.jpg>)
 
 **图 8-1 怎么看：**
 
@@ -84,7 +84,7 @@
 
 至少观察多次反应后，才把同步作为辅助优势。一次巧合不足以建立策略。
 
-![图 8-2：视频对同步策略适用环境与局限的说明，视频约 01:40](<../02-visual-index/08-leader-laggard-strategy/frame_006.jpg>)
+![图 8-2：视频对同步策略适用环境与局限的说明，视频约 01:40](<assets/08-leader-laggard-strategy/frame_006.jpg>)
 
 **图 8-2 怎么看：**
 
@@ -118,7 +118,7 @@ Leader 提供方向线索，但实际交易的股票仍有自己的：
 
 不能用 GME 的图替 AMC 设置所有价格。
 
-![图 8-3：无暂停时的同步 Short 操作流程，视频约 03:00](<../02-visual-index/08-leader-laggard-strategy/frame_010.jpg>)
+![图 8-3：无暂停时的同步 Short 操作流程，视频约 03:00](<assets/08-leader-laggard-strategy/frame_010.jpg>)
 
 **图 8-3 怎么看：**
 
@@ -186,7 +186,7 @@ Halt resume 的第一笔成交可能：
 
 这里的 exit 并不等 AMC 自己完全反转，而是 leader 的弱势信号失效。
 
-![图 8-4：第一轮 GME 先走弱、AMC 尚未完全跟随，视频约 05:00](<../02-visual-index/08-leader-laggard-strategy/frame_016.jpg>)
+![图 8-4：第一轮 GME 先走弱、AMC 尚未完全跟随，视频约 05:00](<assets/08-leader-laggard-strategy/frame_016.jpg>)
 
 **图 8-4 怎么看：**
 
@@ -203,7 +203,7 @@ Halt resume 的第一笔成交可能：
 - GME 再次未能真正 halt，出现反弹；
 - AMC short 随即 cover。
 
-![图 8-5：GME 第二次 Flush 后 AMC 跟跌，视频约 07:00](<../02-visual-index/08-leader-laggard-strategy/frame_022.jpg>)
+![图 8-5：GME 第二次 Flush 后 AMC 跟跌，视频约 07:00](<assets/08-leader-laggard-strategy/frame_022.jpg>)
 
 **图 8-5 怎么看：**
 
@@ -221,7 +221,7 @@ Halt resume 的第一笔成交可能：
 - 讲师先卖出；
 - AMC 随后确实跟涨，但课程强调“错过后续无所谓”，不为卖早而追单。
 
-![图 8-6：GME 与 AMC 并排观察的标准布局，视频约 05:20](<../02-visual-index/08-leader-laggard-strategy/frame_017.jpg>)
+![图 8-6：GME 与 AMC 并排观察的标准布局，视频约 05:20](<assets/08-leader-laggard-strategy/frame_017.jpg>)
 
 **图 8-6 怎么看：**
 
@@ -258,7 +258,7 @@ Halt resume 的第一笔成交可能：
 
 多重依据比单纯看到 AMC 下跌更有意义。
 
-![图 8-7：AMC 先 Flush，GME 仍在较高位置，视频约 09:00](<../02-visual-index/08-leader-laggard-strategy/frame_028.jpg>)
+![图 8-7：AMC 先 Flush，GME 仍在较高位置，视频约 09:00](<assets/08-leader-laggard-strategy/frame_028.jpg>)
 
 **图 8-7 怎么看：**
 
@@ -280,7 +280,7 @@ AMC 已在 halt 中，没有继续更新的信息。讲师没有强行交易 GME
 
 这个片段很重要：同步策略也包含“不交易”。当信息源暂停或 entry 已经太迟，优势可能不存在。
 
-![图 8-8：Leader 暂停期间另一只股票缺少新方向信息，视频约 11:00](<../02-visual-index/08-leader-laggard-strategy/frame_034.jpg>)
+![图 8-8：Leader 暂停期间另一只股票缺少新方向信息，视频约 11:00](<assets/08-leader-laggard-strategy/frame_034.jpg>)
 
 **图 8-8 怎么看：**
 
@@ -301,7 +301,7 @@ AMC 已在 halt 中，没有继续更新的信息。讲师没有强行交易 GME
 
 课程明确承认这不是理想 entry。同步方向正确不代表任何位置都能下单；追得太低会让 risk/reward 变差。
 
-![图 8-9：方向判断正确但入场靠近支撑，视频约 13:40](<../02-visual-index/08-leader-laggard-strategy/frame_042.jpg>)
+![图 8-9：方向判断正确但入场靠近支撑，视频约 13:40](<assets/08-leader-laggard-strategy/frame_042.jpg>)
 
 **图 8-9 怎么看：**
 
@@ -322,7 +322,7 @@ AMC 已在 halt 中，没有继续更新的信息。讲师没有强行交易 GME
 
 卖早不等于错误。讲师当时面对的信息是“可能假跌停并立即反弹”，cover 是风险决策；后面继续跌是事后结果。
 
-![图 8-10：一只 Halt Down、另一只 Halt Up 后的 Resume 交易，视频约 15:00](<../02-visual-index/08-leader-laggard-strategy/frame_046.jpg>)
+![图 8-10：一只 Halt Down、另一只 Halt Up 后的 Resume 交易，视频约 15:00](<assets/08-leader-laggard-strategy/frame_046.jpg>)
 
 **图 8-10 怎么看：**
 
@@ -343,7 +343,7 @@ AMC 已在 halt 中，没有继续更新的信息。讲师没有强行交易 GME
 
 这再次说明：leader 给方向，entry 仍由 laggard 的自身结构决定。
 
-![图 8-11：等待新 K 反弹后再 Short，避免在低位追单，视频约 17:00](<../02-visual-index/08-leader-laggard-strategy/frame_052.jpg>)
+![图 8-11：等待新 K 反弹后再 Short，避免在低位追单，视频约 17:00](<assets/08-leader-laggard-strategy/frame_052.jpg>)
 
 **图 8-11 怎么看：**
 
@@ -352,7 +352,7 @@ AMC 已在 halt 中，没有继续更新的信息。讲师没有强行交易 GME
 - Leader 后续跌破前 low 才继续支持持仓；
 - 这个等待改善的是 entry 位置，不是改变相关性本身。
 
-![图 8-12：AMC 开始反弹后 Cover GME，视频约 19:00](<../02-visual-index/08-leader-laggard-strategy/frame_058.jpg>)
+![图 8-12：AMC 开始反弹后 Cover GME，视频约 19:00](<assets/08-leader-laggard-strategy/frame_058.jpg>)
 
 **图 8-12 怎么看：**
 

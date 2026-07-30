@@ -72,7 +72,7 @@ Limit order 限制可接受的成交价格：
 - 上方卖出 long；
 - 上方建立 short。
 
-![图 7-1：Limit 画线位置决定买卖方向，视频约 01:20](<../02-visual-index/07-hotkeys-chart-orders-and-breakeven/frame_005.jpg>)
+![图 7-1：Limit 画线位置决定买卖方向，视频约 01:20](<assets/07-hotkeys-chart-orders-and-breakeven/frame_005.jpg>)
 
 **图 7-1 怎么看：**
 
@@ -107,7 +107,7 @@ ROUTE=ARCAL;ACCOUNT=XXXXX;TIF=DAY+;NewOrder Limit;Share=Pos
 - `Share=Pos`：按当前 position 股数；
 - `ACCOUNT`、route 与语法必须按自己的平台修改。
 
-![图 7-2：Limit Order 画线后的真实平台画面，视频约 03:40](<../02-visual-index/07-hotkeys-chart-orders-and-breakeven/frame_012.jpg>)
+![图 7-2：Limit Order 画线后的真实平台画面，视频约 03:40](<assets/07-hotkeys-chart-orders-and-breakeven/frame_012.jpg>)
 
 **图 7-2 怎么看：**
 
@@ -139,7 +139,7 @@ TradeZero 演示是先挂 stop-market，再拖动 chart 上的线；DAS 通过�
 ROUTE=STOP;ACCOUNT=XXXXX;TIF=DAY+;NewOrder StopMarket;Share=Pos
 ```
 
-![图 7-3：Stop-Market 画线模板，视频约 05:20](<../02-visual-index/07-hotkeys-chart-orders-and-breakeven/frame_017.jpg>)
+![图 7-3：Stop-Market 画线模板，视频约 05:20](<assets/07-hotkeys-chart-orders-and-breakeven/frame_017.jpg>)
 
 **图 7-3 怎么看：**
 
@@ -156,7 +156,7 @@ ROUTE=STOP;ACCOUNT=XXXXX;TIF=DAY+;NewOrder StopMarket;Share=Pos
 - 部分止盈后，原 stop size 是否自动更新不能想当然；
 - 手动平仓后必须确认 stop 已取消。
 
-![图 7-4：真实平台中拖动 Stop-Market 订单线，视频约 06:00](<../02-visual-index/07-hotkeys-chart-orders-and-breakeven/frame_019.jpg>)
+![图 7-4：真实平台中拖动 Stop-Market 订单线，视频约 06:00](<assets/07-hotkeys-chart-orders-and-breakeven/frame_019.jpg>)
 
 **图 7-4 怎么看：**
 
@@ -193,7 +193,7 @@ Range order 同时定义两个价格：
 
 TradeZero 界面称 low price / high price；DAS 画面称 stop price / limit price。
 
-![图 7-5：两个独立平仓单为什么会留下反向风险，视频约 08:20](<../02-visual-index/07-hotkeys-chart-orders-and-breakeven/frame_026.jpg>)
+![图 7-5：两个独立平仓单为什么会留下反向风险，视频约 08:20](<assets/07-hotkeys-chart-orders-and-breakeven/frame_026.jpg>)
 
 **图 7-5 怎么看：**
 
@@ -221,7 +221,7 @@ TradeZero 界面称 low price / high price；DAS 画面称 stop price / limit pr
 ROUTE=STOP;ACCOUNT=XXXXX;Share=Pos;TIF=DAY+;NewOrder StopRange
 ```
 
-![图 7-6：Range Order 的 Stop Price 与 Limit Price，视频约 09:00](<../02-visual-index/07-hotkeys-chart-orders-and-breakeven/frame_028.jpg>)
+![图 7-6：Range Order 的 Stop Price 与 Limit Price，视频约 09:00](<assets/07-hotkeys-chart-orders-and-breakeven/frame_028.jpg>)
 
 **图 7-6 怎么看：**
 
@@ -241,7 +241,7 @@ ROUTE=STOP;ACCOUNT=XXXXX;Share=Pos;TIF=DAY+;NewOrder StopRange
 - Stop leg 是 market 还是 limit？
 - 断线、平台退出后订单是否仍在服务器？
 
-![图 7-7：真实图表中同时存在 Range Order 两条线，视频约 09:40](<../02-visual-index/07-hotkeys-chart-orders-and-breakeven/frame_030.jpg>)
+![图 7-7：真实图表中同时存在 Range Order 两条线，视频约 09:40](<assets/07-hotkeys-chart-orders-and-breakeven/frame_030.jpg>)
 
 **图 7-7 怎么看：**
 
@@ -268,7 +268,7 @@ ROUTE=STOP;ACCOUNT=XXXXX;Share=Pos;TIF=DAY+;NewOrder StopRange
 ROUTE=STOP;StopType=Market;StopPrice=AvgCost;Share=Pos;TIF=DAY+;$SHARE=0;
 ```
 
-![图 7-8：盈利仓位使用 Breakeven Stop-Market，视频约 11:40](<../02-visual-index/07-hotkeys-chart-orders-and-breakeven/frame_036.jpg>)
+![图 7-8：盈利仓位使用 Breakeven Stop-Market，视频约 11:40](<assets/07-hotkeys-chart-orders-and-breakeven/frame_036.jpg>)
 
 **图 7-8 怎么看：**
 
@@ -311,7 +311,7 @@ Short 则在 AvgCost 挂 buy limit。
 ROUTE=ARCAL;Price=AvgCost;Share=Pos;TIF=DAY+;$SHARE=0;Send=Reverse
 ```
 
-![图 7-9：亏损仓位使用 Breakeven Limit 等待短暂反弹，视频约 13:00](<../02-visual-index/07-hotkeys-chart-orders-and-breakeven/frame_040.jpg>)
+![图 7-9：亏损仓位使用 Breakeven Limit 等待短暂反弹，视频约 13:00](<assets/07-hotkeys-chart-orders-and-breakeven/frame_040.jpg>)
 
 **图 7-9 怎么看：**
 
@@ -351,7 +351,7 @@ Breakeven limit 只表达“如果回来成本就平仓”，不能保护继续�
 
 如果靠手动盯 Level 2，这个机会可能不到一秒；预挂订单提高了成交机会。
 
-![图 7-10：价格短暂触及 Entry 后立即继续下跌，视频约 14:00](<../02-visual-index/07-hotkeys-chart-orders-and-breakeven/frame_043.jpg>)
+![图 7-10：价格短暂触及 Entry 后立即继续下跌，视频约 14:00](<assets/07-hotkeys-chart-orders-and-breakeven/frame_043.jpg>)
 
 **图 7-10 怎么看：**
 
