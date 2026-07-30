@@ -1,4 +1,4 @@
-# Options Rules and Safety
+# Options: Current Rules and Risk Details
 
 > 核对日期：2026-07-30  
 > 适用范围：课程主要讨论的美国上市股票、ETF 和指数期权。具体合约规格、券商规则和账户权限以交易时的官方资料为准。
@@ -74,4 +74,3 @@ Short American-Style Option 在到期前任何时候都可能被指派。临近�
 - [ ] 我检查过 Bid–Ask、Open Interest 和组合限价；
 - [ ] 我写下价格、时间和波动率三种失效条件；
 - [ ] 我不会把课程案例、回测或大单当成收益保证。
-

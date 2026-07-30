@@ -36,4 +36,4 @@
 - [06 Unusual options activity](advanced/06-unusual-options-activity.md)
 - [07 Conclusion](advanced/07-conclusion.md)
 
-- [Current rules and safety](options-rules-and-safety.md)
+- [Current rules and risk details](current-rules-and-risk-details.md)
