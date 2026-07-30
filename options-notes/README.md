@@ -1,4 +1,4 @@
-# Options Study Notes
+# Options
 
 中文学习笔记与细节资料；截图直接放在对应内容中。
 

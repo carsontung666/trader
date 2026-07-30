@@ -1,4 +1,4 @@
-# Trader Study Notes
+# Trader
 
 ## Day Trading
 

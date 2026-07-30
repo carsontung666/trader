@@ -1,4 +1,4 @@
-# Day Trading Study Notes
+# Day Trading
 
 ## Price Action and Trend
 
