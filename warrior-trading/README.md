@@ -1,6 +1,6 @@
 # Warrior Trading
 
-这套内容和仓库里原有的 Day Trading、Options 不是同一系列，因此单独放在这里。目录按原课程的模块分开；以后新增的 05 及后续模块继续追加在本目录下，不与旧系列混放。
+这套内容和仓库里原有的 Day Trading、Options 不是同一系列，因此单独放在这里。目录按课程系列和实际内容分类。
 
 ## 00–01: Starter
 
@@ -25,5 +25,31 @@
 Swing 基础、期权权利义务、spread、premium/Greeks、股票和期权 swing setup。
 
 - [Swing and Options](swing-options/)
+
+## 05: Trading Tools and Layouts
+
+Sterling、Lightspeed、DAS、Trade Ideas、eSignal、Benzinga Pro、TC2000、thinkorswim、TradeZero、E*TRADE 和 Primus。
+
+- [Trading Tools and Layouts](trading-tools/)
+
+## 08: Weekly Q&A
+
+2020-11 至 2021-05 的 24 场答疑，按月份整理。
+
+- [Weekly Q&A](weekly-qa/)
+
+## 09: Resources
+
+交易记录、Profit Trifecta、scanner research 和资源模板的审阅。
+
+- [Resources](resources/)
+
+压缩包中没有模块 06、07，因此没有建立空目录或补写内容。
+
+## Separate Courses
+
+- [Crypto Trading](crypto/)
+- [Futures Trading](futures/)
+- [Options Trading Course](options-course/)
 
 笔记中的截图直接放在对应概念或案例下面。录制年代的结算、日内保证金、停牌、税务和经纪商规则已经在相关段落中标出，并以当前官方规则为准。
