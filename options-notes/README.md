@@ -1,4 +1,6 @@
-# Options Notes
+# Options Study Notes
+
+中文学习笔记与细节资料；截图直接放在对应内容中。
 
 ## Beginner
 
@@ -35,4 +37,3 @@
 - [07 Conclusion](advanced/07-conclusion.md)
 
 - [Current rules and safety](options-rules-and-safety.md)
-
