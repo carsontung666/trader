@@ -14,7 +14,9 @@
 - 课程作者前两天亏损、后来盈利、又出现职业生涯最大亏损，说明最终月度盈利不能证明单笔风险合理。
 - Short squeeze、options positioning、社交注意力和低 float 共同作用，但截图无法量化每个因素。
 
-关键复盘：
+**视频内容：** 本段不是只截 GME 最陡的一段，而是回看从早期约 36.75 追入、dip add 后连续止损，到价格最终从个位数扩张至数百美元期间的多次交易。讲者前两天先亏损，后来取得大额盈利，又经历职业生涯级别的单日损失；这条完整路径说明“长期看对 squeeze”与“每次 timing、size 合理”是两回事。画面中的 Level 2、Time & Sales 和多周期图应用来核对每次当下可见的信息，而不能被最终 500 美元附近的结果倒写。
+
+**复盘：**
 
 - 早期在约 `$36.75` 追入、dip add 后连续 stop，说明方向对也可能 timing 错；
 - “从 `$5` 到 `$500`”是结果，不是可重复目标；
@@ -34,7 +36,9 @@
 
 课程中出现 “这是 GME 的终点”“一定会有 epic bounce/guarantee” 等强断言。这些只能视为当时情绪化判断：市场没有保证，且同一段后续走势本身就反驳了“终点”式预测。
 
-风险拆解：
+**视频内容：** 案例从约 153/126 一带的 panic 与 halt-down 展开：交易者没有在第一秒直接接刀，而是等待卖压开始恢复后尝试 long；部分订单因价格跳动而未成交，随后价格又进入向上停牌。因而实际仓位小于计划仓位，且即使账面盈利也无法在停牌中退出。视频最重要的转折是“看到恢复”不等于消除 resume gap；每一次停牌都重新打开了价格跳过止损的可能。
+
+**复盘：**
 
 ```text
 halt-resume gap
@@ -58,13 +62,15 @@ position size based on unusually large daily cushion
 - 画面中的 `$150→$190+` 路径不能说明中间每次 pullback 都能退出。
 - 期权市场通常不按股票盘后相同时间连续交易；不能用盘后 option quote 假设随时可对冲。
 
-执行要点：
+**复盘：**
 
 - 仅使用 broker 明确允许的 extended-hours 限价订单；
 - 仓位小于常规时段；
 - 预设不持有到次日；
 - 不因看到 options call 大涨而追逐 stale/wide quote；
 - 把 after-hours 作为独立 session 统计。
+
+**视频内容：** Regular close 后，GME 仍从约 150 一带快速 squeeze 到 190 以上；画面把盘后图、Level 2 和 prints 并排保留。交易过程应按收盘前持仓、盘后新入场、每次 pullback 与最终退出拆开，因为盘后订单类型、深度和可成交数量都已改变。视频也涉及 options 价格，但股票盘后仍交易并不代表期权有同样连续的对冲渠道，不能把屏幕上的 option quote 当成随时可实现的价值。
 
 ## v0122：高波动中的亏损日
 
@@ -77,7 +83,7 @@ position size based on unusually large daily cushion
 - 同一标的既有巨大 winner 又有 loser，最能说明 symbol 不是 edge。
 - 当价格每股移动数美元时，沿用普通 10–20 美分 stop/size 完全不合适。
 
-复盘应回答：
+**复盘：**
 
 - Entry 是 breakout、dip 还是 reversal；
 - 当时是否接近 halt；
@@ -85,6 +91,8 @@ position size based on unusually large daily cushion
 - 为何在第一次 loss 后继续；
 - actual slippage；
 - 是否因之前 GME 盈利而提高 risk tolerance。
+
+**视频内容：** 这段把注意力从 GME 的巨大赢家转回亏损日：同样的 ticker、相似的高关注度和宽幅蜡烛，并未自动产生正 edge。画面中账户、Level 2 与多周期价格同时快速变化，说明每股数美元的正常摆动已经足以击穿普通 small-cap 的固定止损。学习时要先给每笔 entry 分类，再找第一次亏损后的 size/频率变化；若因过去在 GME 赚过钱而继续提高容忍度，真正失效的是风险流程而非股票名称。
 
 ## 四段案例的共同结论
 
