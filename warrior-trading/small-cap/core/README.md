@@ -1,0 +1,18 @@
+# Small Cap Core
+
+- [01 策略框架与模拟计划](01-strategy-framework-and-simulation-plan.md)
+- [02 风险管理](02-risk-management.md)
+- [03 选股、催化与 Watchlist](03-stock-selection-and-watchlist.md)
+- [04 日线与盘中 Context](04-daily-and-intraday-context.md)
+- [05 Long Continuation Patterns](05-long-continuation-patterns.md)
+- [06 Reversal、VWAP 与 Traps](06-reversals-vwap-and-traps.md)
+- [07 Level 2、Tape 与执行细节](07-level-2-tape-and-execution.md)
+- [08 Gap & Go](08-gap-and-go.md)
+- [09 Momentum Long Setups](09-momentum-long-setups.md)
+- [10 Short Selling Momentum Stocks](10-short-selling-momentum-stocks.md)
+- [11 高速执行与扫描](11-high-speed-execution-and-scanning.md)
+- [12 纪律、交易计划与进入实盘](12-discipline-trading-plan-and-going-live.md)
+- [13 税务、工具与收尾练习](13-tax-tools-and-capstone.md)
+- [14 Momentum Stock Archetypes](14-momentum-stock-archetypes.md)
+- [15 Reversal Setups](15-reversal-setups.md)
+- [16 Trader Interviews](16-trader-interviews.md)

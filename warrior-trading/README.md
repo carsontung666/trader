@@ -10,9 +10,10 @@
 
 ## 02: Small Cap
 
-- [Core](small-cap/core/)：选股、风险、形态、执行、Gap and Go、做空、扫描和复盘
-- [Live](small-cap/live/)：151 段实盘案例，按讲师和策略主题整理
-- [IRA Trading](small-cap/ira-trading.md)：退休账户中的交易限制与风险
+- [Small Cap 目录](small-cap/)
+  - [Core](small-cap/core/)：选股、风险、形态、执行、Gap and Go、做空、扫描和复盘
+  - [Live](small-cap/live/)：151 段实盘案例，按讲师和策略主题整理
+  - [IRA Trading](small-cap/ira-trading.md)：退休账户中的交易限制与风险
 
 ## 03: Large Cap
 
