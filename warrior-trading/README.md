@@ -32,6 +32,18 @@ Sterling、Lightspeed、DAS、Trade Ideas、eSignal、Benzinga Pro、TC2000、th
 
 - [Trading Tools and Layouts](trading-tools/)
 
+## 06: Mentor Sessions
+
+2018–2021 年的 Beginner、Intermediate、Advanced 导师场次，按系列和年份整理。
+
+- [Mentor Sessions](mentor-sessions/)
+
+## 07: Trading Psychology
+
+Mindful Monday 与 FOMO Friday，涵盖情绪觉察、FOMO、纪律、亏损反应和复盘练习。
+
+- [Trading Psychology](trading-psychology/)
+
 ## 08: Weekly Q&A
 
 2020-11 至 2021-05 的 24 场答疑，按月份整理。
@@ -43,8 +55,6 @@ Sterling、Lightspeed、DAS、Trade Ideas、eSignal、Benzinga Pro、TC2000、th
 交易记录、Profit Trifecta、scanner research 和资源模板的审阅。
 
 - [Resources](resources/)
-
-压缩包中没有模块 06、07，因此没有建立空目录或补写内容。
 
 ## Separate Courses
 
