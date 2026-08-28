@@ -1,6 +1,8 @@
 # Trader
 
-学习请走 **[主动交易手册](book/README.md)**：把 Day Trading、Options、Warrior 的课程笔记写成完整正文（不是缩写）。图是重画的。不含加密货币。
+学习请走网页版手册：**https://carsontung666.github.io/trader/**
+
+也可以直接看仓库里的 **[Markdown](book/README.md)**。把 Day Trading、Options、Warrior 的课程笔记写成完整正文（不是缩写）。图是重画的。不含加密货币。
 
 原课程笔记仍按系列保留。
 

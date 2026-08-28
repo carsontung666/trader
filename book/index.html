@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>主动交易手册</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="把 Day Trading、Options、Warrior 课程笔记写成的完整手册。不含加密货币。">
+  <meta name="theme-color" content="#12181f">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <div id="app">正在加载手册…</div>
+  <script>
+    function resolvePath(path) {
+      var parts = [];
+      path.split('/').forEach(function (p) {
+        if (!p || p === '.') return;
+        if (p === '..') parts.pop();
+        else parts.push(p);
+      });
+      return parts.join('/');
+    }
+
+    function rewriteAssetUrls(content, file) {
+      var dir = (file || '').replace(/[^/]*$/, '');
+      content = content.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, function (m, alt, dest) {
+        dest = dest.trim();
+        var title = '';
+        var q = dest.match(/^(.*?)\s+(".*"|'.*')$/);
+        var src = dest;
+        if (q) {
+          src = q[1];
+          title = ' ' + q[2];
+        }
+        if (/^(https?:)?\/\//i.test(src) || src.startsWith('/') || src.startsWith('#') || src.startsWith('data:')) {
+          return m;
+        }
+        return '![' + alt + '](' + resolvePath(dir + src) + title + ')';
+      });
+      content = content.replace(/<img([^>]*?)src=["']([^"']+)["']/gi, function (m, attrs, src) {
+        if (/^(https?:)?\/\//i.test(src) || src.startsWith('/') || src.startsWith('#') || src.startsWith('data:')) {
+          return m;
+        }
+        return '<img' + attrs + 'src="' + resolvePath(dir + src) + '"';
+      });
+      return content;
+    }
+
+    window.$docsify = {
+      name: '主动交易手册',
+      nameLink: '#/',
+      repo: 'carsontung666/trader',
+      homepage: 'README.md',
+      loadSidebar: true,
+      subMaxLevel: 0,
+      auto2top: true,
+      relativePath: true,
+      fallbackLanguages: [],
+      ext: '.md',
+      notFoundPage: false,
+      topMargin: 48,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      search: {
+        placeholder: '搜索手册',
+        noData: '没有结果',
+        depth: 3,
+        hideOtherSidebarContent: true,
+        namespace: 'trader-handbook'
+      },
+      pagination: {
+        previousText: '上一章',
+        nextText: '下一章',
+        crossChapter: true,
+        crossChapterText: true
+      },
+      plugins: [
+        function (hook, vm) {
+          hook.beforeEach(function (content) {
+            return rewriteAssetUrls(content, vm.route.file);
+          });
+          hook.afterEach(function (html) {
+            return html + '<p class="site-footer">不是投资建议。规则以附录 A 和官方链接为准，不以课程视频为准。</p>';
+          });
+        }
+      ]
+    };
+  </script>
+  <script src="vendor/docsify.min.js"></script>
+  <script src="vendor/search.min.js"></script>
+  <script src="vendor/zoom-image.min.js"></script>
+  <script src="vendor/docsify-pagination.min.js"></script>
+</body>
+</html>

@@ -12,6 +12,11 @@
 
 编号是全书统一的：`1` 是卷，`1.1` 是章，`1.1.1` 是节。
 
+网页版：https://carsontung666.github.io/trader/
+
+### 0 怎么读
+- [0.1 怎么读、各卷干什么](vol-0-front/01-how-to-read.md)
+
 ### 1 市场、账户、选股
 - [1.1 你到底在交易什么](vol-1-market/01-what-you-are-trading.md)
 - [1.2 账户、券商与保证金](vol-1-market/02-accounts-brokers-margin.md)
