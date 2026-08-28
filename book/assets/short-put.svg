@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="Short Put：右侧最多赚权利金，左侧跌到零时亏行权价减权利金">
+  <title>Short Put 的到期盈亏</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .ax { stroke: #C5CCD3; stroke-width: 1.2; }
+    .pay { stroke: #3D6A94; stroke-width: 2.6; fill: none; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .ax { stroke: #3A424C; } .pay { stroke: #7FA9CE; }
+    }
+  </style>
+  <text class="t-b" x="40" y="32">到期：Short Put（收权利金 p，行权价 K）</text>
+  <line class="ax" x1="50" y1="150" x2="720" y2="150"/>
+  <line class="ax" x1="420" y1="40" x2="420" y2="260"/>
+  <polyline class="pay" points="50,250 420,80 720,80"/>
+  <text class="t-r" x="56" y="236">跌到 0：约亏 100(K−p)</text>
+  <text class="t" x="400" y="280">K</text>
+  <text class="t-g" x="500" y="68">最多赚 100p</text>
+  <text class="t" x="250" y="120">盈亏平衡 = K − p</text>
+  <text class="t" x="40" y="292">「高胜率租金」必须连同接货义务一起看。保证金不是最大亏损。乘数以合约规格为准。</text>
+</svg>

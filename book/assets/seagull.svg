@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="海鸥：持股加 Put 价差再卖 Call，只保护中间一段下跌">
+  <title>海鸥只保护一段，不是永久底价</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .ax { stroke: #C5CCD3; stroke-width: 1.2; }
+    .pay { stroke: #3D6A94; stroke-width: 2.6; fill: none; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .ax { stroke: #3A424C; } .pay { stroke: #7FA9CE; }
+    }
+  </style>
+  <text class="t-b" x="40" y="30">到期：100 股 + Long ATM Put + Short 更低 Put + Short OTM Call</text>
+  <line class="ax" x1="40" y1="170" x2="730" y2="170"/>
+  <polyline class="pay" points="40,250 180,200 320,200 500,90 730,90"/>
+  <text class="t-r" x="40" y="236">跌破低 Put 后</text>
+  <text class="t-r" x="40" y="254">股票继续 1:1 亏</text>
+  <text class="t" x="164" y="286">K_L</text>
+  <text class="t" x="300" y="286">K_M</text>
+  <text class="t" x="484" y="286">K_H</text>
+  <text class="t-g" x="330" y="188">只保护 K_M 到 K_L</text>
+  <text class="t" x="540" y="78">上涨被 Call 封顶</text>
+  <text class="t" x="40" y="308">对冲腿赚满 ≠ 组合赚钱。用指数对冲一篮子股票还有 Basis Risk，不能一张对一张硬配。</text>
+</svg>

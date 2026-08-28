@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="微回撤是强趋势里极短停顿，没有完整旗面；失效近、噪声多、停牌风险大">
+  <title>Micro Pullback：停顿一根，不是完整旗形</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .pause { fill: none; stroke: #C08A12; stroke-width: 1.4; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-a { fill: #E0A93A; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .pause { stroke: #DDA33A; } .stop { stroke: #EF6B5E; }
+    }
+  </style>
+  <text class="t-a" x="40" y="28">强趋势里停一两根，没有 3–5 根旗面。比旗形更进阶。</text>
+  <line class="up wk" x1="70" y1="220" x2="70" y2="260"/><rect class="up" x="64" y="230" width="12" height="20"/>
+  <line class="up wk" x1="110" y1="180" x2="110" y2="235"/><rect class="up" x="104" y="190" width="12" height="35"/>
+  <line class="up wk" x1="150" y1="130" x2="150" y2="195"/><rect class="up" x="144" y="140" width="12" height="45"/>
+  <line class="up wk" x1="190" y1="80" x2="190" y2="150"/><rect class="up" x="184" y="90" width="12" height="50"/>
+  <rect class="pause" x="218" y="70" width="44" height="70" rx="4"/>
+  <line class="dn wk" x1="240" y1="85" x2="240" y2="135"/><rect class="dn" x="234" y="100" width="12" height="22"/>
+  <line class="up wk" x1="290" y1="40" x2="290" y2="120"/><rect class="up" x="284" y="50" width="12" height="55"/>
+  <line class="up wk" x1="330" y1="28" x2="330" y2="80"/><rect class="up" x="324" y="36" width="12" height="34"/>
+  <line class="stop" x1="220" y1="140" x2="500" y2="140"/>
+  <text class="t-r" x="508" y="144">失效：停顿低点</text>
+  <text class="t-g" x="40" y="220">触发：停顿后穿过前一根已收盘高点</text>
+  <text class="t" x="40" y="256">过滤：强催化、量持续、点差紧、至少一根已收盘。LULD 附近默认仓位为零。</text>
+  <text class="t" x="40" y="280">成功图最容易诱发 FOMO。必须另收「停顿后直接 flush」的反例。</text>
+</svg>

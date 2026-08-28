@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="第一次回撤靠近原始冲动；第二次更延伸，失效更远，必须分开统计">
+  <title>第一次回撤和第二次回撤不是同一 setup</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .box { fill: #F4F1E8; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    .trg { stroke: #15803D; stroke-width: 1.6; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-g { fill: #35C07B; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .box { fill: #2A2820; } .stop { stroke: #EF6B5E; } .trg { stroke: #35C07B; }
+    }
+  </style>
+  <rect class="box" x="20" y="44" width="350" height="210"/>
+  <text class="t-g" x="32" y="28">第一次：冲动后第一次整理</text>
+  <line class="up wk" x1="50" y1="180" x2="50" y2="230"/><rect class="up" x="44" y="190" width="12" height="30"/>
+  <line class="up wk" x1="90" y1="120" x2="90" y2="200"/><rect class="up" x="84" y="135" width="12" height="55"/>
+  <line class="dn wk" x1="130" y1="145" x2="130" y2="195"/><rect class="dn" x="124" y="155" width="12" height="28"/>
+  <line class="dn wk" x1="170" y1="150" x2="170" y2="188"/><rect class="dn" x="164" y="160" width="12" height="20"/>
+  <line class="up wk" x1="220" y1="90" x2="220" y2="170"/><rect class="up" x="214" y="105" width="12" height="50"/>
+  <line class="trg" x1="20" y1="145" x2="370" y2="145"/>
+  <line class="stop" x1="20" y1="195" x2="260" y2="195"/>
+  <text class="t" x="32" y="270">失效近，还靠近原始动量</text>
+
+  <rect class="box" x="390" y="44" width="350" height="210"/>
+  <text class="t-a" x="402" y="28">第二次：已经走过一段</text>
+  <line class="up wk" x1="420" y1="200" x2="420" y2="240"/><rect class="up" x="414" y="210" width="12" height="22"/>
+  <line class="up wk" x1="455" y1="150" x2="455" y2="215"/><rect class="up" x="449" y="165" width="12" height="40"/>
+  <line class="up wk" x1="490" y1="90" x2="490" y2="165"/><rect class="up" x="484" y="105" width="12" height="48"/>
+  <line class="dn wk" x1="530" y1="110" x2="530" y2="175"/><rect class="dn" x="524" y="125" width="12" height="38"/>
+  <line class="up wk" x1="580" y1="55" x2="580" y2="140"/><rect class="up" x="574" y="70" width="12" height="55"/>
+  <line class="trg" x1="390" y1="110" x2="740" y2="110"/>
+  <line class="stop" x1="390" y1="175" x2="620" y2="175"/>
+  <text class="t-r" x="402" y="270">位置更延伸，1R 更贵</text>
+  <text class="t" x="20" y="306">均线追上价格 ≠ 风险变小。第一笔赚了，不能当第二笔的加仓理由。</text>
+</svg>

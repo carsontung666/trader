@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="浮盈用保本止损市价；浮亏用保本限价等反弹，后者不能代替止损">
+  <title>两种「保本」不是同一种工具</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .a { fill: #EEF3F8; stroke: #3D6A94; }
+    .b { fill: #FFF7E0; stroke: #C08A12; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .a { fill: #1C2833; stroke: #7FA9CE; }
+      .b { fill: #3A3420; stroke: #DDA33A; }
+    }
+  </style>
+  <rect class="a" x="20" y="24" width="350" height="190" rx="8"/>
+  <text class="t-b" x="40" y="52">已有浮盈：保本止损市价</text>
+  <text class="t" x="40" y="80">触发价 ≈ 平均成本</text>
+  <text class="t" x="40" y="102">触发后变市价离场</text>
+  <text class="t" x="40" y="124">价格若已跌破成本再按，</text>
+  <text class="t" x="40" y="146">可能立刻成交</text>
+  <text class="t" x="40" y="176">滑点 + 费用 → 净结果仍可能亏</text>
+  <text class="t" x="40" y="198">过早上移会被正常回撤扫掉</text>
+
+  <rect class="b" x="390" y="24" width="350" height="190" rx="8"/>
+  <text class="t-b" x="410" y="52">已经亏损：保本限价</text>
+  <text class="t" x="410" y="80">在平均成本挂平仓限价</text>
+  <text class="t" x="410" y="102">只有价格回到成本才成交</text>
+  <text class="t" x="410" y="124">价格继续恶化时不保护你</text>
+  <text class="t" x="410" y="146">这不是止损</text>
+  <text class="t" x="410" y="176">等不到就按原失效位离场</text>
+  <text class="t" x="410" y="198">不要用它把自己变成 bagholder</text>
+
+  <text class="t" x="20" y="240">市场不关心你的成本。平均成本也不是精确净保本价。</text>
+  <text class="t" x="20" y="262">影线瞬间碰到成本时，预挂限价比盯盘手点更可能成交；没碰到就必须止损。</text>
+</svg>

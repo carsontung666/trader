@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="左边价格推进后加仓并重算全仓风险；右边下跌摊平放大总风险">
+  <title>加赢家要重算全仓风险；摊平是改规则</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    .ent { stroke: #15803D; stroke-width: 1.8; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .stop { stroke: #EF6B5E; } .ent { stroke: #35C07B; }
+    }
+  </style>
+  <text class="t-g" x="40" y="28">加赢家：价格按预期走，再加，重算全仓风险</text>
+  <line class="up wk" x1="60" y1="180" x2="60" y2="230"/><rect class="up" x="54" y="190" width="12" height="30"/>
+  <line class="up wk" x1="100" y1="140" x2="100" y2="200"/><rect class="up" x="94" y="150" width="12" height="40"/>
+  <line class="dn wk" x1="140" y1="150" x2="140" y2="195"/><rect class="dn" x="134" y="160" width="12" height="25"/>
+  <line class="up wk" x1="180" y1="100" x2="180" y2="170"/><rect class="up" x="174" y="110" width="12" height="50"/>
+  <line class="up wk" x1="220" y1="70" x2="220" y2="130"/><rect class="up" x="214" y="80" width="12" height="40"/>
+  <line class="ent" x1="50" y1="150" x2="90" y2="150"/>
+  <line class="ent" x1="170" y1="110" x2="210" y2="110"/>
+  <line class="stop" x1="50" y1="235" x2="260" y2="235"/>
+  <text class="t" x="50" y="260">两批共用一个失效位</text>
+  <text class="t" x="50" y="280">全仓风险 = Σ[(入场−失效)×股数]</text>
+
+  <text class="t-r" x="400" y="28">摊平：下跌后加仓，总美元风险变大</text>
+  <line class="up wk" x1="420" y1="90" x2="420" y2="140"/><rect class="up" x="414" y="100" width="12" height="30"/>
+  <line class="dn wk" x1="460" y1="110" x2="460" y2="180"/><rect class="dn" x="454" y="125" width="12" height="40"/>
+  <line class="dn wk" x1="500" y1="150" x2="500" y2="220"/><rect class="dn" x="494" y="165" width="12" height="45"/>
+  <line class="dn wk" x1="540" y1="190" x2="540" y2="255"/><rect class="dn" x="534" y="205" width="12" height="40"/>
+  <line class="ent" x1="410" y1="100" x2="450" y2="100"/>
+  <line class="ent" x1="490" y1="165" x2="530" y2="165"/>
+  <line class="stop" x1="410" y1="80" x2="700" y2="80"/>
+  <text class="t" x="400" y="280">均价好看，退出更难。除非事前写过分批。</text>
+</svg>

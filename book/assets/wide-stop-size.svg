@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="同一笔可亏金额，止损近股数多，止损宽股数少；目标不够 1R 就放弃，不要把止损挤进噪声">
+  <title>止损宽就减股数，不够 1R 就放弃</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .c { fill: #F7F8FA; stroke: #D0D5DB; }
+    .ok { fill: #E7F6EC; stroke: #15803D; }
+    .no { fill: #FDE8E8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-b { fill: #E8EEF4; }
+      .t-g { fill: #35C07B; }
+      .t-r { fill: #EF6B5E; }
+      .c { fill: #1C2228; stroke: #3A424C; }
+      .ok { fill: #1C3326; stroke: #35C07B; }
+      .no { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <text class="t-b" x="24" y="28">同一笔可亏 50 美元。止损变宽，股数必须变小。</text>
+
+  <rect class="ok" x="16" y="48" width="356" height="232" rx="8"/>
+  <text class="t-g" x="36" y="78">近端失效，可以谈</text>
+  <text class="t" x="36" y="106">入场 8.36</text>
+  <text class="t" x="36" y="128">失效 8.25（含滑点）</text>
+  <text class="t" x="36" y="150">每股风险 0.11</text>
+  <text class="t-b" x="36" y="180">50 ÷ 0.11 → 454 股</text>
+  <text class="t" x="36" y="208">第一目标 8.55 ≈ 1.7R</text>
+  <text class="t" x="36" y="230">再按盘口深度往下砍</text>
+  <text class="t" x="36" y="256">止损靠近回踩低，不是挤进噪声</text>
+
+  <rect class="no" x="388" y="48" width="356" height="232" rx="8"/>
+  <text class="t-r" x="408" y="78">只能画到更远的低点</text>
+  <text class="t" x="408" y="106">入场 8.36</text>
+  <text class="t" x="408" y="128">失效 7.97（含滑点）</text>
+  <text class="t" x="408" y="150">每股风险 0.39</text>
+  <text class="t-b" x="408" y="180">50 ÷ 0.39 → 128 股</text>
+  <text class="t" x="408" y="208">第一目标仍是 8.55 ≈ 0.5R</text>
+  <text class="t-r" x="408" y="230">不够 1R → 放弃</text>
+  <text class="t" x="408" y="256">不要把止损上移到 8.28 假装安全</text>
+</svg>

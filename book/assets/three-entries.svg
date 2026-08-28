@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="同一形状三种入场必须分开记账：预判、穿越、回踩">
+  <title>预判、穿越、回踩是三笔不同的交易</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .c { fill: #F7F8FA; stroke: #D0D5DB; }
+    .lvl { stroke: #C08A12; stroke-width: 1.6; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .c { fill: #1C2228; stroke: #3A424C; }
+      .lvl { stroke: #DDA33A; }
+    }
+  </style>
+  <line class="lvl" x1="40" y1="90" x2="720" y2="90"/>
+  <text class="t" x="40" y="28">同一条阻力线，三种进法。混进一个胜率，样本是脏的。</text>
+  <rect class="c" x="16" y="130" width="236" height="126" rx="8"/>
+  <text class="t-b" x="32" y="158">预判 Anticipation</text>
+  <text class="t" x="32" y="184">线还没破就买</text>
+  <text class="t" x="32" y="206">均价更好</text>
+  <text class="t" x="32" y="228">突破从未发生的风险</text>
+  <rect class="c" x="262" y="130" width="236" height="126" rx="8"/>
+  <text class="t-b" x="278" y="158">穿越 Trade-through</text>
+  <text class="t" x="278" y="184">价格穿过线的那一下</text>
+  <text class="t" x="278" y="206">条件已触发</text>
+  <text class="t" x="278" y="228">滑点、追高、假突破</text>
+  <rect class="c" x="508" y="130" width="236" height="126" rx="8"/>
+  <text class="t-b" x="524" y="158">回踩 Retest</text>
+  <text class="t" x="524" y="184">破了再回来确认</text>
+  <text class="t" x="524" y="206">失效往往更清楚</text>
+  <text class="t" x="524" y="228">可能不给回踩</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" width="760" height="260" role="img" aria-label="压力水箱：睡眠、生活、连亏叠在一起，水位到阈值就减仓或停机，阈值必须盘前写死">
+  <title>压力水箱：盘前打分，到线就停</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .tank { fill: #EEF3F8; stroke: #3D6A94; }
+    .water { fill: #F6C343; stroke: #B07D0A; }
+    .line { stroke: #C0392B; stroke-width: 1.6; stroke-dasharray: 4 3; }
+    .box { fill: #F7F8FA; stroke: #D0D5DB; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-r { fill: #EF6B5E; }
+      .tank { fill: #1C2833; stroke: #7FA9CE; }
+      .water { fill: #6B5420; stroke: #E0A93A; }
+      .line { stroke: #EF6B5E; }
+      .box { fill: #1C2228; stroke: #3A424C; }
+    }
+  </style>
+  <rect class="tank" x="40" y="24" width="120" height="180" rx="8"/>
+  <rect class="water" x="48" y="90" width="104" height="106" rx="4"/>
+  <line class="line" x1="36" y1="78" x2="168" y2="78"/>
+  <text class="t-r" x="176" y="82">阈值</text>
+  <text class="t-b" x="58" y="50">压力水箱</text>
+  <text class="t" x="62" y="150">当前水位</text>
+
+  <rect class="box" x="250" y="24" width="230" height="180" rx="8"/>
+  <text class="t-b" x="268" y="52">水位来源</text>
+  <text class="t" x="268" y="80">睡眠 / 身体</text>
+  <text class="t" x="268" y="104">家庭、工作、疾病</text>
+  <text class="t" x="268" y="128">连续亏损、技术故障</text>
+  <text class="t" x="268" y="152">交易冲动、头脑混乱</text>
+  <text class="t" x="268" y="176">每项 0–10，盘前打分</text>
+
+  <rect class="box" x="500" y="24" width="240" height="180" rx="8"/>
+  <text class="t-b" x="518" y="52">到线后的动作</text>
+  <text class="t" x="518" y="80">减半风险，或只模拟</text>
+  <text class="t" x="518" y="104">或当天休息</text>
+  <text class="t" x="518" y="128">阈值盘前写死</text>
+  <text class="t" x="518" y="152">盘中不许重新解释</text>
+  <text class="t" x="518" y="176">水箱满了不是「更要赚回来」</text>
+
+  <text class="t" x="40" y="230">水箱管的是自控资源，不是行情。分数高就缩小权限，不要用意志硬扛。</text>
+  <text class="t" x="40" y="252">若持续焦虑、成瘾、债务或生活功能受损：停交易，找当地合格专业帮助。</text>
+</svg>

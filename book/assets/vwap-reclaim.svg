@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-label="左：从下第一根刺穿 VWAP 又收回线下，不是收回。右：线下压缩后两根收在线上，回踩仍守住，才是 VWAP Reclaim">
+  <title>第一根刺穿不是收回；线上守住才是</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .vw { fill: none; stroke: #3D6A94; stroke-width: 2.2; }
+    .box { fill: none; stroke: #D0D5DB; stroke-width: 1; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-a { fill: #E0A93A; }
+      .t-g { fill: #35C07B; }
+      .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; }
+      .dn { fill: #EF5350; stroke: #EF5350; }
+      .vw { stroke: #7FA9CE; }
+      .box { stroke: #3A424C; }
+    }
+  </style>
+  <rect class="box" x="16" y="44" width="352" height="250" rx="6"/>
+  <text class="t-r" x="28" y="32">不是收回：第一根刺穿，马上还回去</text>
+  <polyline class="vw" points="36,158 120,155 220,152 350,148"/>
+  <text class="t-a" x="300" y="140">VWAP</text>
+  <line class="dn wk" x1="60" y1="168" x2="60" y2="228"/><rect class="dn" x="54" y="180" width="12" height="36"/>
+  <line class="up wk" x1="100" y1="162" x2="100" y2="220"/><rect class="up" x="94" y="175" width="12" height="32"/>
+  <line class="up wk" x1="145" y1="118" x2="145" y2="205"/><rect class="up" x="139" y="158" width="12" height="32"/>
+  <line class="dn wk" x1="190" y1="155" x2="190" y2="222"/><rect class="dn" x="184" y="168" width="12" height="40"/>
+  <line class="up wk" x1="235" y1="122" x2="235" y2="200"/><rect class="up" x="229" y="155" width="12" height="30"/>
+  <line class="dn wk" x1="280" y1="160" x2="280" y2="230"/><rect class="dn" x="274" y="172" width="12" height="42"/>
+  <line class="dn wk" x1="325" y1="168" x2="325" y2="238"/><rect class="dn" x="319" y="180" width="12" height="40"/>
+  <text class="t" x="28" y="278">影线扫过均价，实体仍在下方：弱势没被破坏</text>
+
+  <rect class="box" x="392" y="44" width="352" height="250" rx="6"/>
+  <text class="t-g" x="404" y="32">才是收回：压缩后，线上守住两根</text>
+  <polyline class="vw" points="412,168 500,164 600,160 726,156"/>
+  <text class="t-a" x="672" y="148">VWAP</text>
+  <line class="dn wk" x1="430" y1="178" x2="430" y2="238"/><rect class="dn" x="424" y="190" width="12" height="34"/>
+  <line class="dn wk" x1="470" y1="188" x2="470" y2="252"/><rect class="dn" x="464" y="202" width="12" height="36"/>
+  <line class="up wk" x1="510" y1="186" x2="510" y2="246"/><rect class="up" x="504" y="200" width="12" height="30"/>
+  <line class="dn wk" x1="550" y1="184" x2="550" y2="238"/><rect class="dn" x="544" y="196" width="12" height="28"/>
+  <line class="up wk" x1="595" y1="128" x2="595" y2="200"/><rect class="up" x="589" y="138" width="12" height="50"/>
+  <line class="up wk" x1="635" y1="108" x2="635" y2="168"/><rect class="up" x="629" y="118" width="12" height="38"/>
+  <line class="dn wk" x1="675" y1="122" x2="675" y2="172"/><rect class="dn" x="669" y="138" width="12" height="22"/>
+  <line class="up wk" x1="715" y1="78" x2="715" y2="145"/><rect class="up" x="709" y="88" width="12" height="42"/>
+  <text class="t" x="404" y="278">两根收在线上；回踩低点仍在均价上方</text>
+
+  <text class="t" x="16" y="328">VWAP Reclaim 要求先在下方被接受，再从下收回并守住。碰线、第一根刺穿、未收盘最高价，都不是触发。</text>
+  <text class="t" x="16" y="348">左图每一次穿越都更接近 fade 样本。右图止损看压缩低点或重新跌破后的接受，不看「碰到均价」。</text>
+</svg>

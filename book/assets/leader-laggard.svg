@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" width="760" height="260" role="img" aria-label="领头股先动只提供语境；落后股必须等它自己的触发，止损用它自己的失效位">
+  <title>Leader 给方向，Laggard 用自己的触发</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .wk { stroke-width: 1.3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; }
+    }
+  </style>
+  <text class="t-b" x="40" y="28">Leader 先走</text>
+  <line class="up wk" x1="60" y1="160" x2="60" y2="210"/><rect class="up" x="54" y="170" width="12" height="30"/>
+  <line class="up wk" x1="100" y1="110" x2="100" y2="175"/><rect class="up" x="94" y="120" width="12" height="45"/>
+  <line class="up wk" x1="140" y1="70" x2="140" y2="130"/><rect class="up" x="134" y="80" width="12" height="40"/>
+  <line class="up wk" x1="180" y1="40" x2="180" y2="90"/><rect class="up" x="174" y="50" width="12" height="30"/>
+  <text class="t" x="40" y="240">只提供主题方向</text>
+
+  <text class="t-b" x="320" y="28">Laggard 还停在自己的线上</text>
+  <line class="up wk" x1="340" y1="170" x2="340" y2="220"/><rect class="up" x="334" y="180" width="12" height="30"/>
+  <line class="up wk" x1="390" y1="150" x2="390" y2="210"/><rect class="up" x="384" y="160" width="12" height="40"/>
+  <line class="up wk" x1="440" y1="155" x2="440" y2="205"/><rect class="up" x="434" y="165" width="12" height="30"/>
+  <line class="up wk" x1="520" y1="80" x2="520" y2="170"/><rect class="up" x="514" y="95" width="12" height="55"/>
+  <text class="t-a" x="500" y="70">等它自己的触发</text>
+  <text class="t" x="320" y="240">止损用 Laggard 自己的失效位，不用 Leader 的价</text>
+</svg>

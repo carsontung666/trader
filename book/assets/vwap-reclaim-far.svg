@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-label="左：收回后已经离开 VWAP 很远，把止损钉回线上等于追均价。右：入场靠近收回带，止损在压缩低点或微观低点">
+  <title>入场已远时，止损不要钉回 VWAP</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .vw { fill: none; stroke: #3D6A94; stroke-width: 2.2; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 4; }
+    .entry { stroke: #15803D; stroke-width: 1.5; stroke-dasharray: 4 4; }
+    .box { fill: none; stroke: #D0D5DB; stroke-width: 1; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-a { fill: #E0A93A; }
+      .t-g { fill: #35C07B; }
+      .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; }
+      .dn { fill: #EF5350; stroke: #EF5350; }
+      .vw { stroke: #7FA9CE; }
+      .stop { stroke: #EF6B5E; }
+      .entry { stroke: #35C07B; }
+      .box { stroke: #3A424C; }
+    }
+  </style>
+  <rect class="box" x="16" y="44" width="352" height="250" rx="6"/>
+  <text class="t-r" x="28" y="32">追：入场已离线一个完整 1R</text>
+  <polyline class="vw" points="36,230 140,226 240,222 350,218"/>
+  <text class="t-a" x="292" y="210">VWAP</text>
+  <line class="dn wk" x1="55" y1="235" x2="55" y2="275"/><rect class="dn" x="49" y="245" width="12" height="22"/>
+  <line class="up wk" x1="95" y1="200" x2="95" y2="255"/><rect class="up" x="89" y="215" width="12" height="28"/>
+  <line class="up wk" x1="140" y1="150" x2="140" y2="220"/><rect class="up" x="134" y="162" width="12" height="42"/>
+  <line class="up wk" x1="185" y1="108" x2="185" y2="175"/><rect class="up" x="179" y="120" width="12" height="40"/>
+  <line class="up wk" x1="230" y1="78" x2="230" y2="140"/><rect class="up" x="224" y="90" width="12" height="36"/>
+  <line class="up wk" x1="275" y1="58" x2="275" y2="115"/><rect class="up" x="269" y="68" width="12" height="34"/>
+  <line class="entry" x1="220" y1="72" x2="340" y2="72"/>
+  <text class="t-g" x="248" y="64">入场</text>
+  <line class="stop" x1="40" y1="218" x2="340" y2="218"/>
+  <text class="t-r" x="40" y="208">止损钉在线上</text>
+  <text class="t" x="28" y="278">这是追均价，不是 Reclaim。等回踩或放弃。</text>
+
+  <rect class="box" x="392" y="44" width="352" height="250" rx="6"/>
+  <text class="t-g" x="404" y="32">近：止损在压缩低，不是均价本身</text>
+  <polyline class="vw" points="412,168 510,164 610,160 726,156"/>
+  <text class="t-a" x="668" y="148">VWAP</text>
+  <line class="dn wk" x1="430" y1="178" x2="430" y2="236"/><rect class="dn" x="424" y="190" width="12" height="32"/>
+  <line class="dn wk" x1="470" y1="192" x2="470" y2="250"/><rect class="dn" x="464" y="206" width="12" height="30"/>
+  <line class="up wk" x1="510" y1="188" x2="510" y2="244"/><rect class="up" x="504" y="202" width="12" height="26"/>
+  <line class="dn wk" x1="550" y1="186" x2="550" y2="236"/><rect class="dn" x="544" y="198" width="12" height="24"/>
+  <line class="up wk" x1="595" y1="130" x2="595" y2="198"/><rect class="up" x="589" y="140" width="12" height="46"/>
+  <line class="up wk" x1="635" y1="112" x2="635" y2="168"/><rect class="up" x="629" y="122" width="12" height="34"/>
+  <line class="dn wk" x1="675" y1="128" x2="675" y2="172"/><rect class="dn" x="669" y="142" width="12" height="18"/>
+  <line class="up wk" x1="715" y1="88" x2="715" y2="148"/><rect class="up" x="709" y="98" width="12" height="36"/>
+  <line class="entry" x1="580" y1="128" x2="730" y2="128"/>
+  <text class="t-g" x="678" y="120">入场</text>
+  <line class="stop" x1="455" y1="252" x2="720" y2="252"/>
+  <text class="t-r" x="560" y="244">压缩低点 = 失效</text>
+  <text class="t" x="404" y="278">太远就减仓；钉回 VWAP 会把 1R 撑破</text>
+
+  <text class="t" x="16" y="328">Pop 演示里常见「收回后加速」。加速之后才进、止损却还想放在均价上，单笔风险已经不是这一 setup 的风险。</text>
+  <text class="t" x="16" y="348">入场距 VWAP 已满一个完整 1R：不做 pop，等第一次回踩，或放弃。不要把均价当免费的近止损。</text>
+</svg>

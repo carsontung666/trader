@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="先识别股票类型再套形态：新闻、反向拆股、新上市、SPAC、抛物线风险不同">
+  <title>类型不是 setup，同一旗形背后供给不同</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .c { fill: #F7F8FA; stroke: #D0D5DB; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .c { fill: #1C2228; stroke: #3A424C; }
+    }
+  </style>
+  <rect class="c" x="16" y="16" width="178" height="88" rx="8"/><text class="t-b" x="32" y="44">新闻股</text><text class="t" x="32" y="68">核原始来源</text><text class="t" x="32" y="88">第一跳可能已走完</text>
+  <rect class="c" x="204" y="16" width="178" height="88" rx="8"/><text class="t-b" x="220" y="44">反向拆股</text><text class="t" x="220" y="68">旧高点不是真价</text><text class="t" x="220" y="88">常伴随融资</text>
+  <rect class="c" x="392" y="16" width="178" height="88" rx="8"/><text class="t-b" x="408" y="44">近期 IPO</text><text class="t" x="408" y="68">锁定期 / 发行价</text><text class="t" x="408" y="88">历史短，仓更小</text>
+  <rect class="c" x="580" y="16" width="164" height="88" rx="8"/><text class="t-b" x="596" y="44">蓝天突破</text><text class="t" x="596" y="68">无旧阻力≠无卖方</text><text class="t" x="596" y="88">等新底座</text>
+
+  <rect class="c" x="16" y="118" width="178" height="88" rx="8"/><text class="t-b" x="32" y="146">SPAC</text><text class="t" x="32" y="170">先确认阶段</text><text class="t" x="32" y="190">赎回会改流通</text>
+  <rect class="c" x="204" y="118" width="178" height="88" rx="8"/><text class="t-b" x="220" y="146">低开动量</text><text class="t" x="220" y="170">跌得多≠便宜</text><text class="t" x="220" y="190">要收回确认</text>
+  <rect class="c" x="392" y="118" width="178" height="88" rx="8"/><text class="t-b" x="408" y="146">多日延续</text><text class="t" x="408" y="170">每天重标位置</text><text class="t" x="408" y="190">日内勿偷偷隔夜</text>
+  <rect class="c" x="580" y="118" width="164" height="88" rx="8"/><text class="t-b" x="596" y="146">抛物线</text><text class="t" x="596" y="170">按波动缩仓</text><text class="t" x="596" y="190">停牌后盘口重建</text>
+
+  <text class="t" x="16" y="240">正确组合：类型 + 催化/文件 + 市场阶段 + 技术 setup + 执行质量 = 一条可检验假说。</text>
+  <text class="t" x="16" y="264">「IPO 会涨」不是假说。「近期 IPO + 五分钟第一次回撤」才是可定义样本。</text>
+  <text class="t" x="16" y="288">IRA 是账户结构，不是第九种类型。退休账户亏损仍是真亏，且补资受年度上限约束。</text>
+  <text class="t" x="16" y="312">访谈只迁移可统计规则，不迁移仓位、收益和人生故事。</text>
+</svg>

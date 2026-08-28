@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="整美元在开盘蓄势、盘中动量、急跌反转里是三个不同假设">
+  <title>整美元三种语境，三个统计桶</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.2; }
+    .box { fill: #F4F1E8; }
+    .dol { stroke: #C08A12; stroke-width: 1.7; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .box { fill: #2A2820; } .dol { stroke: #DDA33A; }
+    }
+  </style>
+  <text class="t-b" x="24" y="22">同一条 5.00，三种赌法。不要共用一个「整美元胜率」。</text>
+
+  <rect class="box" x="16" y="40" width="236" height="230"/>
+  <text class="t-g" x="28" y="60">开盘 / 蓄势向上</text>
+  <line class="dol" x1="28" y1="120" x2="236" y2="120"/>
+  <text class="t-a" x="190" y="112">5.00</text>
+  <line class="up wk" x1="48" y1="150" x2="48" y2="190"/><rect class="up" x="43" y="160" width="10" height="22"/>
+  <line class="dn wk" x1="78" y1="145" x2="78" y2="188"/><rect class="dn" x="73" y="158" width="10" height="22"/>
+  <line class="up wk" x1="108" y1="142" x2="108" y2="180"/><rect class="up" x="103" y="154" width="10" height="18"/>
+  <line class="up wk" x1="160" y1="70" x2="160" y2="145"/><rect class="up" x="155" y="82" width="10" height="48"/>
+  <text class="t" x="28" y="214">关口下横住再穿过</text>
+  <text class="t" x="28" y="234">桶：DOLLAR_LONG</text>
+  <text class="t" x="28" y="254">失效：整理低</text>
+
+  <rect class="box" x="262" y="40" width="236" height="230"/>
+  <text class="t-a" x="274" y="60">已有动量 · 加速点</text>
+  <line class="dol" x1="274" y1="150" x2="482" y2="150"/>
+  <text class="t-a" x="438" y="142">5.00</text>
+  <line class="up wk" x1="292" y1="200" x2="292" y2="240"/><rect class="up" x="287" y="210" width="10" height="22"/>
+  <line class="up wk" x1="328" y1="165" x2="328" y2="215"/><rect class="up" x="323" y="176" width="10" height="30"/>
+  <line class="up wk" x1="368" y1="118" x2="368" y2="180"/><rect class="up" x="363" y="130" width="10" height="38"/>
+  <line class="up wk" x1="420" y1="72" x2="420" y2="140"/><rect class="up" x="415" y="84" width="10" height="42"/>
+  <text class="t" x="274" y="214">趋势中打穿关口加速</text>
+  <text class="t" x="274" y="234">桶：DOLLAR_MOMO</text>
+  <text class="t" x="274" y="254">失效：最近更高低</text>
+
+  <rect class="box" x="508" y="40" width="236" height="230"/>
+  <text class="t-r" x="520" y="60">急跌到关口 · 反转</text>
+  <line class="dol" x1="520" y1="200" x2="728" y2="200"/>
+  <text class="t-a" x="684" y="192">5.00</text>
+  <line class="dn wk" x1="540" y1="80" x2="540" y2="130"/><rect class="dn" x="535" y="92" width="10" height="26"/>
+  <line class="dn wk" x1="580" y1="120" x2="580" y2="190"/><rect class="dn" x="575" y="140" width="10" height="36"/>
+  <line class="up wk" x1="630" y1="150" x2="630" y2="210"/><rect class="up" x="625" y="168" width="10" height="28"/>
+  <line class="up wk" x1="680" y1="118" x2="680" y2="178"/><rect class="up" x="675" y="132" width="10" height="32"/>
+  <text class="t" x="520" y="234">这是 5.12，不是本章</text>
+  <text class="t" x="520" y="254">桶：DOLLAR_REV</text>
+
+  <text class="t" x="16" y="294">光秃一根打过 5.00、关口下没有反复成交，三栏都不记。那是穿越，不是整美元 setup。</text>
+</svg>

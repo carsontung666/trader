@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="Hammer、Shooting star、Doji、长实体和吞没：名字只描述形状，含义取决于位置">
+  <title>单根与双根形状：没有位置就没有含义</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.6; }
+    .doji { fill: #8A94A0; stroke: #8A94A0; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .up { fill: #2FBF71; stroke: #2FBF71; }
+      .dn { fill: #EF5350; stroke: #EF5350; }
+      .doji { fill: #8B95A1; stroke: #8B95A1; }
+    }
+  </style>
+  <text class="t-b" x="28" y="28">名字只描述形状。没有位置、前置趋势和后续确认，就不是信号。</text>
+
+  <line class="up wk" x1="70" y1="70" x2="70" y2="250"/>
+  <rect class="up" x="62" y="70" width="16" height="36"/>
+  <text class="t-b" x="40" y="278">Hammer</text>
+  <text class="t" x="28" y="298">长下影，实体在上</text>
+  <text class="t" x="28" y="316">靠近已知支撑才看</text>
+
+  <line class="dn wk" x1="200" y1="70" x2="200" y2="250"/>
+  <rect class="dn" x="192" y="214" width="16" height="36"/>
+  <text class="t-b" x="162" y="278">Shooting star</text>
+  <text class="t" x="158" y="298">长上影，实体在下</text>
+  <text class="t" x="158" y="316">靠近阻力区才看</text>
+
+  <line class="doji wk" x1="330" y1="70" x2="330" y2="250"/>
+  <rect class="doji" x="318" y="156" width="24" height="4"/>
+  <text class="t-b" x="310" y="278">Doji</text>
+  <text class="t" x="292" y="298">开盘收盘接近</text>
+  <text class="t" x="284" y="316">犹豫，不是反转令</text>
+
+  <line class="up wk" x1="450" y1="80" x2="450" y2="240"/>
+  <rect class="up" x="438" y="90" width="24" height="140"/>
+  <text class="t-b" x="424" y="278">Long body</text>
+  <text class="t" x="408" y="298">这一窗方向移动大</text>
+  <text class="t" x="404" y="316">不保证下一根延续</text>
+
+  <line class="dn wk" x1="560" y1="150" x2="560" y2="210"/>
+  <rect class="dn" x="552" y="160" width="16" height="40"/>
+  <line class="up wk" x1="610" y1="90" x2="610" y2="230"/>
+  <rect class="up" x="598" y="100" width="24" height="120"/>
+  <text class="t-b" x="548" y="278">Engulfing</text>
+  <text class="t" x="530" y="298">后一根实体盖住前一根</text>
+  <text class="t" x="534" y="316">定义因资料而异</text>
+</svg>

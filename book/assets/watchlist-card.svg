@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="观察名单写条件式计划：触发、失效、不做，不写故事">
+  <title>名单卡片写条件，不写方向故事</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .ok { fill: #E8F5EC; stroke: #15803D; }
+    .bad { fill: #F8E8E6; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .ok { fill: #1C3326; stroke: #35C07B; }
+      .bad { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="ok" x="16" y="20" width="360" height="250" rx="8"/>
+  <text class="t-b" x="36" y="50">合格写法</text>
+  <text class="t" x="36" y="84">Above 4.80 放量 → 测盘前高 5.05</text>
+  <text class="t" x="36" y="114">Below 4.55 → 结构失效</text>
+  <text class="t" x="36" y="144">点差 &gt; 0.08 不做</text>
+  <text class="t" x="36" y="174">上沿 LULD 不足 1R 不做</text>
+  <text class="t" x="36" y="204">A / B / 只观察 分开</text>
+  <text class="t" x="36" y="234">市场可以否定计划</text>
+
+  <rect class="bad" x="392" y="20" width="352" height="250" rx="8"/>
+  <text class="t-b" x="412" y="50">不合格写法</text>
+  <text class="t" x="412" y="84">好公司，应该到 10 块</text>
+  <text class="t" x="412" y="114">空头会被困住</text>
+  <text class="t" x="412" y="144">大家都在看</text>
+  <text class="t" x="412" y="174">今天必须做一只</text>
+  <text class="t" x="412" y="204">扫描器第一名就是买点</text>
+  <text class="t" x="412" y="234">故事会让人忽略否定</text>
+</svg>

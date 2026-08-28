@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" width="760" height="220" role="img" aria-label="做空三步：locate、可卖库存、成交后才有空头仓位；cover才是平仓">
+  <title>Locate 不是仓位</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .n { fill: #EEF3F8; stroke: #3D6A94; }
+    .g { fill: #E7F6EC; stroke: #15803D; }
+    .r { fill: #FDE8E8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .n { fill: #1C2833; stroke: #7FA9CE; }
+      .g { fill: #1C3326; stroke: #35C07B; }
+      .r { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="n" x="20" y="36" width="160" height="100" rx="8"/>
+  <text class="t-b" x="70" y="70">1 Locate</text>
+  <text class="t" x="40" y="96">券商认为能借到</text>
+  <text class="t" x="48" y="116">可能先付一笔费</text>
+  <text class="t-b" x="188" y="90">→</text>
+  <rect class="n" x="214" y="36" width="170" height="100" rx="8"/>
+  <text class="t-b" x="248" y="70">2 可卖库存</text>
+  <text class="t" x="232" y="96">允许你卖掉的数量</text>
+  <text class="t" x="240" y="116">还没有仓位</text>
+  <text class="t-b" x="392" y="90">→</text>
+  <rect class="r" x="418" y="36" width="150" height="100" rx="8"/>
+  <text class="t-b" x="448" y="70">3 空头仓位</text>
+  <text class="t" x="436" y="96">卖空成交之后</text>
+  <text class="t" x="448" y="116">亏损不封顶</text>
+  <text class="t-b" x="576" y="90">→</text>
+  <rect class="g" x="598" y="36" width="142" height="100" rx="8"/>
+  <text class="t-b" x="636" y="70">Cover</text>
+  <text class="t" x="616" y="96">买回归还</text>
+  <text class="t" x="612" y="116">这才是平仓</text>
+  <text class="t" x="20" y="170">释放未用完的 locate（有的平台叫 credit）是退库存，不是平仓。</text>
+  <text class="t" x="20" y="192">借了 100 只用 50，locate 费按 100 算，每股成本翻倍。SSR 只限制空单价格，不是禁空。</text>
+  <text class="t" x="20" y="214">没有 locate 就点 Sell，是在和交割规则对赌。</text>
+</svg>

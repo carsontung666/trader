@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" width="760" height="220" role="img" aria-label="股票 swing 近似线性；期权 swing 还要过到期和波动率两关">
+  <title>同一 thesis，两种载体</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .box { fill: #EEF3F8; stroke: #3D6A94; }
+    .warn { fill: #FFF7E0; stroke: #B07D0A; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .box { fill: #1C2833; stroke: #7FA9CE; }
+      .warn { fill: #3A3420; stroke: #E0A93A; }
+    }
+  </style>
+  <rect class="box" x="20" y="20" width="350" height="140" rx="8"/>
+  <text class="t-b" x="40" y="52">股票</text>
+  <text class="t" x="40" y="84">价格近似线性</text>
+  <text class="t" x="40" y="108">隔夜跳空打在股份上</text>
+  <text class="t" x="40" y="132">持有期不确定时更干净</text>
+
+  <rect class="warn" x="390" y="20" width="350" height="140" rx="8"/>
+  <text class="t-b" x="410" y="52">期权</text>
+  <text class="t" x="410" y="84">方向 + 时间 + IV</text>
+  <text class="t" x="410" y="108">跳空还会重定价权利金</text>
+  <text class="t" x="410" y="132">时间窗明确才选结构</text>
+
+  <text class="t" x="20" y="188">限制投入金额 ≠ 限制最大亏损。裸卖和买最便宜虚值，都不是「小仓位的同一笔 swing」。</text>
+  <text class="t" x="20" y="210">先写标的 thesis，再选 payoff。填不齐到期、最大亏损、指派后持有什么，就用股票。</text>
+</svg>

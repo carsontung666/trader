@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="情绪必须翻译成订单行为：追、摊平、连点、下移止损、过早止盈，各有对应硬约束">
+  <title>情绪映射到订单，不停留在心情</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .a { fill: #EEF3F8; stroke: #3D6A94; }
+    .b { fill: #FFF7E0; stroke: #B07D0A; }
+    .c { fill: #FDE8E8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .a { fill: #1C2833; stroke: #7FA9CE; }
+      .b { fill: #3A3420; stroke: #E0A93A; }
+      .c { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="a" x="16" y="16" width="175" height="88" rx="8"/>
+  <text class="t-b" x="28" y="40">FOMO / 错过</text>
+  <text class="t" x="28" y="64">订单：离失效位很远仍买</text>
+  <text class="t" x="28" y="86">约束：No-trade 栏</text>
+
+  <rect class="c" x="201" y="16" width="175" height="88" rx="8"/>
+  <text class="t-b" x="213" y="40">亏了要赚回来</text>
+  <text class="t" x="213" y="64">订单：摊平、连点、加倍</text>
+  <text class="t" x="213" y="86">约束：禁止下跌加仓</text>
+
+  <rect class="b" x="386" y="16" width="175" height="88" rx="8"/>
+  <text class="t-b" x="398" y="40">回吐愤怒</text>
+  <text class="t" x="398" y="64">订单：无 setup 再进</text>
+  <text class="t" x="398" y="86">约束：回吐止损 + 离席</text>
+
+  <rect class="a" x="571" y="16" width="173" height="88" rx="8"/>
+  <text class="t-b" x="583" y="40">连胜自信</text>
+  <text class="t" x="583" y="64">订单：仓位翻倍</text>
+  <text class="t" x="583" y="86">约束：台阶放大规则</text>
+
+  <rect class="b" x="16" y="116" width="175" height="88" rx="8"/>
+  <text class="t-b" x="28" y="140">害怕红日</text>
+  <text class="t" x="28" y="164">订单：下移止损、拖着</text>
+  <text class="t" x="28" y="186">约束：止损只往有利移</text>
+
+  <rect class="c" x="201" y="116" width="175" height="88" rx="8"/>
+  <text class="t-b" x="213" y="140">沉没成本</text>
+  <text class="t" x="213" y="164">订单：已亏所以继续拿</text>
+  <text class="t" x="213" y="186">约束：空仓测试</text>
+
+  <rect class="a" x="386" y="116" width="175" height="88" rx="8"/>
+  <text class="t-b" x="398" y="140">比较别人盈亏</text>
+  <text class="t" x="398" y="164">订单：照抄仓位</text>
+  <text class="t" x="398" y="186">约束：关掉聊天室</text>
+
+  <rect class="b" x="571" y="116" width="173" height="88" rx="8"/>
+  <text class="t-b" x="583" y="140">过早止盈部分</text>
+  <text class="t" x="583" y="164">订单：刚红就全平</text>
+  <text class="t" x="583" y="186">约束：分批规则先写死</text>
+
+  <text class="t" x="16" y="230">复盘不写「心态不好」。写：哪一种情绪改了 side、size、price 还是 timing。</text>
+  <text class="t" x="16" y="252">一次只加一条约束。用日志看追单次数、下移止损、报复单有没有下降。</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" width="760" height="220" role="img" aria-label="复盘循环：计划、执行、记录有没有遵守、按setup统计、再决定缩小或放大">
+  <title>日志第一列是有没有遵守</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .n { fill: #EEF3F8; stroke: #3D6A94; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .n { fill: #1C2833; stroke: #7FA9CE; }
+    }
+  </style>
+  <rect class="n" x="20" y="40" width="130" height="80" rx="8"/><text class="t-b" x="50" y="74">写六栏</text><text class="t" x="44" y="96">盘前完成</text>
+  <text class="t-b" x="156" y="84">→</text>
+  <rect class="n" x="178" y="40" width="130" height="80" rx="8"/><text class="t-b" x="214" y="74">执行</text><text class="t" x="194" y="96">或按 No-trade 放弃</text>
+  <text class="t-b" x="314" y="84">→</text>
+  <rect class="n" x="336" y="40" width="150" height="80" rx="8"/><text class="t-b" x="360" y="74">记遵守与否</text><text class="t" x="352" y="96">违约单独列</text>
+  <text class="t-b" x="492" y="84">→</text>
+  <rect class="n" x="514" y="40" width="226" height="80" rx="8"/><text class="t-b" x="540" y="74">按 setup 算期望值</text><text class="t" x="534" y="96">再决定缩小或放大</text>
+  <text class="t" x="20" y="150">必记：代码、方向、setup 名、周期、触发/失效、计划均价 vs 实际均价、计划 R vs 实现 R、费用、是否停牌。</text>
+  <text class="t" x="20" y="172">不要把所有形态混成一个胜率。违约后的幸运获利不算进策略。</text>
+  <text class="t" x="20" y="194">模拟盘能练流程，不能证明实盘可复制。放大看样本和回撤，不看昨天赚了多少。</text>
+</svg>

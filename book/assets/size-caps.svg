@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" width="760" height="240" role="img" aria-label="最终股数取多个上限的最小值：风险、购买力、流动性、可借、个人上限">
+  <title>股数取多个上限里最小的那个</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .c { fill: #F7F8FA; stroke: #D0D5DB; }
+    .ans { fill: #E7F6EC; stroke: #15803D; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .c { fill: #1C2228; stroke: #3A424C; }
+      .ans { fill: #1C3326; stroke: #35C07B; }
+    }
+  </style>
+  <text class="t-b" x="20" y="28">公式算得出 ≠ 市场承受得了。取最小值。</text>
+  <rect class="c" x="16" y="48" width="136" height="70" rx="8"/><text class="t-b" x="36" y="78">风险允许</text><text class="t" x="36" y="100">可亏 ÷ 每股风险</text>
+  <rect class="c" x="162" y="48" width="136" height="70" rx="8"/><text class="t-b" x="182" y="78">购买力</text><text class="t" x="176" y="100">还要留滑点余量</text>
+  <rect class="c" x="308" y="48" width="136" height="70" rx="8"/><text class="t-b" x="328" y="78">流动性</text><text class="t" x="322" y="100">盘口接得住吗</text>
+  <rect class="c" x="454" y="48" width="136" height="70" rx="8"/><text class="t-b" x="484" y="78">可借股</text><text class="t" x="468" y="100">做空才有这一项</text>
+  <rect class="c" x="600" y="48" width="144" height="70" rx="8"/><text class="t-b" x="620" y="78">个人上限</text><text class="t" x="612" y="100">新策略 / halt 砍半</text>
+  <rect class="ans" x="16" y="140" width="728" height="76" rx="8"/>
+  <text class="t-b" x="36" y="172">最终股数 = min(上面五项)</text>
+  <text class="t" x="36" y="196">买得起、公式允许，仍可能因为盘口薄或停牌风险而变成 0 股。</text>
+</svg>

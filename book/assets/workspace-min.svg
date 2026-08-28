@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="最小工作区：1分钟、5分钟、日线、盘口成交、下单与风险、扫描新闻；删掉不改变决策的面板">
+  <title>工作区只保留决策必需，不是功能展示</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .box { fill: #F7F8F9; stroke: #C5CCD3; }
+    .acc { fill: #EEF4FA; stroke: #3D6A94; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .box { fill: #1C2128; stroke: #3A424C; }
+      .acc { fill: #1E2A33; stroke: #7FA9CE; }
+    }
+  </style>
+  <text class="t-b" x="24" y="24">几秒内要能确认：标的、触发、仓位、订单、风险</text>
+
+  <rect class="acc" x="20" y="40" width="230" height="170" rx="4"/>
+  <text class="t-b" x="32" y="62">1 分钟</text>
+  <text class="t" x="32" y="82">volume + VWAP</text>
+  <text class="t" x="32" y="100">少量 EMA</text>
+  <text class="t" x="32" y="118">触发与最近失效</text>
+
+  <rect class="acc" x="265" y="40" width="230" height="170" rx="4"/>
+  <text class="t-b" x="277" y="62">5 分钟</text>
+  <text class="t" x="277" y="82">当天趋势与形态</text>
+  <text class="t" x="277" y="100">volume + VWAP</text>
+  <text class="t" x="277" y="118">是否第一次有序回撤</text>
+
+  <rect class="box" x="510" y="40" width="230" height="80" rx="4"/>
+  <text class="t-b" x="522" y="62">日线</text>
+  <text class="t" x="522" y="82">历史高低、缺口、200 MA</text>
+
+  <rect class="box" x="510" y="130" width="230" height="80" rx="4"/>
+  <text class="t-b" x="522" y="152">Level 2 + Tape</text>
+  <text class="t" x="522" y="172">现在能不能执行</text>
+
+  <rect class="box" x="20" y="222" width="360" height="70" rx="4"/>
+  <text class="t-b" x="32" y="244">Order + Positions + Open orders</text>
+  <text class="t" x="32" y="264">symbol / side / size / 状态必须始终可见</text>
+
+  <rect class="box" x="395" y="222" width="345" height="70" rx="4"/>
+  <text class="t-b" x="407" y="244">Scanner + 核对过的新闻</text>
+  <text class="t" x="407" y="264">链接切换后核对订单窗口标的</text>
+
+  <text class="t" x="24" y="316">删掉一条线或一个面板，若预先定义的决策不变，就删。软件按钮位置不收入正文。</text>
+</svg>

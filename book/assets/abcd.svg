@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="ABCD：A到B推动，B到C回撤，触发是C后穿过B，失效在C低点">
+  <title>ABCD：触发穿过 B，失效在 C</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #3D6A94; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .b { stroke: #C08A12; stroke-width: 1.8; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 4; }
+    .path { fill: none; stroke: #3D6A94; stroke-width: 1.6; stroke-dasharray: 5 4; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #7FA9CE; } .t-r { fill: #EF6B5E; }
+      .t-g { fill: #35C07B; } .t-a { fill: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .b { stroke: #DDA33A; } .stop { stroke: #EF6B5E; } .path { stroke: #7FA9CE; }
+    }
+  </style>
+  <text class="t-a" x="40" y="28">A→B 第一段推动。B→C 回撤。C 后恢复并穿过 B，才是触发。</text>
+  <polyline class="path" points="70,250 200,90 360,200 560,50"/>
+  <text class="t-b" x="56" y="272">A</text>
+  <text class="t-a" x="188" y="78">B</text>
+  <text class="t-r" x="348" y="224">C</text>
+  <text class="t-g" x="552" y="40">D？</text>
+  <line class="up wk" x1="80" y1="230" x2="80" y2="270"/><rect class="up" x="74" y="240" width="12" height="20"/>
+  <line class="up wk" x1="130" y1="170" x2="130" y2="240"/><rect class="up" x="124" y="185" width="12" height="45"/>
+  <line class="up wk" x1="180" y1="100" x2="180" y2="185"/><rect class="up" x="174" y="115" width="12" height="55"/>
+  <line class="dn wk" x1="240" y1="110" x2="240" y2="175"/><rect class="dn" x="234" y="125" width="12" height="40"/>
+  <line class="dn wk" x1="300" y1="150" x2="300" y2="205"/><rect class="dn" x="294" y="165" width="12" height="30"/>
+  <line class="up wk" x1="360" y1="160" x2="360" y2="210"/><rect class="up" x="354" y="175" width="12" height="25"/>
+  <line class="up wk" x1="420" y1="90" x2="420" y2="180"/><rect class="up" x="414" y="105" width="12" height="60"/>
+  <line class="up wk" x1="480" y1="60" x2="480" y2="130"/><rect class="up" x="474" y="75" width="12" height="45"/>
+  <line class="up wk" x1="540" y1="40" x2="540" y2="90"/><rect class="up" x="534" y="50" width="12" height="30"/>
+  <line class="b" x1="160" y1="90" x2="700" y2="90"/>
+  <text class="t-a" x="610" y="82">B 的高点</text>
+  <line class="stop" x1="240" y1="210" x2="620" y2="210"/>
+  <text class="t-r" x="628" y="214">失效：C 低点</text>
+  <text class="t" x="40" y="304">D 是测量目标，不是承诺。C 下破后还拿着等 D，是改故事。</text>
+  <text class="t" x="40" y="326">事后硬凑三段不算。必须先标 A/B/C，再看有没有穿过 B。</text>
+</svg>

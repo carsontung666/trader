@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="Bid 是最高买价，Ask 是最低卖价，中间是点差；立刻买打 Ask，立刻卖打 Bid">
+  <title>Bid、Ask 与点差</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 15px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .bid { fill: #E7F6EC; stroke: #16A34A; }
+    .ask { fill: #FDE8E8; stroke: #DC2626; }
+    .sp { fill: #FFF7E0; stroke: #C08A12; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-b { fill: #E8EEF4; }
+      .t-g { fill: #35C07B; }
+      .t-r { fill: #EF6B5E; }
+      .bid { fill: #1C3326; stroke: #2FBF71; }
+      .ask { fill: #3A2424; stroke: #EF5350; }
+      .sp { fill: #3A3420; stroke: #DDA33A; }
+    }
+  </style>
+  <rect class="bid" x="40" y="70" width="200" height="140" rx="8"/>
+  <text class="t-g" x="70" y="110">Bid 10.00 × 500</text>
+  <text class="t" x="70" y="138">当前最高买价</text>
+  <text class="t" x="70" y="162">你立刻卖，打这边</text>
+
+  <rect class="sp" x="270" y="70" width="220" height="140" rx="8"/>
+  <text class="t-b" x="318" y="110">Spread 0.05</text>
+  <text class="t" x="300" y="138">ask − bid</text>
+  <text class="t" x="292" y="162">市价单先跨过这里</text>
+  <text class="t" x="292" y="186">小盘里它会突然变宽</text>
+
+  <rect class="ask" x="520" y="70" width="200" height="140" rx="8"/>
+  <text class="t-r" x="548" y="110">Ask 10.05 × 200</text>
+  <text class="t" x="548" y="138">当前最低卖价</text>
+  <text class="t" x="548" y="162">你立刻买，打这边</text>
+
+  <text class="t" x="40" y="250">报价是「愿意成交」的限价单，不是已经成交的交易。显示数量可以撤、可以藏。</text>
+  <text class="t" x="40" y="274">买 600 股市价：先吃掉 200 @10.05，剩下的可能打到 10.12 或更高。</text>
+</svg>

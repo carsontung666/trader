@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="两个独立平仓单会留下反向仓位；OCO 一侧成交后取消另一侧">
+  <title>独立平仓单与 OCO / Range</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .bad { fill: #FDE8E8; stroke: #C0392B; }
+    .ok { fill: #E7F6EC; stroke: #15803D; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .bad { fill: #3A2424; stroke: #EF6B5E; }
+      .ok { fill: #1C3326; stroke: #35C07B; }
+    }
+  </style>
+  <rect class="bad" x="20" y="24" width="350" height="220" rx="8"/>
+  <text class="t-b" x="40" y="52">两个独立平仓单</text>
+  <text class="t" x="40" y="80">空 5,000：上方 buy stop</text>
+  <text class="t" x="40" y="102">　　　　　下方 buy limit</text>
+  <text class="t" x="40" y="132">limit 先成交 → 仓位已平</text>
+  <text class="t" x="40" y="154">上方 stop 仍在</text>
+  <text class="t" x="40" y="176">反弹触发 → 变成多 5,000</text>
+  <text class="t" x="40" y="206">平台只知道方向和股数</text>
+  <text class="t" x="40" y="228">不知道你「已经平完了」</text>
+
+  <rect class="ok" x="390" y="24" width="350" height="220" rx="8"/>
+  <text class="t-b" x="410" y="52">Range / OCO</text>
+  <text class="t" x="410" y="80">同一组：stop 腿 + limit 腿</text>
+  <text class="t" x="410" y="102">一侧触发或完成后，另一侧取消</text>
+  <text class="t" x="410" y="132">价值不在多画一条线</text>
+  <text class="t" x="410" y="154">而在两腿之间的取消关联</text>
+  <text class="t" x="410" y="176">必须测：部分成交、改单、</text>
+  <text class="t" x="410" y="198">盘外、断线后是否仍关联</text>
+  <text class="t" x="410" y="228">图上有线 ≠ 服务器端有效</text>
+
+  <text class="t" x="20" y="270">平仓后检查：仓位 = 0，且没有任何可能反手的孤儿单。Cancel 不是 Flatten。</text>
+  <text class="t" x="20" y="290">按当前仓位数量的热键，在部分止盈或已手动平仓后，可能发出错误股数。</text>
+</svg>

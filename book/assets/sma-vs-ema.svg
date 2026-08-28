@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="价格先动，EMA跟得稍紧，SMA更慢；两条都滞后，都不是天然支撑">
+  <title>均线是过去价格的函数，必然滞后</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .px { fill: none; stroke: #1F2933; stroke-width: 2.2; }
+    .ema { fill: none; stroke: #3D6A94; stroke-width: 2; }
+    .sma { fill: none; stroke: #C08A12; stroke-width: 2; stroke-dasharray: 6 4; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .px { stroke: #E8EEF4; } .ema { stroke: #7FA9CE; } .sma { stroke: #DDA33A; }
+    }
+  </style>
+  <text class="t-b" x="36" y="28">价格先走。EMA 对近端加权更高，仍滞后。SMA 更慢。</text>
+  <polyline class="px" points="50,220 110,200 170,210 230,150 300,90 370,70 440,95 510,60 580,80 660,50"/>
+  <polyline class="ema" points="50,228 110,214 170,216 230,180 300,140 370,118 440,122 510,100 580,104 660,86"/>
+  <polyline class="sma" points="50,236 110,226 170,228 230,206 300,178 370,160 440,158 510,142 580,140 660,126"/>
+  <text class="t" x="600" y="44" fill="#1F2933">价格</text>
+  <text class="t" x="600" y="100" style="fill:#3D6A94">EMA</text>
+  <text class="t" x="600" y="150" style="fill:#C08A12">SMA</text>
+  <text class="t" x="36" y="268">同一个 9 EMA 在 1 分钟、5 分钟、日线上是三条完全不同的线，因为输入 K 线不同。</text>
+  <text class="t" x="36" y="288">未收盘 K 也会拖着均线动。不要事后换 8/9/10/20/21 直到「刚好托住」。</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="小盘常见融资循环：IPO、反复发行、跌破合规价、反向拆股、再融资；不是每家公司的必然命运">
+  <title>小盘融资循环是风险模型，不是预测图</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .n { fill: #EEF3F8; stroke: #3D6A94; }
+    .w { fill: #F8E7B0; stroke: #B07D0A; }
+    .r { fill: #FDE8E8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .n { fill: #1C2833; stroke: #7FA9CE; }
+      .w { fill: #3A3420; stroke: #E0A93A; }
+      .r { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <text class="t-b" x="24" y="26">对长期亏损、持续融资的公司，这是风险模型。不是每家 small cap 都会走完一圈。</text>
+  <rect class="n" x="24" y="48" width="124" height="88" rx="8"/><text class="t-b" x="64" y="84">IPO</text><text class="t" x="40" y="108">初次公开定价</text><text class="t" x="36" y="126">发现价格波动大</text>
+  <text class="t-b" x="154" y="94">→</text>
+  <rect class="w" x="176" y="48" width="140" height="88" rx="8"/><text class="t-b" x="196" y="84">Shelf / Offering</text><text class="t" x="188" y="108">新股或转售入市</text><text class="t" x="192" y="126">股本可能膨胀</text>
+  <text class="t-b" x="322" y="94">→</text>
+  <rect class="r" x="344" y="48" width="124" height="88" rx="8"/><text class="t-b" x="368" y="84">价格下跌</text><text class="t" x="356" y="108">可能跌破合规价</text><text class="t" x="360" y="126">再融资更难</text>
+  <text class="t-b" x="474" y="94">→</text>
+  <rect class="w" x="496" y="48" width="112" height="88" rx="8"/><text class="t-b" x="508" y="84">Reverse</text><text class="t-b" x="518" y="102">split</text><text class="t" x="508" y="126">数字变「低」</text>
+  <text class="t-b" x="614" y="94">→</text>
+  <rect class="r" x="636" y="48" width="100" height="88" rx="8"/><text class="t-b" x="654" y="84">再融资</text><text class="t" x="648" y="108">供给再回来</text><text class="t" x="650" y="126">循环可能重复</text>
+  <text class="t" x="24" y="172">反向拆股只按比例改价格和股数，不创造价值。扫描器上突然出现的「极低 float」常常是假收缩。</text>
+  <text class="t" x="24" y="194">检查链：最新 10-Q 股本 → 8-K / prospectus → active shelf / ATM → warrants / convertibles → 拆股生效日 → subsequent events → cash burn。</text>
+  <text class="t" x="24" y="216">复权图上「曾经几千美元」不是目标价。拆股后若紧接着发新股，名义低流通盘很快失效。</text>
+  <text class="t" x="24" y="238">这个循环解释供给从哪来，不预测下一次一定跌。真正改变盘中供给的是已经定价、已经可售的股份。</text>
+  <text class="t" x="24" y="260">fully diluted 要自己沿文件重建，不能只信第三方 float 的一位小数。</text>
+</svg>

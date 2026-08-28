@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="假突破做空：跌回突破位才是触发，不是第一根红K追空">
+  <title>False breakout short：跌回突破位之后</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .lvl { stroke: #B07D0A; stroke-width: 1.4; stroke-dasharray: 4 3; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    .flag { fill: #EEF3F8; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; } .t-g { fill: #35C07B; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .lvl { stroke: #E0A93A; } .stop { stroke: #EF6B5E; } .flag { fill: #1C2833; }
+    }
+  </style>
+  <text class="t-b" x="40" y="28">形状：旗杆 + 旗面。位置：前高。触发：跌回突破位并被下方接受。</text>
+  <rect class="flag" x="170" y="96" width="150" height="70" rx="4"/>
+  <text class="t" x="210" y="136">旗面</text>
+
+  <line class="up wk" x1="60" y1="200" x2="60" y2="250"/><rect class="up" x="54" y="210" width="12" height="30"/>
+  <line class="up wk" x1="100" y1="150" x2="100" y2="220"/><rect class="up" x="94" y="160" width="12" height="50"/>
+  <line class="up wk" x1="140" y1="90" x2="140" y2="170"/><rect class="up" x="134" y="100" width="12" height="55"/>
+  <text class="t-g" x="70" y="80">旗杆</text>
+
+  <line class="dn wk" x1="190" y1="110" x2="190" y2="170"/><rect class="dn" x="184" y="125" width="12" height="30"/>
+  <line class="up wk" x1="230" y1="105" x2="230" y2="165"/><rect class="up" x="224" y="120" width="12" height="30"/>
+  <line class="dn wk" x1="270" y1="100" x2="270" y2="168"/><rect class="dn" x="264" y="118" width="12" height="35"/>
+
+  <line class="up wk" x1="330" y1="40" x2="330" y2="130"/><rect class="up" x="324" y="55" width="12" height="50"/>
+  <text class="t-a" x="348" y="52">假突破</text>
+  <line class="dn wk" x1="390" y1="48" x2="390" y2="180"/><rect class="dn" x="384" y="70" width="12" height="85"/>
+  <text class="t-r" x="410" y="140">触发：跌回前高之下</text>
+  <line class="dn wk" x1="480" y1="150" x2="480" y2="230"/><rect class="dn" x="474" y="165" width="12" height="50"/>
+  <line class="dn wk" x1="530" y1="180" x2="530" y2="260"/><rect class="dn" x="524" y="195" width="12" height="50"/>
+
+  <line class="lvl" x1="120" y1="100" x2="700" y2="100"/>
+  <text class="t-a" x="620" y="92">前高 / 突破位</text>
+  <line class="stop" x1="300" y1="48" x2="700" y2="48"/>
+  <text class="t-r" x="620" y="42">止损：拒绝高点上</text>
+  <text class="t" x="40" y="288">第一目标常是旗面低点或 VWAP。SSR 下空单不能打在当前买价或以下，成交会变难，不是必涨信号。</text>
+</svg>

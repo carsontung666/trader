@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="整数10.00和半整数9.50常聚集订单；若一次跳动就跨0.50，半整数没有执行意义">
+  <title>心理价位是订单习惯，不是每只股票都同样有效</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .whole { stroke: #C08A12; stroke-width: 2; }
+    .half { stroke: #8A94A0; stroke-width: 1.5; stroke-dasharray: 5 4; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .whole { stroke: #DDA33A; } .half { stroke: #6E7884; }
+    }
+  </style>
+  <text class="t-b" x="36" y="28">整数、半整数容易聚集止盈、止损和条件单</text>
+  <line class="whole" x1="50" y1="80" x2="700" y2="80"/>
+  <text class="t-a" x="610" y="74">10.00 whole</text>
+  <line class="half" x1="50" y1="170" x2="700" y2="170"/>
+  <text class="t" x="610" y="164">9.50 half</text>
+
+  <line class="up wk" x1="90" y1="190" x2="90" y2="240"/><rect class="up" x="84" y="200" width="12" height="28"/>
+  <line class="up wk" x1="140" y1="150" x2="140" y2="210"/><rect class="up" x="134" y="160" width="12" height="40"/>
+  <line class="dn wk" x1="190" y1="90" x2="190" y2="175"/><rect class="dn" x="184" y="110" width="12" height="50"/>
+  <line class="up wk" x1="240" y1="100" x2="240" y2="180"/><rect class="up" x="234" y="120" width="12" height="45"/>
+  <line class="up wk" x1="290" y1="70" x2="290" y2="130"/><rect class="up" x="284" y="85" width="12" height="35"/>
+  <line class="dn wk" x1="340" y1="75" x2="340" y2="140"/><rect class="dn" x="334" y="90" width="12" height="35"/>
+  <line class="dn wk" x1="400" y1="120" x2="400" y2="210"/><rect class="dn" x="394" y="140" width="12" height="50"/>
+  <line class="up wk" x1="460" y1="155" x2="460" y2="220"/><rect class="up" x="454" y="165" width="12" height="40"/>
+  <line class="up wk" x1="520" y1="110" x2="520" y2="185"/><rect class="up" x="514" y="125" width="12" height="45"/>
+
+  <text class="t" x="36" y="250">和点差比较：一次跳动就跨 0.50，半整数没有执行意义。spread 已接近 0.20，精确到一两分的线也没有意义。</text>
+  <text class="t" x="36" y="270">整数效应来自报价习惯，不是每只股票同样强。线要叠在真实高低点上，不要只因为数字好看。</text>
+</svg>

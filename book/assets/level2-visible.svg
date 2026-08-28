@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img" aria-label="左边看见大卖单墙，中间价格靠近墙撤掉，右边同样股数相对流速可大可小">
+  <title>可见墙会撤；大小看流速</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .box { fill: none; stroke: #D0D5DB; }
+    .ask { fill: #FDE8E8; }
+    .bid { fill: #E7F6EC; }
+    .wall { fill: #F8D0D0; }
+    .thin { fill: #F7F8FA; }
+    .note { fill: #FFF7E0; stroke: #C08A12; }
+    .ok { fill: #E7F6EC; stroke: #16A34A; }
+    .bad { fill: #FDE8E8; stroke: #DC2626; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .box { stroke: #3A424C; } .ask { fill: #3A2424; } .bid { fill: #1C3326; }
+      .wall { fill: #4A2424; } .thin { fill: #1C2228; }
+      .note { fill: #3A3420; stroke: #DDA33A; }
+      .ok { fill: #1C3326; stroke: #2FBF71; }
+      .bad { fill: #3A2424; stroke: #EF5350; }
+    }
+  </style>
+
+  <text class="t-b" x="24" y="24">T0　看见墙</text>
+  <rect class="box" x="20" y="36" width="230" height="196" rx="6"/>
+  <rect class="ask" x="32" y="48" width="206" height="26"/>
+  <text class="t-r" x="42" y="66">5.02 × 800</text>
+  <rect class="wall" x="32" y="78" width="206" height="26"/>
+  <text class="t-r" x="42" y="96">5.00 × 30,000　墙</text>
+  <rect class="bid" x="32" y="112" width="206" height="26"/>
+  <text class="t-g" x="42" y="130">4.98 × 600</text>
+  <rect class="bid" x="32" y="142" width="206" height="26"/>
+  <text class="t-g" x="42" y="160">4.95 × 1,200</text>
+  <text class="t" x="32" y="196">这只是此刻愿意公开的限价。</text>
+  <text class="t" x="32" y="216">还没成交，也还没保证留下。</text>
+
+  <text class="t-b" x="274" y="24">T1　价格靠近，墙撤了</text>
+  <rect class="box" x="270" y="36" width="230" height="196" rx="6"/>
+  <rect class="ask" x="282" y="48" width="206" height="26"/>
+  <text class="t-r" x="292" y="66">5.02 × 800</text>
+  <rect class="thin" x="282" y="78" width="206" height="26"/>
+  <text class="t-r" x="292" y="96">5.00 × 200　只剩皮</text>
+  <rect class="bid" x="282" y="112" width="206" height="26"/>
+  <text class="t-g" x="292" y="130">4.99 × 400</text>
+  <rect class="bid" x="282" y="142" width="206" height="26"/>
+  <text class="t-g" x="292" y="160">4.95 × 1,200</text>
+  <text class="t" x="282" y="196">止损不能寄在别人的取消键。</text>
+  <text class="t" x="282" y="216">墙消失 ≠ 违法，只是不可靠。</text>
+
+  <text class="t-b" x="524" y="24">同一 30,000 股</text>
+  <rect class="bad" x="520" y="36" width="220" height="88" rx="6"/>
+  <text class="t-b" x="536" y="62">每分钟成交 50,000</text>
+  <text class="t" x="536" y="86">30,000 是很大的障碍</text>
+  <text class="t" x="536" y="108">相对强度 ≈ 0.6</text>
+  <rect class="ok" x="520" y="136" width="220" height="96" rx="6"/>
+  <text class="t-b" x="536" y="162">每分钟成交 1,000,000</text>
+  <text class="t" x="536" y="186">30,000 可能几秒被吃完</text>
+  <text class="t" x="536" y="208">相对强度 ≈ 0.03</text>
+
+  <rect class="note" x="20" y="250" width="720" height="110" rx="6"/>
+  <text class="t-b" x="36" y="276">相对强度 ≈ 显示股数 ÷ 当前每分钟成交量</text>
+  <text class="t" x="36" y="300">「大」不是绝对数字。不能跨股票、跨时段用同一个固定阈值。</text>
+  <text class="t" x="36" y="322">Level 2 只显示部分可见限价。隐藏、其他场所、即将取消的单，都不在这一帧里。</text>
+  <text class="t" x="36" y="344">盘口服务执行：这单进得去、出得来吗？它不预言下一步涨跌。</text>
+</svg>

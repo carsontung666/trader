@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="回撤中当前K线第一次穿过前一根已收盘高点；止损在结构低点，入场要计入滑点">
+  <title>第一根创新高：触价触发，不是整段旗形确认</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .hi { stroke: #C08A12; stroke-width: 1.8; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    .ghost { fill: none; stroke: #16A34A; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; } .t-a { fill: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .hi { stroke: #DDA33A; } .stop { stroke: #EF6B5E; } .ghost { stroke: #2FBF71; }
+    }
+  </style>
+  <text class="t-b" x="40" y="32">回撤里：当前 K 第一次穿过「前一根已收盘」的 high</text>
+
+  <line class="up wk" x1="80" y1="80" x2="80" y2="160"/><rect class="up" x="72" y="90" width="16" height="50"/>
+  <line class="dn wk" x1="140" y1="110" x2="140" y2="200"/><rect class="dn" x="132" y="125" width="16" height="50"/>
+  <line class="dn wk" x1="200" y1="140" x2="200" y2="250"/><rect class="dn" x="192" y="155" width="16" height="55"/>
+  <line class="up wk" x1="260" y1="130" x2="260" y2="230"/><rect class="up" x="252" y="150" width="16" height="55"/>
+  <text class="t-a" x="228" y="270">已收盘 high = 7.00</text>
+
+  <line class="hi" x1="240" y1="130" x2="700" y2="130"/>
+  <text class="t-a" x="520" y="122">前一根 high 7.00</text>
+
+  <line class="up wk" x1="340" y1="70" x2="340" y2="210"/>
+  <rect class="ghost" x="328" y="80" width="24" height="110"/>
+  <text class="t-g" x="370" y="90">触价 7.01 即触发</text>
+  <text class="t" x="370" y="110">当前这根不必先收盘</text>
+
+  <line class="stop" x1="180" y1="250" x2="700" y2="250"/>
+  <text class="t-r" x="520" y="244">结构 low 6.78</text>
+
+  <text class="t" x="40" y="300">估计入场含滑点 7.04 → 每股风险 7.04 − 6.78 = 0.26。这只说明短线重新向上，不是整段旗形已突破。</text>
+  <text class="t" x="40" y="322">6.95 提前买是另一种 setup，成功失败不能混进同一桶统计。</text>
+</svg>

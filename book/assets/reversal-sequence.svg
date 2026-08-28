@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="顶部反转确认序列：抛物线、新高无进展、第一次拒绝、更低高点、跌破更高低点、回抽失败">
+  <title>顶部反转：六个确认台阶，越早入场命中率越低</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .hl { stroke: #8A94A0; stroke-width: 1.2; stroke-dasharray: 4 3; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; } .t-g { fill: #35C07B; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .hl { stroke: #6E7884; } .stop { stroke: #EF6B5E; }
+    }
+  </style>
+  <text class="t-b" x="36" y="24">确认序列：先有原趋势，再有失败证据。台阶越后，风险越清楚。</text>
+  <line class="stop" x1="40" y1="48" x2="720" y2="48"/>
+  <text class="t-r" x="628" y="44">极端高 = 失效</text>
+
+  <line class="up wk" x1="70" y1="200" x2="70" y2="250"/><rect class="up" x="64" y="210" width="12" height="28"/>
+  <line class="up wk" x1="115" y1="160" x2="115" y2="220"/><rect class="up" x="109" y="172" width="12" height="36"/>
+  <line class="up wk" x1="160" y1="110" x2="160" y2="185"/><rect class="up" x="154" y="122" width="12" height="48"/>
+  <text class="t-a" x="52" y="270">① 抛物线</text>
+
+  <line class="up wk" x1="220" y1="70" x2="220" y2="150"/><rect class="up" x="214" y="95" width="12" height="40"/>
+  <text class="t" x="198" y="64">② 新高无进展</text>
+
+  <line class="dn wk" x1="275" y1="85" x2="275" y2="175"/><rect class="dn" x="269" y="110" width="12" height="50"/>
+  <text class="t" x="250" y="196">③ 拒绝</text>
+
+  <line class="up wk" x1="340" y1="95" x2="340" y2="175"/><rect class="up" x="334" y="118" width="12" height="40"/>
+  <text class="t-a" x="318" y="88">④ 更低高点</text>
+
+  <line class="hl" x1="40" y1="210" x2="500" y2="210"/>
+  <text class="t" x="40" y="204">更高低点序列</text>
+  <line class="dn wk" x1="410" y1="150" x2="410" y2="250"/><rect class="dn" x="404" y="180" width="12" height="55"/>
+  <text class="t-r" x="390" y="268">⑤ 结构破坏</text>
+
+  <line class="up wk" x1="480" y1="175" x2="480" y2="230"/><rect class="up" x="474" y="190" width="12" height="28"/>
+  <line class="dn wk" x1="540" y1="190" x2="540" y2="280"/><rect class="dn" x="534" y="210" width="12" height="50"/>
+  <text class="t-r" x="500" y="300">⑥ 回抽失败</text>
+
+  <text class="t" x="36" y="324">①–③ 仍是筛选。④ 以后才有可写的空头结构。底部反转左右翻转，但向下停牌不对称。</text>
+</svg>

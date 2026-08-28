@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="左：同一上沿低点下移是冲高失败。中：上沿不动低点抬高才是贴顶。右：U 形深回撤不是紧贴顶">
+  <title>贴顶、冲高失败、U 形不是同一种形状</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .lvl { stroke: #C08A12; stroke-width: 1.8; }
+    .lows { fill: none; stroke: #3D6A94; stroke-width: 1.6; stroke-dasharray: 4 3; }
+    .dot { fill: #3D6A94; }
+    .box { fill: none; stroke: #D0D5DB; stroke-width: 1; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .t-r { fill: #EF6B5E; } .t-g { fill: #35C07B; } .t-a { fill: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .lvl { stroke: #DDA33A; } .lows { stroke: #7FA9CE; } .dot { fill: #7FA9CE; }
+      .box { stroke: #3A424C; }
+    }
+  </style>
+
+  <rect class="box" x="12" y="44" width="236" height="248" rx="6"/>
+  <text class="t-r" x="24" y="28">不是贴顶：反复冲高失败</text>
+  <line class="lvl" x1="28" y1="88" x2="232" y2="88"/>
+  <line class="up wk" x1="48" y1="88" x2="48" y2="168"/><rect class="up" x="42" y="100" width="12" height="52"/>
+  <line class="dn wk" x1="80" y1="92" x2="80" y2="188"/><rect class="dn" x="74" y="100" width="12" height="68"/>
+  <line class="up wk" x1="112" y1="88" x2="112" y2="176"/><rect class="up" x="106" y="96" width="12" height="64"/>
+  <line class="dn wk" x1="144" y1="92" x2="144" y2="220"/><rect class="dn" x="138" y="100" width="12" height="96"/>
+  <line class="up wk" x1="176" y1="88" x2="176" y2="200"/><rect class="up" x="170" y="96" width="12" height="84"/>
+  <line class="dn wk" x1="208" y1="92" x2="208" y2="252"/><rect class="dn" x="202" y="100" width="12" height="128"/>
+  <polyline class="lows" points="80,188 144,220 208,252"/>
+  <circle class="dot" cx="80" cy="188" r="3"/>
+  <circle class="dot" cx="144" cy="220" r="3"/>
+  <circle class="dot" cx="208" cy="252" r="3"/>
+  <text class="t" x="24" y="276">上沿同一条，低点一次比一次低</text>
+  <text class="t" x="24" y="294">买方在衰竭，不是在进逼</text>
+
+  <rect class="box" x="262" y="44" width="236" height="248" rx="6"/>
+  <text class="t-g" x="274" y="28">才是贴顶：上沿 + 抬高低点</text>
+  <line class="lvl" x1="278" y1="88" x2="482" y2="88"/>
+  <line class="up wk" x1="298" y1="88" x2="298" y2="168"/><rect class="up" x="292" y="100" width="12" height="52"/>
+  <line class="dn wk" x1="330" y1="92" x2="330" y2="188"/><rect class="dn" x="324" y="100" width="12" height="68"/>
+  <line class="up wk" x1="362" y1="88" x2="362" y2="164"/><rect class="up" x="356" y="96" width="12" height="52"/>
+  <line class="dn wk" x1="394" y1="92" x2="394" y2="156"/><rect class="dn" x="388" y="100" width="12" height="40"/>
+  <line class="up wk" x1="426" y1="88" x2="426" y2="140"/><rect class="up" x="420" y="96" width="12" height="28"/>
+  <line class="dn wk" x1="458" y1="90" x2="458" y2="124"/><rect class="dn" x="452" y="96" width="12" height="16"/>
+  <polyline class="lows" points="330,188 394,156 458,124"/>
+  <circle class="dot" cx="330" cy="188" r="3"/>
+  <circle class="dot" cx="394" cy="156" r="3"/>
+  <circle class="dot" cx="458" cy="124" r="3"/>
+  <text class="t" x="274" y="276">回落 一次比一次浅</text>
+  <text class="t" x="274" y="294">两个条件同时成立</text>
+
+  <rect class="box" x="512" y="44" width="236" height="248" rx="6"/>
+  <text class="t-a" x="524" y="28">也不是：U 形深回撤</text>
+  <line class="lvl" x1="528" y1="88" x2="732" y2="88"/>
+  <line class="up wk" x1="548" y1="88" x2="548" y2="150"/><rect class="up" x="542" y="100" width="12" height="36"/>
+  <line class="dn wk" x1="580" y1="92" x2="580" y2="230"/><rect class="dn" x="574" y="110" width="12" height="100"/>
+  <line class="dn wk" x1="612" y1="170" x2="612" y2="268"/><rect class="dn" x="606" y="190" width="12" height="60"/>
+  <line class="up wk" x1="644" y1="150" x2="644" y2="268"/><rect class="up" x="638" y="170" width="12" height="80"/>
+  <line class="up wk" x1="676" y1="88" x2="676" y2="190"/><rect class="up" x="670" y="110" width="12" height="64"/>
+  <line class="up wk" x1="708" y1="88" x2="708" y2="140"/><rect class="up" x="702" y="100" width="12" height="28"/>
+  <text class="t" x="524" y="276">大幅跌回再爬上来</text>
+  <text class="t" x="524" y="294">失效位远，不再是紧贴顶</text>
+</svg>

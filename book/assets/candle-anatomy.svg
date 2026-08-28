@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-label="K 线解剖：实体连接开盘与收盘，影线连到最高与最低">
+  <title>一根 K 线记录四个价格</title>
+  <style>
+    .bg { fill: none; }
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 2; }
+    .line { stroke: #8A94A0; stroke-width: 1; stroke-dasharray: 3 3; }
+    .cap { fill: #6B7581; font-size: 12px; font-family: ui-monospace, Menlo, Consolas, monospace; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-b { fill: #E8EEF4; }
+      .t-g { fill: #35C07B; }
+      .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; }
+      .dn { fill: #EF5350; stroke: #EF5350; }
+      .line { stroke: #6E7884; }
+      .cap { fill: #8B95A1; }
+    }
+  </style>
+  <rect class="bg" x="0" y="0" width="760" height="400"/>
+
+  <text class="t-b" x="70" y="36">阳线：收盘高于开盘</text>
+  <line class="up wk" x1="160" y1="70" x2="160" y2="310"/>
+  <rect class="up" x="140" y="120" width="40" height="130"/>
+  <line class="line" x1="190" y1="70" x2="250" y2="70"/>
+  <text class="t-g" x="258" y="74">High 最高</text>
+  <line class="line" x1="190" y1="120" x2="250" y2="120"/>
+  <text class="t-g" x="258" y="124">Close 收盘</text>
+  <line class="line" x1="190" y1="250" x2="250" y2="250"/>
+  <text class="cap" x="258" y="254">Open 开盘</text>
+  <line class="line" x1="190" y1="310" x2="250" y2="310"/>
+  <text class="cap" x="258" y="314">Low 最低</text>
+  <text class="t" x="118" y="350">实体 = Open↔Close</text>
+  <text class="t" x="110" y="372">影线 = 曾到过、没停住</text>
+
+  <text class="t-b" x="430" y="36">阴线：收盘低于开盘</text>
+  <line class="dn wk" x1="520" y1="70" x2="520" y2="310"/>
+  <rect class="dn" x="500" y="120" width="40" height="130"/>
+  <line class="line" x1="550" y1="70" x2="610" y2="70"/>
+  <text class="t-r" x="618" y="74">High 最高</text>
+  <line class="line" x1="550" y1="120" x2="610" y2="120"/>
+  <text class="cap" x="618" y="124">Open 开盘</text>
+  <line class="line" x1="550" y1="250" x2="610" y2="250"/>
+  <text class="t-r" x="618" y="254">Close 收盘</text>
+  <line class="line" x1="550" y1="310" x2="610" y2="310"/>
+  <text class="cap" x="618" y="314">Low 最低</text>
+  <text class="t" x="430" y="350">颜色由平台自定义，不是规则。</text>
+  <text class="t" x="430" y="372">长上影只说明冲高后回落，下一根不必跌。</text>
+</svg>

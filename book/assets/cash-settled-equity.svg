@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="账面现金、已结算现金、未结算所得、权益和购买力是五个不同数字">
+  <title>账户里五个不能互相替代的数字</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .a { fill: #EEF3F8; stroke: #3D6A94; }
+    .b { fill: #E7F6EC; stroke: #15803D; }
+    .c { fill: #F8E7B0; stroke: #B07D0A; }
+    .d { fill: #E8D5E8; stroke: #8B4A8B; }
+    .e { fill: #FDE8E8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .a { fill: #1C2833; stroke: #7FA9CE; }
+      .b { fill: #1C3326; stroke: #35C07B; }
+      .c { fill: #3A3420; stroke: #E0A93A; }
+      .d { fill: #332033; stroke: #C98BC9; }
+      .e { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <text class="t-b" x="24" y="26">卖出后总资产「回来了」，不等于 settled cash 已经能再开同等仓位。</text>
+  <rect class="a" x="16" y="44" width="140" height="130" rx="8"/>
+  <text class="t-b" x="48" y="72">Cash</text>
+  <text class="t" x="28" y="98">账面现金</text>
+  <text class="t" x="28" y="118">不一定全已</text>
+  <text class="t" x="28" y="138">结算</text>
+  <rect class="b" x="168" y="44" width="140" height="130" rx="8"/>
+  <text class="t-b" x="188" y="72">Settled cash</text>
+  <text class="t" x="180" y="98">已交割资金</text>
+  <text class="t" x="180" y="118">现金账户再买</text>
+  <text class="t" x="180" y="138">先看这一栏</text>
+  <rect class="c" x="320" y="44" width="140" height="130" rx="8"/>
+  <text class="t-b" x="336" y="72">Unsettled</text>
+  <text class="t" x="332" y="98">刚卖出未交割</text>
+  <text class="t" x="332" y="118">T+1 才进结算</text>
+  <text class="t" x="332" y="138">乱用可能 GFV</text>
+  <rect class="d" x="472" y="44" width="132" height="130" rx="8"/>
+  <text class="t-b" x="504" y="72">Equity</text>
+  <text class="t" x="484" y="98">证券+现金</text>
+  <text class="t" x="484" y="118">− 借款</text>
+  <text class="t" x="484" y="138">随市值跳动</text>
+  <rect class="e" x="616" y="44" width="128" height="130" rx="8"/>
+  <text class="t-b" x="632" y="72">Buying</text>
+  <text class="t-b" x="636" y="90">power</text>
+  <text class="t" x="628" y="118">开仓额度</text>
+  <text class="t" x="628" y="138">≠ 能亏多少</text>
+  <text class="t" x="16" y="200">美股股票和多数相关证券的标准结算自 2024-05-28 起是 T+1：成交日后一个营业日交割。</text>
+  <text class="t" x="16" y="222">用未结算卖出所得再买、并在结算前再卖掉，可能触发 good faith violation；没付钱就买卖可能构成 freeriding。</text>
+  <text class="t" x="16" y="244">购买力随价格、持仓、集中度和 house margin 变。低价股上显示的额度，不能从 SPY 那一栏抄过来。</text>
+  <text class="t" x="16" y="266">任何一个数字解释不通：先停新开仓，查未完成订单、未结算资金和保证金要求，不要用测试大单反推规则。</text>
+  <text class="t" x="16" y="288">Realized P&amp;L 是已平仓；Unrealized 还不是现金。Position = 0 只说明现在没有股票。</text>
+</svg>

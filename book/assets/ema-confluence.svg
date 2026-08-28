@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="日线 EMA 与整数位叠成区域；碰到不是做空许可">
+  <title>Daily EMA 是区域，叠加后才提高观察权重</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .zone { fill: #FDE8E8; }
+    .ema { stroke: #C0392B; stroke-width: 1.6; fill: none; }
+    .dollar { stroke: #B07D0A; stroke-width: 1.2; stroke-dasharray: 5 4; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; }
+      .zone { fill: #3A2424; } .ema { stroke: #EF6B5E; } .dollar { stroke: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+    }
+  </style>
+  <rect class="zone" x="56" y="52" width="648" height="52"/>
+  <text class="t-a" x="70" y="36">决策区：Daily EMA200 ≈ $10.05 与 whole dollar $10 叠成 $9.90–$10.10</text>
+  <line class="ema" x1="56" y1="70" x2="704" y2="78"/>
+  <line class="dollar" x1="56" y1="88" x2="704" y2="88"/>
+  <text class="t-r" x="620" y="68">EMA200</text>
+  <text class="t-a" x="620" y="108">$10.00</text>
+
+  <line class="up wk" x1="100" y1="210" x2="100" y2="250"/><rect class="up" x="94" y="220" width="12" height="24"/>
+  <line class="up wk" x1="150" y1="180" x2="150" y2="230"/><rect class="up" x="144" y="190" width="12" height="30"/>
+  <line class="up wk" x1="200" y1="140" x2="200" y2="200"/><rect class="up" x="194" y="150" width="12" height="40"/>
+  <line class="up wk" x1="250" y1="100" x2="250" y2="165"/><rect class="up" x="244" y="115" width="12" height="40"/>
+  <text class="t" x="220" y="190">从下方接近</text>
+  <line class="dn wk" x1="310" y1="58" x2="310" y2="150"/><rect class="dn" x="304" y="72" width="12" height="55"/>
+  <text class="t" x="328" y="130">试探</text>
+  <line class="up wk" x1="370" y1="90" x2="370" y2="155"/><rect class="up" x="364" y="105" width="12" height="35"/>
+  <line class="dn wk" x1="430" y1="80" x2="430" y2="200"/><rect class="dn" x="424" y="110" width="12" height="70"/>
+  <text class="t-r" x="450" y="155">向下被接受才触发</text>
+  <line class="dn wk" x1="540" y1="160" x2="540" y2="250"/><rect class="dn" x="534" y="180" width="12" height="50"/>
+  <line class="dn wk" x1="600" y1="190" x2="600" y2="270"/><rect class="dn" x="594" y="205" width="12" height="50"/>
+
+  <text class="t" x="56" y="288">均线每天在动，不能当固定靶心。盘前已站上 EMA 时，它不再是未测试阻力，可能转成支撑。</text>
+</svg>

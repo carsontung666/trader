@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="相对成交量至少有整日、同时刻和五分钟三种口径，数字不能跨平台横比">
+  <title>RVOL 必须先写出分母</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .a { fill: #EEF3F8; stroke: #3D6A94; }
+    .b { fill: #E7F6EC; stroke: #15803D; }
+    .c { fill: #F8E7B0; stroke: #B07D0A; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .a { fill: #1C2833; stroke: #7FA9CE; }
+      .b { fill: #1C3326; stroke: #35C07B; }
+      .c { fill: #3A3420; stroke: #E0A93A; }
+    }
+  </style>
+  <text class="t-b" x="24" y="26">看到 RVOL 5 或 RVOL 10，先问平台用的是哪一个分母。</text>
+  <rect class="a" x="20" y="44" width="232" height="150" rx="8"/>
+  <text class="t-b" x="40" y="72">整日对整日</text>
+  <text class="t" x="36" y="98">今天累计成交量</text>
+  <text class="t" x="36" y="116">÷ 过去 N 日平均</text>
+  <text class="t" x="36" y="134">整日量</text>
+  <text class="t" x="36" y="160">上午这个数字</text>
+  <text class="t" x="36" y="178">天生偏低或失真</text>
+  <rect class="b" x="264" y="44" width="232" height="150" rx="8"/>
+  <text class="t-b" x="284" y="72">同时刻 Time-of-day</text>
+  <text class="t" x="280" y="98">今天截至现在</text>
+  <text class="t" x="280" y="116">÷ 过去同一时刻</text>
+  <text class="t" x="280" y="134">平均累计量</text>
+  <text class="t" x="280" y="160">更适合盘中比较</text>
+  <text class="t" x="280" y="178">「现在是否异常」</text>
+  <rect class="c" x="508" y="44" width="232" height="150" rx="8"/>
+  <text class="t-b" x="536" y="72">五分钟相对量</text>
+  <text class="t" x="524" y="98">最近 5 分钟成交</text>
+  <text class="t" x="524" y="116">÷ 历史可比 5 分钟</text>
+  <text class="t" x="524" y="160">抓突发脉冲</text>
+  <text class="t" x="524" y="178">也更容易是噪音</text>
+  <text class="t" x="20" y="220">还必须记录：回看天数 N、是否含盘前盘后、是否剔除异常日、拆股后成交量是否调整。</text>
+  <text class="t" x="20" y="242">绝对成交量还要相对 float 读：同样 500 万股，对 300 万流通盘和 3 亿流通盘完全不同。</text>
+  <text class="t" x="20" y="264">课程里很高的 RVOL 阈值是讲师过滤小盘异动的启发式，不是物理定律。</text>
+</svg>

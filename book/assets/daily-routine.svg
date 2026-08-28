@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" width="760" height="240" role="img" aria-label="日常三分：盘前写情景，盘中只执行，盘后对账不改参数">
+  <title>流程的作用是减少临场决定</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .a { fill: #D6E8F5; stroke: #3D6A94; }
+    .b { fill: #C5E4D4; stroke: #15803D; }
+    .c { fill: #F8E7B0; stroke: #B07D0A; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .a { fill: #1C2833; stroke: #7FA9CE; }
+      .b { fill: #1C3326; stroke: #35C07B; }
+      .c { fill: #3A3420; stroke: #E0A93A; }
+    }
+  </style>
+  <rect class="a" x="16" y="16" width="236" height="170" rx="8"/>
+  <text class="t-b" x="32" y="44">盘前</text>
+  <text class="t" x="32" y="70">持仓 / 未完成单</text>
+  <text class="t" x="32" y="92">宏观与财报日历</text>
+  <text class="t" x="32" y="114">催化与日线位置</text>
+  <text class="t" x="32" y="136">多 / 空 / 不做 三套</text>
+  <text class="t" x="32" y="158">风险上限与股数</text>
+
+  <rect class="b" x="262" y="16" width="236" height="170" rx="8"/>
+  <text class="t-b" x="278" y="44">盘中</text>
+  <text class="t" x="278" y="70">只做计划标的</text>
+  <text class="t" x="278" y="92">口述触发 / 止损 / 目标</text>
+  <text class="t" x="278" y="114">达日亏损就锁仓</text>
+  <text class="t" x="278" y="136">异常只记录</text>
+  <text class="t" x="278" y="158">不即时重写策略</text>
+
+  <rect class="c" x="508" y="16" width="236" height="170" rx="8"/>
+  <text class="t-b" x="524" y="44">盘后</text>
+  <text class="t" x="524" y="70">对账成交与费用</text>
+  <text class="t" x="524" y="92">进场前 / 出场后截图</text>
+  <text class="t" x="524" y="114">标有没有守规</text>
+  <text class="t" x="524" y="136">一条可操作改进</text>
+  <text class="t" x="524" y="158">单笔情绪下不改参</text>
+
+  <text class="t" x="16" y="214">阅读只提供模型。没有操作定义的概念留在研究笔记，不进实盘计划。</text>
+</svg>

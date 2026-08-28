@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="停牌期间止损单无法成交，恢复时价格可能直接跳空远离止损">
+  <title>停牌与跳空：计划止损覆盖不了的部分</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .halt { fill: #F4F1E8; }
+    .stop { stroke: #C0392B; stroke-width: 1.6; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-b { fill: #E8EEF4; }
+      .t-r { fill: #EF6B5E; }
+      .t-a { fill: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; }
+      .dn { fill: #EF5350; stroke: #EF5350; }
+      .halt { fill: #2A2820; }
+      .stop { stroke: #EF6B5E; }
+    }
+  </style>
+  <text class="t-b" x="40" y="36">计划止损管连续成交；管不了停牌后的第一跳</text>
+  <rect class="halt" x="300" y="60" width="140" height="200"/>
+  <text class="t-a" x="328" y="160">Halt</text>
+  <text class="t" x="318" y="182">无法成交</text>
+
+  <line class="up wk" x1="80" y1="140" x2="80" y2="200"/><rect class="up" x="74" y="150" width="12" height="40"/>
+  <line class="up wk" x1="120" y1="110" x2="120" y2="170"/><rect class="up" x="114" y="120" width="12" height="40"/>
+  <line class="dn wk" x1="160" y1="120" x2="160" y2="190"/><rect class="dn" x="154" y="135" width="12" height="40"/>
+  <line class="up wk" x1="200" y1="100" x2="200" y2="160"/><rect class="up" x="194" y="110" width="12" height="40"/>
+  <line class="dn wk" x1="240" y1="90" x2="240" y2="175"/><rect class="dn" x="234" y="110" width="12" height="50"/>
+  <line class="dn wk" x1="280" y1="100" x2="280" y2="200"/><rect class="dn" x="274" y="130" width="12" height="55"/>
+
+  <line class="dn wk" x1="470" y1="210" x2="470" y2="280"/><rect class="dn" x="464" y="230" width="12" height="40"/>
+  <line class="dn wk" x1="520" y1="200" x2="520" y2="290"/><rect class="dn" x="514" y="220" width="12" height="55"/>
+  <line class="up wk" x1="570" y1="215" x2="570" y2="270"/><rect class="up" x="564" y="230" width="12" height="30"/>
+
+  <line class="stop" x1="40" y1="210" x2="700" y2="210"/>
+  <text class="t-r" x="620" y="202">计划止损</text>
+  <text class="t t-r" x="460" y="310">恢复价可以远离止损线。这是尾部风险，只能靠仓位限制。</text>
+</svg>

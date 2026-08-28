@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="同一段下跌上的三种反转入场：预判、K线确认、结构确认，价格和命中率反向">
+  <title>三种入场必须分开统计：不能拼最好价格和最高胜率</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .a { fill: #B07D0A; }
+    .b { fill: #3D6A94; }
+    .c { fill: #15803D; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; } .t-g { fill: #35C07B; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .a { fill: #E0A93A; } .b { fill: #7FA9CE; } .c { fill: #35C07B; }
+    }
+  </style>
+  <text class="t-b" x="36" y="24">底部反转同一条路径，三个触发。分开记账，禁止事后挑「早买又等确认」。</text>
+
+  <line class="dn wk" x1="70" y1="50" x2="70" y2="100"/><rect class="dn" x="64" y="62" width="12" height="26"/>
+  <line class="dn wk" x1="120" y1="80" x2="120" y2="140"/><rect class="dn" x="114" y="95" width="12" height="30"/>
+  <line class="dn wk" x1="170" y1="120" x2="170" y2="185"/><rect class="dn" x="164" y="138" width="12" height="32"/>
+  <line class="dn wk" x1="220" y1="165" x2="220" y2="235"/><rect class="dn" x="214" y="185" width="12" height="34"/>
+  <circle class="a" cx="220" cy="228" r="5"/>
+  <text class="t-a" x="236" y="232">A 预判：第 5 / 10 根里逆势</text>
+
+  <line class="up wk" x1="290" y1="175" x2="290" y2="245"/><rect class="up" x="284" y="200" width="12" height="28"/>
+  <circle class="b" cx="290" cy="198" r="5"/>
+  <text class="t" x="306" y="176">B K 线确认：破反转 K 高 / 低</text>
+
+  <line class="dn wk" x1="360" y1="165" x2="360" y2="215"/><rect class="dn" x="354" y="180" width="12" height="22"/>
+  <line class="up wk" x1="430" y1="120" x2="430" y2="200"/><rect class="up" x="424" y="140" width="12" height="42"/>
+  <circle class="c" cx="430" cy="138" r="5"/>
+  <text class="t-g" x="446" y="132">C 结构确认：更高低后再破</text>
+  <line class="up wk" x1="500" y1="85" x2="500" y2="155"/><rect class="up" x="494" y="100" width="12" height="38"/>
+  <line class="up wk" x1="560" y1="55" x2="560" y2="120"/><rect class="up" x="554" y="70" width="12" height="34"/>
+
+  <text class="t-a" x="36" y="280">A 价格最好，失败最多。C 风险清楚，入场更晚。不能把 A 的成交价和 C 的胜率拼成一张成绩单。</text>
+  <text class="t" x="36" y="300">默认半仓先用在你实际选择的那一层，不要三层各开半仓。</text>
+</svg>

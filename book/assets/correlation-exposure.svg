@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" width="760" height="260" role="img" aria-label="三只同板块大盘股同向持仓，指数一跌会一起触发">
+  <title>相关敞口：名义上三笔，风险上可能是一笔</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .c { fill: #EEF3F8; stroke: #3D6A94; }
+    .idx { fill: #F5D0C8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-r { fill: #EF6B5E; }
+      .c { fill: #1C2833; stroke: #7FA9CE; }
+      .idx { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="idx" x="250" y="16" width="260" height="56" rx="8"/>
+  <text class="t-b" x="300" y="50">指数 / 板块冲击</text>
+  <text class="t-b" x="366" y="90">↓</text>
+  <rect class="c" x="20" y="110" width="220" height="70" rx="8"/><text class="t-b" x="70" y="152">股票 A 多单</text>
+  <rect class="c" x="270" y="110" width="220" height="70" rx="8"/><text class="t-b" x="320" y="152">股票 B 多单</text>
+  <rect class="c" x="520" y="110" width="220" height="70" rx="8"/><text class="t-b" x="570" y="152">股票 C 多单</text>
+  <text class="t" x="20" y="210">要记：净敞口、毛敞口、板块集中、beta 调整敞口、事件集中。</text>
+  <text class="t t-r" x="20" y="236">三笔各亏 1R，账户上可能是同一新闻的 3R。日亏损上限按相关后的合计算。</text>
+</svg>

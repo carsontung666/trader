@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="上升趋势线连接抬高的低点，跌破并出现更低高点后才是反转触发；过陡的线会被时间自然跌破">
+  <title>上升支撑跌破：线是描述，接受加更低高点才是触发</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .tl { stroke: #C08A12; stroke-width: 1.8; }
+    .dot { fill: #C08A12; }
+    .steep { stroke: #8A94A0; stroke-width: 1.3; stroke-dasharray: 5 4; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .tl { stroke: #DDA33A; } .dot { fill: #DDA33A; } .steep { stroke: #6E7884; }
+    }
+  </style>
+  <text class="t-b" x="36" y="24">连接抬高的低点。一次穿线可能是噪声。过陡的线（虚线）会被时间自然跌破。</text>
+  <line class="steep" x1="50" y1="250" x2="360" y2="40"/>
+  <line class="tl" x1="50" y1="250" x2="520" y2="120"/>
+  <circle class="dot" cx="100" cy="232" r="4"/>
+  <circle class="dot" cx="230" cy="186" r="4"/>
+  <text class="t-a" x="88" y="252">①</text>
+  <text class="t-a" x="218" y="206">②</text>
+
+  <line class="up wk" x1="100" y1="170" x2="100" y2="235"/><rect class="up" x="94" y="185" width="12" height="38"/>
+  <line class="up wk" x1="165" y1="140" x2="165" y2="205"/><rect class="up" x="159" y="155" width="12" height="38"/>
+  <line class="dn wk" x1="230" y1="145" x2="230" y2="195"/><rect class="dn" x="224" y="158" width="12" height="26"/>
+  <line class="up wk" x1="300" y1="100" x2="300" y2="175"/><rect class="up" x="294" y="115" width="12" height="42"/>
+  <line class="dn wk" x1="370" y1="115" x2="370" y2="175"/><rect class="dn" x="364" y="130" width="12" height="30"/>
+  <text class="t-a" x="348" y="100">更低高点</text>
+  <line class="dn wk" x1="450" y1="130" x2="450" y2="230"/><rect class="dn" x="444" y="160" width="12" height="52"/>
+  <text class="t-r" x="430" y="250">跌破被接受</text>
+  <line class="up wk" x1="520" y1="175" x2="520" y2="230"/><rect class="up" x="514" y="190" width="12" height="26"/>
+  <line class="dn wk" x1="590" y1="190" x2="590" y2="270"/><rect class="dn" x="584" y="210" width="12" height="42"/>
+  <text class="t" x="560" y="288">回抽失败</text>
+
+  <text class="t" x="36" y="300">触发：趋势线跌破被接受，且出现更低高点。失效：跌破前结构高，或重新收回并接受。</text>
+</svg>

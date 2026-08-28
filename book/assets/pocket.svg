@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="口袋是两道重要位置之间相对缺少结构的区间，宽度要先够 1R">
+  <title>口袋是图上描述，不是盘口真空</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .zone { fill: #FFF7E0; }
+    .lv { stroke: #3D6A94; stroke-width: 1.8; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; }
+      .zone { fill: #3A3420; }
+      .lv { stroke: #7FA9CE; }
+      .up { fill: #2FBF71; stroke: #2FBF71; }
+      .dn { fill: #EF5350; stroke: #EF5350; }
+    }
+  </style>
+  <text class="t-b" x="40" y="28">先算口袋宽度 ÷ 止损距离，再决定值不值得进</text>
+  <rect class="zone" x="40" y="90" width="680" height="90"/>
+  <line class="lv" x1="40" y1="90" x2="720" y2="90"/>
+  <line class="lv" x1="40" y1="180" x2="720" y2="180"/>
+  <text class="t" x="600" y="80">上一道阻力</text>
+  <text class="t" x="600" y="204">下一道支撑</text>
+  <text class="t-a" x="320" y="140">口袋 / 相对空档</text>
+
+  <line class="up wk" x1="120" y1="200" x2="120" y2="250"/><rect class="up" x="114" y="215" width="12" height="25"/>
+  <line class="up wk" x1="180" y1="170" x2="180" y2="230"/><rect class="up" x="174" y="185" width="12" height="30"/>
+  <line class="dn wk" x1="240" y1="150" x2="240" y2="195"/><rect class="dn" x="234" y="165" width="12" height="20"/>
+  <line class="up wk" x1="320" y1="110" x2="320" y2="170"/><rect class="up" x="314" y="120" width="12" height="40"/>
+  <line class="up wk" x1="400" y1="70" x2="400" y2="130"/><rect class="up" x="394" y="80" width="12" height="40"/>
+
+  <text class="t" x="40" y="250">途中仍可能长出新流动性。Clear air 描述的是图，不是订单簿真空。</text>
+  <text class="t" x="40" y="276">口袋太窄：方向对也可能不够 1R。口袋很宽：仍按微观失效管理，不要改成「一定走到对面」。</text>
+</svg>

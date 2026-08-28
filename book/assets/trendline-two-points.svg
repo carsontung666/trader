@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="两点可以画上升趋势线，第三次测试才有更多验证；跌破说明线是描述不是墙">
+  <title>趋势线：两点就能画，第三次以后才验证；不要为贴合价格不断重画</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .tl { stroke: #C08A12; stroke-width: 1.8; }
+    .dot { fill: #C08A12; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .tl { stroke: #DDA33A; } .dot { fill: #DDA33A; }
+    }
+  </style>
+  <text class="t-b" x="36" y="28">两点就能画线。换端点，斜率就变。第三次及以后才提供更多验证。</text>
+  <line class="tl" x1="50" y1="240" x2="520" y2="90"/>
+  <circle class="dot" cx="90" cy="227" r="4"/>
+  <circle class="dot" cx="210" cy="189" r="4"/>
+  <text class="t-a" x="70" y="250">①</text>
+  <text class="t-a" x="200" y="212">②</text>
+  <text class="t-a" x="330" y="180">③ 测试</text>
+
+  <line class="up wk" x1="90" y1="170" x2="90" y2="230"/><rect class="up" x="84" y="180" width="12" height="40"/>
+  <line class="up wk" x1="150" y1="140" x2="150" y2="200"/><rect class="up" x="144" y="150" width="12" height="40"/>
+  <line class="dn wk" x1="210" y1="145" x2="210" y2="195"/><rect class="dn" x="204" y="155" width="12" height="30"/>
+  <line class="up wk" x1="270" y1="110" x2="270" y2="175"/><rect class="up" x="264" y="120" width="12" height="40"/>
+  <line class="dn wk" x1="340" y1="120" x2="340" y2="170"/><rect class="dn" x="334" y="130" width="12" height="28"/>
+  <line class="up wk" x1="400" y1="80" x2="400" y2="145"/><rect class="up" x="394" y="90" width="12" height="40"/>
+  <line class="dn wk" x1="480" y1="90" x2="480" y2="200"/><rect class="dn" x="474" y="130" width="12" height="55"/>
+  <line class="dn wk" x1="540" y1="160" x2="540" y2="240"/><rect class="dn" x="534" y="180" width="12" height="45"/>
+  <text class="t-r" x="560" y="200">跌破：线是描述，不是墙</text>
+  <text class="t" x="36" y="276">事先写清：端点时间与价格、是否允许穿影线、触发按触及还是收盘、跌破后怎么退。</text>
+  <text class="t" x="36" y="294">回测时禁止用事后才知道的第三个点去「修正」当时那条线。</text>
+</svg>

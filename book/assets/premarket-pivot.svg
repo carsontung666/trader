@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="盘前pivot是局部反复测试的阻力，不是当天绝对高点；上方空间不够1R就不做">
+  <title>盘前 Pivot：局部阻力，不是绝对高点</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #3D6A94; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .pm { fill: #F4F1E8; }
+    .pv { stroke: #3D6A94; stroke-width: 1.8; }
+    .hod { stroke: #C08A12; stroke-width: 1.4; stroke-dasharray: 4 3; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #7FA9CE; } .t-a { fill: #E0A93A; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .pm { fill: #2A2820; } .pv { stroke: #7FA9CE; } .hod { stroke: #DDA33A; } .stop { stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="pm" x="40" y="50" width="280" height="200"/>
+  <text class="t-a" x="50" y="36">盘前：冲高、回撤、反复测同一局部阻力</text>
+  <line class="up wk" x1="70" y1="90" x2="70" y2="160"/><rect class="up" x="64" y="105" width="12" height="40"/>
+  <line class="dn wk" x1="120" y1="120" x2="120" y2="200"/><rect class="dn" x="114" y="140" width="12" height="45"/>
+  <line class="up wk" x1="170" y1="125" x2="170" y2="190"/><rect class="up" x="164" y="140" width="12" height="35"/>
+  <line class="dn wk" x1="220" y1="130" x2="220" y2="185"/><rect class="dn" x="214" y="145" width="12" height="28"/>
+  <line class="up wk" x1="270" y1="128" x2="270" y2="180"/><rect class="up" x="264" y="142" width="12" height="26"/>
+  <line class="hod" x1="40" y1="90" x2="700" y2="90"/>
+  <text class="t-a" x="500" y="82">盘前绝对高</text>
+  <line class="pv" x1="40" y1="128" x2="700" y2="128"/>
+  <text class="t-b" x="500" y="150">pivot</text>
+  <line class="stop" x1="40" y1="200" x2="430" y2="200"/>
+  <text class="t-r" x="50" y="220">整理低 = 失效</text>
+  <line class="up wk" x1="360" y1="80" x2="360" y2="160"/><rect class="up" x="354" y="95" width="12" height="50"/>
+  <text class="t-g" x="400" y="200">触发：pivot 上方接受</text>
+  <text class="t" x="40" y="280">先看 pivot 到前高还有没有 ≥ 1R。空间不够，突破正确也不值得做。</text>
+</svg>

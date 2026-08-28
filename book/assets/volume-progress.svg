@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="左图放量后价格推进；右图成交很多价格走不动，是吸收不是许可">
+  <title>量要问有没有推进，不是只问柱子高不高</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .volg { fill: #86D4A4; }
+    .volr { fill: #E7A09A; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .volg { fill: #2A6B44; } .volr { fill: #6B3330; }
+    }
+  </style>
+  <text class="t-b t-g" x="40" y="28">放量且推进</text>
+  <line class="up wk" x1="60" y1="160" x2="60" y2="210"/><rect class="up" x="54" y="170" width="12" height="30"/>
+  <line class="up wk" x1="100" y1="130" x2="100" y2="190"/><rect class="up" x="94" y="140" width="12" height="40"/>
+  <line class="up wk" x1="140" y1="90" x2="140" y2="160"/><rect class="up" x="134" y="100" width="12" height="50"/>
+  <line class="up wk" x1="180" y1="60" x2="180" y2="130"/><rect class="up" x="174" y="70" width="12" height="50"/>
+  <rect class="volg" x="54" y="250" width="12" height="20"/>
+  <rect class="volg" x="94" y="240" width="12" height="30"/>
+  <rect class="volg" x="134" y="228" width="12" height="42"/>
+  <rect class="volg" x="174" y="218" width="12" height="52"/>
+  <text class="t" x="40" y="300">柱子变高，价格同步离开原地</text>
+
+  <text class="t-b t-r" x="400" y="28">放量却走不动（吸收 / 分配）</text>
+  <line class="up wk" x1="430" y1="140" x2="430" y2="190"/><rect class="up" x="424" y="150" width="12" height="30"/>
+  <line class="dn wk" x1="470" y1="130" x2="470" y2="195"/><rect class="dn" x="464" y="145" width="12" height="35"/>
+  <line class="up wk" x1="510" y1="125" x2="510" y2="190"/><rect class="up" x="504" y="140" width="12" height="35"/>
+  <line class="dn wk" x1="550" y1="135" x2="550" y2="200"/><rect class="dn" x="544" y="150" width="12" height="35"/>
+  <rect class="volr" x="424" y="230" width="12" height="40"/>
+  <rect class="volr" x="464" y="218" width="12" height="52"/>
+  <rect class="volr" x="504" y="222" width="12" height="48"/>
+  <rect class="volr" x="544" y="214" width="12" height="56"/>
+  <text class="t" x="400" y="300">成交很多，价格停在同一带 = 对面有人接</text>
+  <text class="t" x="40" y="318">绿柱不等于主动买完，红柱不等于主动卖完。颜色通常只是跟着 K 线走。</text>
+</svg>

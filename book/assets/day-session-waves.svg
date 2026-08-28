@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="早盘先涨、回落、再反弹：错过第一段不代表当天没有可交易波段，波动同时放大两边">
+  <title>盘中仍可能有第二段，但波动双向</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-s { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .ax { stroke: #C5CCD3; stroke-width: 1.2; }
+    .path { stroke: #3D6A94; stroke-width: 2.4; fill: none; }
+    .zone { fill: #EEF3F8; stroke: none; }
+    .risk { fill: #FDE8E8; stroke: none; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-s { fill: #A3ADB9; }
+      .ax { stroke: #3A424C; } .path { stroke: #7FA9CE; }
+      .zone { fill: #1C2833; } .risk { fill: #3A2424; }
+    }
+  </style>
+  <text class="t-b" x="24" y="28">同一天可以有多段波动。百分比是机会的上界，不是你能拿到的利润。</text>
+  <rect class="zone" x="48" y="48" width="210" height="170" rx="6"/>
+  <rect class="risk" x="500" y="48" width="232" height="170" rx="6"/>
+  <line class="ax" x1="48" y1="218" x2="732" y2="218"/>
+  <polyline class="path" points="60,190 120,90 180,130 250,70 340,150 430,110 520,180 610,95 700,140"/>
+  <text class="t-s" x="70" y="80">第一段</text>
+  <text class="t-s" x="70" y="98">常被错过</text>
+  <text class="t-s" x="250" y="58">回落后再反弹</text>
+  <text class="t-s" x="250" y="76">仍可能有结构</text>
+  <text class="t-s" x="520" y="78">反向同样快</text>
+  <text class="t-s" x="520" y="96">点差、滑点、部分成交</text>
+  <text class="t-s" x="520" y="114">会再压缩可获得区间</text>
+  <text class="t" x="48" y="250">左：错过开盘第一波，不自动等于「今天没机会」。</text>
+  <text class="t" x="48" y="272">右：没有失效位的大波动，只是更快的亏损通道。买不到最低、卖不到最高是常态。</text>
+</svg>

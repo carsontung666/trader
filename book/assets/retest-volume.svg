@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="左：突破放量、回踩缩量、收回再扩张。右：上去留不住，下来的量大且穿过旧阻力">
+  <title>回踩要看量缩不缩，不是只看跌了多少</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .lvl { stroke: #C08A12; stroke-width: 1.8; }
+    .volg { fill: #86D4A4; }
+    .volr { fill: #E7A09A; }
+    .volr-h { fill: #DC2626; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-g { fill: #35C07B; }
+      .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; }
+      .dn { fill: #EF5350; stroke: #EF5350; }
+      .lvl { stroke: #DDA33A; }
+      .volg { fill: #2A6B44; }
+      .volr { fill: #6B3330; }
+      .volr-h { fill: #EF5350; }
+    }
+  </style>
+  <text class="t-g" x="40" y="28">左边：更像回踩</text>
+  <line class="lvl" x1="40" y1="150" x2="360" y2="150"/>
+  <line class="up wk" x1="70" y1="165" x2="70" y2="215"/><rect class="up" x="64" y="175" width="12" height="30"/>
+  <line class="up wk" x1="110" y1="95" x2="110" y2="180"/><rect class="up" x="104" y="105" width="12" height="60"/>
+  <line class="dn wk" x1="150" y1="115" x2="150" y2="160"/><rect class="dn" x="144" y="125" width="12" height="28"/>
+  <line class="up wk" x1="190" y1="100" x2="190" y2="160"/><rect class="up" x="184" y="115" width="12" height="32"/>
+  <line class="up wk" x1="230" y1="70" x2="230" y2="130"/><rect class="up" x="224" y="80" width="12" height="40"/>
+  <rect class="volg" x="64" y="250" width="12" height="22"/>
+  <rect class="volg" x="104" y="228" width="12" height="44"/>
+  <rect class="volr" x="144" y="258" width="12" height="14"/>
+  <rect class="volg" x="184" y="246" width="12" height="26"/>
+  <rect class="volg" x="224" y="232" width="12" height="40"/>
+  <text class="t" x="40" y="300">突破放量 → 回踩缩量 → 收回再扩张</text>
+  <text class="t" x="40" y="320">低点停在线上，结构还在</text>
+
+  <text class="t-r" x="400" y="28">右边：失败突破，不是 dip</text>
+  <line class="lvl" x1="400" y1="150" x2="720" y2="150"/>
+  <line class="up wk" x1="440" y1="165" x2="440" y2="215"/><rect class="up" x="434" y="175" width="12" height="30"/>
+  <line class="up wk" x1="480" y1="95" x2="480" y2="175"/><rect class="up" x="474" y="110" width="12" height="50"/>
+  <line class="dn wk" x1="520" y1="110" x2="520" y2="230"/><rect class="dn" x="514" y="125" width="12" height="85"/>
+  <line class="dn wk" x1="560" y1="190" x2="560" y2="265"/><rect class="dn" x="554" y="205" width="12" height="45"/>
+  <rect class="volg" x="434" y="250" width="12" height="22"/>
+  <rect class="volg" x="474" y="238" width="12" height="34"/>
+  <rect class="volr-h" x="514" y="218" width="12" height="54"/>
+  <rect class="volr" x="554" y="242" width="12" height="30"/>
+  <text class="t" x="400" y="300">下来的量大于上去的量，并穿过线</text>
+  <text class="t" x="400" y="320">价格在线下被接受 = 突破作废</text>
+</svg>

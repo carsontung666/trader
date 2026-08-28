@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="急跌低吸要等三道门同时开：低点停止、点差恢复、买盘能推回去；最大红K里三道门都关">
+  <title>Flush Dip 三道门：低点停、点差恢复、能推回</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .no { stroke: #C0392B; stroke-width: 2; }
+    .ok { stroke: #15803D; stroke-width: 2; }
+    .box-n { fill: #FDE8E8; stroke: #C0392B; }
+    .box-y { fill: #E7F6EC; stroke: #15803D; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; } .t-g { fill: #35C07B; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .no { stroke: #EF6B5E; } .ok { stroke: #35C07B; }
+      .box-n { fill: #3A2424; stroke: #EF6B5E; }
+      .box-y { fill: #1C3326; stroke: #35C07B; }
+    }
+  </style>
+  <text class="t-b" x="24" y="28">三道门同时开，才谈仓位。缺一门，默认仍是 0。</text>
+
+  <rect class="box-n" x="16" y="44" width="352" height="236" rx="8"/>
+  <text class="t-r" x="36" y="70">最大红 K 尚未走完</text>
+  <line class="up wk" x1="56" y1="96" x2="56" y2="136"/><rect class="up" x="50" y="104" width="12" height="24"/>
+  <line class="up wk" x1="96" y1="82" x2="96" y2="128"/><rect class="up" x="90" y="90" width="12" height="28"/>
+  <line class="dn wk" x1="146" y1="100" x2="146" y2="200"/><rect class="dn" x="140" y="118" width="12" height="62"/>
+  <line class="dn wk" x1="196" y1="168" x2="196" y2="252"/><rect class="dn" x="190" y="184" width="12" height="52"/>
+  <line class="no" x1="184" y1="176" x2="216" y2="208"/>
+  <line class="no" x1="216" y1="176" x2="184" y2="208"/>
+  <text class="t" x="36" y="236">低点还在下移</text>
+  <text class="t" x="36" y="256">点差失控 · 盘口跳空</text>
+  <text class="t-r" x="228" y="198">三门都关</text>
+
+  <rect class="box-y" x="392" y="44" width="352" height="236" rx="8"/>
+  <text class="t-g" x="412" y="70">波动开始收敛之后</text>
+  <line class="dn wk" x1="432" y1="96" x2="432" y2="200"/><rect class="dn" x="426" y="114" width="12" height="70"/>
+  <line class="up wk" x1="476" y1="176" x2="476" y2="228"/><rect class="up" x="470" y="192" width="12" height="24"/>
+  <line class="dn wk" x1="516" y1="184" x2="516" y2="224"/><rect class="dn" x="510" y="196" width="12" height="18"/>
+  <line class="up wk" x1="566" y1="140" x2="566" y2="216"/><rect class="up" x="560" y="156" width="12" height="44"/>
+  <line class="ok" x1="548" y1="154" x2="584" y2="154"/>
+  <text class="t" x="412" y="236">1 低点停止下移</text>
+  <text class="t" x="412" y="256">2 点差从失控恢复</text>
+  <text class="t-g" x="580" y="154">3 能推回</text>
+
+  <text class="t-a" x="24" y="308">长红 K 只说明卖压强，不等于已经便宜。坏消息图形也可以长得很像左边。</text>
+  <text class="t" x="24" y="330">「看起来超卖」不是第四道门。没有近端失效，右边也不做。</text>
+</svg>

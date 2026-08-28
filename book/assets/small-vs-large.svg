@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="小盘尾部是停牌和点差，大盘尾部是假突破和磨单；一天只做一类">
+  <title>小盘和大盘原则相同，参数不同</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .box { fill: none; stroke: #D0D5DB; }
+    .a { fill: #FFF7E0; }
+    .b { fill: #EEF3F8; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .box { stroke: #3A424C; } .a { fill: #3A3420; } .b { fill: #1C2833; }
+    }
+  </style>
+  <rect class="a box" x="20" y="24" width="350" height="232" rx="8"/>
+  <text class="t-b" x="40" y="52">小盘动量</text>
+  <text class="t" x="40" y="82">选股：催化 + 异常量 + 低流通</text>
+  <text class="t" x="40" y="108">位置：HOD、前收、盘前高、整数</text>
+  <text class="t" x="40" y="134">速度：几分钟走完一笔</text>
+  <text class="t" x="40" y="160">尾部：Halt、点差爆炸、借不到</text>
+  <text class="t" x="40" y="186">默认：名单更短、开盘仓更小</text>
+  <text class="t" x="40" y="212">点差超阈值立刻放弃</text>
+  <text class="t" x="40" y="238">不要长时间抗单「回归」</text>
+
+  <rect class="b box" x="390" y="24" width="350" height="232" rx="8"/>
+  <text class="t-b" x="410" y="52">大盘日内</text>
+  <text class="t" x="410" y="82">选股：流动性、点差、跟指数</text>
+  <text class="t" x="410" y="108">位置：VWAP、开盘区间、前日高低</text>
+  <text class="t" x="410" y="134">速度：同一 setup 可以磨很久</text>
+  <text class="t" x="410" y="160">尾部：假突破、相关敞口、磨到改止损</text>
+  <text class="t" x="410" y="186">仍按 1R，滑点通常更小</text>
+  <text class="t" x="410" y="212">破位立刻跌回是 trigger trap</text>
+  <text class="t" x="410" y="238">AAPL+MSFT 不是两笔独立风险</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img" aria-label="PMCC 是长期 Deep ITM Call 加短期较高行权价 Short Call，不是真正的 Covered Call">
+  <title>PMCC 与 Covered Call 不是同一张图</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .ax { stroke: #C5CCD3; stroke-width: 1.2; }
+    .box { fill: none; stroke: #D0D5DB; }
+    .bar { fill: #EEF3F8; stroke: #3D6A94; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .ax { stroke: #3A424C; } .box { stroke: #3A424C; } .bar { fill: #1C2833; stroke: #7FA9CE; }
+    }
+  </style>
+  <rect class="box" x="20" y="16" width="720" height="200" rx="8"/>
+  <text class="t-b" x="40" y="44">时间轴：两腿到期日不同</text>
+  <rect class="bar" x="80" y="70" width="620" height="36" rx="6"/>
+  <text class="t-b" x="96" y="94">Long Deep ITM Call（LEAPS，到期更晚）</text>
+  <rect class="bar" x="80" y="128" width="280" height="36" rx="6"/>
+  <text class="t-b" x="96" y="152">Short 较高 Strike Call（近月）</text>
+  <text class="t" x="380" y="152">→ 可再卖下一张</text>
+  <text class="t" x="80" y="190">短腿先到期。不能把 Covered Call 的到期折线公式直接套过来。</text>
+
+  <text class="t-b" x="20" y="244">和真正 Covered Call 的关键差别</text>
+  <text class="t" x="20" y="268">多头腿是期权：有到期、通常负 Theta、常为净 Long Vega，没有股息和投票权。</text>
+  <text class="t t-r" x="20" y="292">Short Call 被提前指派时，账户可能先变成 −100 股。直接行权 Long Call 会丢掉它剩余的外在价值。</text>
+  <text class="t" x="20" y="316">Short Strike 应高于 Long Strike；Long 到期必须始终晚于 Short。</text>
+  <text class="t" x="20" y="340">现金投入少不等于资金效率高。若因此放大张数，账户尾部风险可能高于持股 Covered Call。</text>
+  <text class="t" x="20" y="364">券商通常按 Diagonal Spread 管权限和保证金，不要按「备兑」理解购买力。</text>
+</svg>

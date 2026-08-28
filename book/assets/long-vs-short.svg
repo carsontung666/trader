@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="做多先买后卖，做空先卖后买；做空亏损理论上不封顶">
+  <title>Long 与 Short 的损益方向</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .ax { stroke: #C5CCD3; stroke-width: 1.2; }
+    .up { stroke: #16A34A; stroke-width: 2.4; fill: none; }
+    .dn { stroke: #DC2626; stroke-width: 2.4; fill: none; }
+    .box { fill: none; stroke: #D0D5DB; stroke-width: 1; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-b { fill: #E8EEF4; }
+      .t-g { fill: #35C07B; }
+      .t-r { fill: #EF6B5E; }
+      .ax { stroke: #3A424C; }
+      .up { stroke: #2FBF71; }
+      .dn { stroke: #EF5350; }
+      .box { stroke: #3A424C; }
+    }
+  </style>
+  <rect class="box" x="24" y="24" width="350" height="272" rx="8"/>
+  <text class="t-b t-g" x="44" y="52">Long 做多</text>
+  <text class="t" x="44" y="74">先买后卖。涨了赚钱，跌了亏钱。</text>
+  <line class="ax" x1="60" y1="250" x2="340" y2="250"/>
+  <line class="ax" x1="60" y1="110" x2="60" y2="250"/>
+  <polyline class="up" points="70,230 120,200 170,210 230,150 300,120"/>
+  <text class="t t-g" x="250" y="112">卖出价 − 买入价</text>
+  <text class="t" x="44" y="278">最多亏完买入所用的钱（不计杠杆）。</text>
+
+  <rect class="box" x="386" y="24" width="350" height="272" rx="8"/>
+  <text class="t-b t-r" x="406" y="52">Short 做空</text>
+  <text class="t" x="406" y="74">借入后先卖，再买回归还。跌了赚钱。</text>
+  <line class="ax" x1="422" y1="250" x2="702" y2="250"/>
+  <line class="ax" x1="422" y1="110" x2="422" y2="250"/>
+  <polyline class="dn" points="432,130 490,160 540,150 600,210 670,230"/>
+  <polyline class="up" points="432,130 500,95 580,70" fill="none" stroke-dasharray="5 4"/>
+  <text class="t t-r" x="500" y="64">价格上涨 = 空头亏损放大</text>
+  <text class="t" x="406" y="278">下跌路径才赚钱。上涨没有天花板，且必须先借到股票。</text>
+</svg>

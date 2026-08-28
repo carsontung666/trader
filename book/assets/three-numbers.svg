@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="名义敞口、计划风险、尾部风险三个数字必须分开">
+  <title>三个必须分开的数字</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .box { fill: none; stroke: #D0D5DB; stroke-width: 1.2; }
+    .a { fill: #EEF3F8; }
+    .b { fill: #FFF7E0; }
+    .c { fill: #FDE8E8; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-r { fill: #EF6B5E; }
+      .box { stroke: #3A424C; } .a { fill: #1C2833; } .b { fill: #3A3420; } .c { fill: #3A2424; }
+    }
+  </style>
+  <rect class="a box" x="20" y="28" width="230" height="200" rx="8"/>
+  <text class="t-b" x="40" y="60">1. 名义敞口</text>
+  <text class="t" x="40" y="90">入场价 × 股数</text>
+  <text class="t" x="40" y="118">5.00 × 1,000</text>
+  <text class="t-b" x="40" y="150">= 5,000 美元</text>
+  <text class="t" x="40" y="186">你在市场上的规模</text>
+  <text class="t" x="40" y="208">≠ 能亏多少</text>
+
+  <rect class="b box" x="265" y="28" width="230" height="200" rx="8"/>
+  <text class="t-b" x="285" y="60">2. 计划风险</text>
+  <text class="t" x="285" y="90">止损距离 × 股数</text>
+  <text class="t" x="285" y="118">(5.00−4.80) × 1,000</text>
+  <text class="t-b" x="285" y="150">= 200 美元</text>
+  <text class="t" x="285" y="186">连续成交时</text>
+  <text class="t" x="285" y="208">你打算亏的上限</text>
+
+  <rect class="c box" x="510" y="28" width="230" height="200" rx="8"/>
+  <text class="t-b t-r" x="530" y="60">3. 尾部风险</text>
+  <text class="t" x="530" y="90">跳空 / 停牌</text>
+  <text class="t" x="530" y="118">若直接到 4.50</text>
+  <text class="t-b t-r" x="530" y="150">≈ 500 美元</text>
+  <text class="t" x="530" y="186">计划止损覆盖不了</text>
+  <text class="t" x="530" y="208">只能靠事先砍仓</text>
+</svg>

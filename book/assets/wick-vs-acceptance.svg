@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="左图长上影穿过阻力又收回是试探；右图实体站上才是接受">
+  <title>影线试探 vs 接受成交</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.6; }
+    .lvl { stroke: #C08A12; stroke-width: 2; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-r { fill: #EF6B5E; } .t-g { fill: #35C07B; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .lvl { stroke: #DDA33A; }
+    }
+  </style>
+  <line class="lvl" x1="40" y1="120" x2="350" y2="120"/>
+  <line class="up wk" x1="90" y1="140" x2="90" y2="200"/><rect class="up" x="82" y="150" width="16" height="40"/>
+  <line class="up wk" x1="150" y1="50" x2="150" y2="190"/><rect class="up" x="142" y="125" width="16" height="50"/>
+  <line class="dn wk" x1="210" y1="130" x2="210" y2="210"/><rect class="dn" x="202" y="145" width="16" height="50"/>
+  <text class="t-r" x="40" y="36">不是突破：一根长影线插过去又回来</text>
+  <text class="t" x="40" y="250">未收盘 K 的最高价更不能当已经突破</text>
+
+  <line class="lvl" x1="410" y1="140" x2="720" y2="140"/>
+  <line class="up wk" x1="460" y1="160" x2="460" y2="220"/><rect class="up" x="452" y="170" width="16" height="40"/>
+  <line class="up wk" x1="530" y1="70" x2="530" y2="175"/><rect class="up" x="522" y="85" width="16" height="70"/>
+  <line class="dn wk" x1="600" y1="90" x2="600" y2="155"/><rect class="dn" x="592" y="110" width="16" height="30"/>
+  <line class="up wk" x1="670" y1="50" x2="670" y2="130"/><rect class="up" x="662" y="60" width="16" height="50"/>
+  <text class="t-g" x="410" y="36">才是突破：收盘站上，回落不把线还回去</text>
+  <text class="t" x="410" y="250">这叫接受成交</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="大盘假突破：穿过明显水平后迅速跌回，没有接受">
+  <title>Trigger trap：突破没有接受，价格快速回到原区间</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .lv { stroke: #3D6A94; stroke-width: 1.8; stroke-dasharray: 5 4; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-r { fill: #EF6B5E; } .t-g { fill: #35C07B; }
+      .up { fill: #2FBF71; stroke: #2FBF71; }
+      .dn { fill: #EF5350; stroke: #EF5350; }
+      .lv { stroke: #7FA9CE; }
+    }
+  </style>
+  <text class="t-b" x="40" y="32">可交易事实：没有接受、快速跌回、微观结构被破坏</text>
+  <line class="lv" x1="40" y1="150" x2="720" y2="150"/>
+  <text class="t" x="620" y="142">明显水平</text>
+
+  <line class="up wk" x1="80" y1="170" x2="80" y2="230"/><rect class="up" x="74" y="185" width="12" height="30"/>
+  <line class="dn wk" x1="130" y1="165" x2="130" y2="220"/><rect class="dn" x="124" y="180" width="12" height="28"/>
+  <line class="up wk" x1="180" y1="155" x2="180" y2="210"/><rect class="up" x="174" y="168" width="12" height="30"/>
+  <line class="up wk" x1="230" y1="152" x2="230" y2="200"/><rect class="up" x="224" y="160" width="12" height="28"/>
+  <line class="up wk" x1="300" y1="70" x2="300" y2="155"/><rect class="up" x="294" y="80" width="12" height="60"/>
+  <line class="dn wk" x1="360" y1="90" x2="360" y2="210"/><rect class="dn" x="354" y="150" width="12" height="50"/>
+  <line class="dn wk" x1="420" y1="170" x2="420" y2="250"/><rect class="dn" x="414" y="190" width="12" height="45"/>
+  <line class="up wk" x1="480" y1="185" x2="480" y2="240"/><rect class="up" x="474" y="200" width="12" height="28"/>
+  <line class="dn wk" x1="540" y1="195" x2="540" y2="260"/><rect class="dn" x="534" y="210" width="12" height="35"/>
+
+  <text class="t-r" x="268" y="64">刺穿，没有接受</text>
+  <text class="t-g" x="40" y="280">预防：等收盘或回踩，控制滑点。不要猜「算法猎杀」。</text>
+</svg>

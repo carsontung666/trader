@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="开盘区间必须先规定时长；触发是突破区间高点，失效参考区间低点">
+  <title>Opening Range Breakout：先固定区间长度</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .or { fill: #F4F1E8; }
+    .hi { stroke: #C08A12; stroke-width: 1.8; }
+    .lo { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-a { fill: #E0A93A; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .or { fill: #2A2820; } .hi { stroke: #DDA33A; } .lo { stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="or" x="40" y="50" width="220" height="200"/>
+  <text class="t-a" x="50" y="36">先规定：1 / 5 / 15 分钟，盘前写死</text>
+  <line class="up wk" x1="70" y1="140" x2="70" y2="200"/><rect class="up" x="64" y="155" width="12" height="35"/>
+  <line class="dn wk" x1="110" y1="120" x2="110" y2="210"/><rect class="dn" x="104" y="140" width="12" height="50"/>
+  <line class="up wk" x1="150" y1="110" x2="150" y2="190"/><rect class="up" x="144" y="125" width="12" height="50"/>
+  <line class="dn wk" x1="190" y1="130" x2="190" y2="200"/><rect class="dn" x="184" y="150" width="12" height="35"/>
+  <line class="up wk" x1="230" y1="115" x2="230" y2="175"/><rect class="up" x="224" y="130" width="12" height="35"/>
+  <line class="hi" x1="40" y1="110" x2="700" y2="110"/>
+  <text class="t-a" x="500" y="102">区间高 = 触发线</text>
+  <line class="lo" x1="40" y1="210" x2="430" y2="210"/>
+  <text class="t-r" x="50" y="230">区间低 = 失效候选</text>
+  <line class="up wk" x1="320" y1="70" x2="320" y2="160"/><rect class="up" x="314" y="85" width="12" height="55"/>
+  <line class="up wk" x1="370" y1="50" x2="370" y2="110"/><rect class="up" x="364" y="60" width="12" height="40"/>
+  <text class="t-g" x="300" y="280">穿过并接受，才算 ORB</text>
+  <text class="t" x="40" y="304">区间过宽：止损太远。过窄：开盘噪声反复扫。不能事后换时长。</text>
+</svg>

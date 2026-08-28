@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="左边Level2是可见挂单可以撤；右边Tape是已经成交">
+  <title>Level 2 是意愿，Tape 是事实</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .box { fill: none; stroke: #D0D5DB; }
+    .ask { fill: #FDE8E8; }
+    .bid { fill: #E7F6EC; }
+    .row { fill: #F7F8FA; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .box { stroke: #3A424C; } .ask { fill: #3A2424; } .bid { fill: #1C3326; } .row { fill: #1C2228; }
+    }
+  </style>
+  <text class="t-b" x="40" y="32">Level 2：还没成交的可见报价</text>
+  <rect class="box" x="40" y="46" width="300" height="220" rx="6"/>
+  <rect class="ask" x="48" y="56" width="284" height="28"/>
+  <text class="t-r" x="60" y="76">Ask 10.12 × 1,000</text>
+  <rect class="ask" x="48" y="88" width="284" height="28"/>
+  <text class="t-r" x="60" y="108">Ask 10.05 × 200　← 立刻买打这里</text>
+  <rect class="bid" x="48" y="128" width="284" height="28"/>
+  <text class="t-g" x="60" y="148">Bid 10.00 × 500　← 立刻卖打这里</text>
+  <rect class="bid" x="48" y="160" width="284" height="28"/>
+  <text class="t-g" x="60" y="180">Bid  9.98 × 800</text>
+  <text class="t" x="60" y="220">大单可撤、可拆、可藏。</text>
+  <text class="t" x="60" y="242">墙不是支撑。</text>
+
+  <text class="t-b" x="400" y="32">Time &amp; Sales：已经成交</text>
+  <rect class="box" x="400" y="46" width="320" height="220" rx="6"/>
+  <text class="t-r" x="420" y="80">10:31:02　10.05　200　打在 ask</text>
+  <text class="t-r" x="420" y="108">10:31:03　10.05　100　打在 ask</text>
+  <text class="t" x="420" y="136">10:31:04　10.02　50</text>
+  <text class="t-g" x="420" y="164">10:31:05　10.00　400　打在 bid</text>
+  <text class="t" x="420" y="210">连续打 ask ≠ 价格会继续涨。</text>
+  <text class="t" x="420" y="232">可能撞上隐藏卖单。</text>
+  <text class="t" x="40" y="300">左边回答「现在进出摩擦有多大」。右边回答「刚才真正成交在哪」。都不预言下一步。</text>
+  <text class="t" x="40" y="322">点差突然变宽、档位被吃后不补回：这才是执行上要看的变化。</text>
+</svg>

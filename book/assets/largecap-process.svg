@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" width="760" height="220" role="img" aria-label="大盘学习链：规则、样本、扣费后期望值、回撤、守规、最小实盘">
+  <title>后一阶段需要前一阶段的数据，不是等满周数</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .n { fill: #EEF3F8; stroke: #3D6A94; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .n { fill: #1C2833; stroke: #7FA9CE; }
+    }
+  </style>
+  <rect class="n" x="12" y="24" width="112" height="70" rx="8"/><text class="t-b" x="32" y="54">书面规则</text><text class="t" x="28" y="74">可拒绝、可统计</text>
+  <text class="t-b" x="128" y="62">→</text>
+  <rect class="n" x="148" y="24" width="112" height="70" rx="8"/><text class="t-b" x="164" y="54">100+ 样本</text><text class="t" x="158" y="74">按 setup 打标</text>
+  <text class="t-b" x="264" y="62">→</text>
+  <rect class="n" x="284" y="24" width="128" height="70" rx="8"/><text class="t-b" x="296" y="54">扣费后期望值</text><text class="t" x="300" y="74">含滑点与未成交</text>
+  <text class="t-b" x="416" y="62">→</text>
+  <rect class="n" x="436" y="24" width="128" height="70" rx="8"/><text class="t-b" x="452" y="54">回撤在上限内</text><text class="t" x="456" y="74">守规率够高</text>
+  <text class="t-b" x="568" y="62">→</text>
+  <rect class="n" x="588" y="24" width="160" height="70" rx="8"/><text class="t-b" x="608" y="54">最小实盘仓位</text><text class="t" x="604" y="74">先验成交与情绪</text>
+
+  <text class="t" x="12" y="128">「连续八周」只是观察窗。样本少、只覆盖一种行情，周数再长也不构成门槛。</text>
+  <text class="t" x="12" y="152">Aggressive 必须写成具体倍数，例如 A+ 最多 1.25–1.5 单位，且不得取消日亏损上限。</text>
+  <text class="t" x="12" y="176">同时做多三只科技龙头，不是三笔独立风险。指数或板块一起动时，它们是同一敞口。</text>
+  <text class="t" x="12" y="200">流动性更好，只降低一部分滑点。财报、宏观公布、隔夜跳空仍会越过止损。</text>
+</svg>

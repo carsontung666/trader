@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" role="img" aria-label="Long Straddle 两侧赚钱、中间亏权利金；Short Straddle 中间赚权利金、两侧亏损">
+  <title>Straddle 到期盈亏</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .ax { stroke: #C5CCD3; stroke-width: 1.2; }
+    .pay { stroke: #3D6A94; stroke-width: 2.4; fill: none; }
+    .box { fill: none; stroke: #D0D5DB; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-b { fill: #E8EEF4; }
+      .t-g { fill: #35C07B; }
+      .t-r { fill: #EF6B5E; }
+      .ax { stroke: #3A424C; }
+      .pay { stroke: #7FA9CE; }
+      .box { stroke: #3A424C; }
+    }
+  </style>
+  <rect class="box" x="20" y="16" width="350" height="250" rx="8"/>
+  <text class="t-b" x="40" y="42">到期：Long Straddle</text>
+  <line class="ax" x1="50" y1="150" x2="340" y2="150"/>
+  <line class="ax" x1="195" y1="40" x2="195" y2="250"/>
+  <polyline class="pay" points="50,60 195,210 340,60"/>
+  <text class="t-r" x="150" y="232">最多亏总权利金</text>
+  <text class="t-g" x="48" y="78">大跌赚钱</text>
+  <text class="t-g" x="270" y="78">大涨赚钱</text>
+  <text class="t" x="176" y="268">共同行权价 K</text>
+
+  <rect class="box" x="390" y="16" width="350" height="250" rx="8"/>
+  <text class="t-b" x="410" y="42">到期：Short Straddle</text>
+  <line class="ax" x1="420" y1="150" x2="710" y2="150"/>
+  <line class="ax" x1="565" y1="40" x2="565" y2="250"/>
+  <polyline class="pay" points="420,240 565,90 710,240"/>
+  <text class="t-g" x="508" y="78">最多赚总权利金</text>
+  <text class="t-r" x="428" y="228">下跌有界（到 0）</text>
+  <text class="t-r" x="610" y="228">上涨理论无上限</text>
+  <text class="t" x="546" y="268">共同行权价 K</text>
+
+  <text class="t" x="20" y="310">同一标的、同一到期、同一行权价：买（或卖）一张 Call 加一张 Put。盈亏平衡在 K±总权利金。</text>
+  <text class="t" x="20" y="332">「两侧损失都无限」不准确：下方最多亏到标的归零；上方 Naked Call 才理论无上限。</text>
+  <text class="t" x="20" y="354">到期前不是折线：正/负 Gamma 与 Vega 会让曲线随剩余时间和 IV 变形。</text>
+  <text class="t t-r" x="20" y="382">Short Straddle 不是「无方向」。股价一动，净 Delta 会立刻偏向不利一侧。</text>
+  <text class="t" x="20" y="404">标准乘数常见为 100；调整合约、指数现金结算要先核规格。不要用市价单拆腿。</text>
+</svg>

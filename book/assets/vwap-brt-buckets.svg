@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="三种多头 VWAP 走法分桶：上方回踩 Bounce、第一次收回 Reclaim、先离开再回测 Break-and-retest">
+  <title>Bounce、Reclaim、Break-and-retest 不是同一个胜率</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .c { fill: #F7F8FA; stroke: #D0D5DB; }
+    .vw { fill: none; stroke: #3D6A94; stroke-width: 1.8; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.2; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .c { fill: #1C2228; stroke: #3A424C; }
+      .vw { stroke: #7FA9CE; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+    }
+  </style>
+  <rect class="c" x="16" y="16" width="236" height="268" rx="8"/>
+  <text class="t-b" x="32" y="40">回踩 Bounce</text>
+  <polyline class="vw" points="36,150 80,148 130,146 180,144 232,142"/>
+  <line class="up wk" x1="52" y1="88" x2="52" y2="138"/><rect class="up" x="46" y="98" width="12" height="30"/>
+  <line class="up wk" x1="88" y1="70" x2="88" y2="128"/><rect class="up" x="82" y="80" width="12" height="36"/>
+  <line class="dn wk" x1="124" y1="100" x2="124" y2="158"/><rect class="dn" x="118" y="118" width="12" height="26"/>
+  <line class="up wk" x1="160" y1="92" x2="160" y2="152"/><rect class="up" x="154" y="106" width="12" height="32"/>
+  <line class="up wk" x1="196" y1="64" x2="196" y2="122"/><rect class="up" x="190" y="74" width="12" height="38"/>
+  <text class="t" x="32" y="188">当天已在线上强势</text>
+  <text class="t" x="32" y="210">回撤到线附近弹起</text>
+  <text class="t" x="32" y="232">没有「先换边」这一步</text>
+  <text class="t" x="32" y="258">日志：VWAP_BOUNCE</text>
+
+  <rect class="c" x="262" y="16" width="236" height="268" rx="8"/>
+  <text class="t-b" x="278" y="40">收回 Reclaim / Pop</text>
+  <polyline class="vw" points="282,150 326,148 376,146 426,144 478,142"/>
+  <line class="dn wk" x1="298" y1="158" x2="298" y2="210"/><rect class="dn" x="292" y="170" width="12" height="28"/>
+  <line class="dn wk" x1="334" y1="152" x2="334" y2="208"/><rect class="dn" x="328" y="164" width="12" height="32"/>
+  <line class="up wk" x1="378" y1="108" x2="378" y2="168"/><rect class="up" x="372" y="118" width="12" height="38"/>
+  <line class="up wk" x1="414" y1="88" x2="414" y2="150"/><rect class="up" x="408" y="98" width="12" height="40"/>
+  <line class="up wk" x1="450" y1="70" x2="450" y2="128"/><rect class="up" x="444" y="80" width="12" height="38"/>
+  <text class="t" x="278" y="188">从线下恢复站上</text>
+  <text class="t" x="278" y="210">入场是收回并守住</text>
+  <text class="t" x="278" y="232">不是离开后再回来测</text>
+  <text class="t" x="278" y="258">日志：VWAP_RECLAIM</text>
+
+  <rect class="c" x="508" y="16" width="236" height="268" rx="8"/>
+  <text class="t-b" x="524" y="40">突破后回踩 BRT</text>
+  <polyline class="vw" points="528,168 572,166 622,162 672,158 724,154"/>
+  <line class="dn wk" x1="544" y1="176" x2="544" y2="226"/><rect class="dn" x="538" y="188" width="12" height="26"/>
+  <line class="up wk" x1="580" y1="118" x2="580" y2="176"/><rect class="up" x="574" y="128" width="12" height="36"/>
+  <line class="up wk" x1="616" y1="78" x2="616" y2="148"/><rect class="up" x="610" y="88" width="12" height="48"/>
+  <line class="dn wk" x1="652" y1="96" x2="652" y2="168"/><rect class="dn" x="646" y="122" width="12" height="30"/>
+  <line class="up wk" x1="688" y1="86" x2="688" y2="164"/><rect class="up" x="682" y="108" width="12" height="40"/>
+  <text class="t" x="524" y="188">先破、接受、离开</text>
+  <text class="t" x="524" y="210">再回到线附近测试</text>
+  <text class="t" x="524" y="232">入场在测试守住之后</text>
+  <text class="t" x="524" y="258">日志：VWAP_BRT</text>
+</svg>

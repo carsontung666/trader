@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 980" width="760" height="980" role="img" aria-label="完整牛旗：量能收缩、假突破对照、第一次与第三次回撤必须分开">
+  <title>Bull Flag 全图：量能、假突破、第 1 次 vs 第 3 次回撤</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-bl { fill: #3D6A94; font-weight: 600; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .flag { fill: none; stroke: #8A94A0; stroke-width: 1.2; stroke-dasharray: 4 3; }
+    .stop { stroke: #C0392B; stroke-width: 1.4; stroke-dasharray: 4 3; }
+    .ent { stroke: #15803D; stroke-width: 1.8; }
+    .lvl { stroke: #C08A12; stroke-width: 1.5; }
+    .volg { fill: #86D4A4; }
+    .volr { fill: #E7A09A; }
+    .vols { fill: #B7C0C8; }
+    .panel { fill: none; stroke: #D0D5DB; stroke-width: 1; }
+    .div { stroke: #D0D5DB; stroke-width: 1; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-b { fill: #E8EEF4; }
+      .t-r { fill: #EF6B5E; }
+      .t-g { fill: #35C07B; }
+      .t-a { fill: #E0A93A; }
+      .t-bl { fill: #7FA9CE; }
+      .up { fill: #2FBF71; stroke: #2FBF71; }
+      .dn { fill: #EF5350; stroke: #EF5350; }
+      .flag { stroke: #6E7884; }
+      .stop { stroke: #EF6B5E; }
+      .ent { stroke: #35C07B; }
+      .lvl { stroke: #DDA33A; }
+      .volg { fill: #2A6B44; }
+      .volr { fill: #6B3330; }
+      .vols { fill: #3A424C; }
+      .panel { stroke: #3A424C; }
+      .div { stroke: #3A424C; }
+    }
+  </style>
+
+  <!-- ========== A: anatomy + volume ========== -->
+  <text class="t-b" x="20" y="22">A. 解剖：旗杆扩张 → 旗面收缩 → 突破再扩张</text>
+  <text class="t" x="20" y="40">教学整数。触发在旗面上沿被接受，止损在旗面低点下。不要在旗杆中途追。</text>
+
+  <text class="t-a" x="28" y="62">① Pole 旗杆</text>
+  <line class="up wk" x1="44" y1="168" x2="44" y2="210"/><rect class="up" x="38" y="176" width="12" height="26"/>
+  <line class="up wk" x1="68" y1="142" x2="68" y2="190"/><rect class="up" x="62" y="150" width="12" height="32"/>
+  <line class="up wk" x1="92" y1="112" x2="92" y2="166"/><rect class="up" x="86" y="120" width="12" height="38"/>
+  <line class="up wk" x1="116" y1="86" x2="116" y2="140"/><rect class="up" x="110" y="94" width="12" height="36"/>
+
+  <rect class="flag" x="132" y="82" width="168" height="88"/>
+  <text class="t-bl" x="148" y="76">② Flag 旗面 · 量缩</text>
+  <line class="dn wk" x1="152" y1="96" x2="152" y2="148"/><rect class="dn" x="146" y="104" width="12" height="32"/>
+  <line class="up wk" x1="178" y1="108" x2="178" y2="154"/><rect class="up" x="172" y="116" width="12" height="26"/>
+  <line class="dn wk" x1="204" y1="114" x2="204" y2="158"/><rect class="dn" x="198" y="122" width="12" height="24"/>
+  <line class="up wk" x1="230" y1="104" x2="230" y2="150"/><rect class="up" x="224" y="112" width="12" height="26"/>
+  <line class="dn wk" x1="256" y1="100" x2="256" y2="140"/><rect class="dn" x="250" y="108" width="12" height="22"/>
+
+  <line class="ent" x1="304" y1="90" x2="338" y2="90"/>
+  <text class="t-g" x="344" y="94">③ Trigger 穿过并接受</text>
+  <line class="up wk" x1="324" y1="54" x2="324" y2="138"/><rect class="up" x="318" y="62" width="12" height="60"/>
+  <line class="up wk" x1="352" y1="40" x2="352" y2="88"/><rect class="up" x="346" y="48" width="12" height="30"/>
+  <line class="up wk" x1="380" y1="30" x2="380" y2="70"/><rect class="up" x="374" y="36" width="12" height="24"/>
+
+  <line class="stop" x1="132" y1="176" x2="420" y2="176"/>
+  <text class="t-r" x="426" y="180">Invalidation 旗面低</text>
+
+  <text class="t" x="28" y="198">50% 回撤线（启发式）</text>
+  <line class="lvl" x1="36" y1="148" x2="128" y2="148"/>
+  <text class="t-a" x="70" y="144">半旗杆</text>
+
+  <!-- volume under A -->
+  <text class="t" x="20" y="228">量柱：问扩张/收缩，不问颜色是谁在买</text>
+  <rect class="volg" x="38" y="272" width="12" height="22"/>
+  <rect class="volg" x="62" y="258" width="12" height="36"/>
+  <rect class="volg" x="86" y="246" width="12" height="48"/>
+  <rect class="volg" x="110" y="240" width="12" height="54"/>
+  <rect class="volr" x="146" y="286" width="12" height="18"/>
+  <rect class="vols" x="172" y="290" width="12" height="14"/>
+  <rect class="volr" x="198" y="292" width="12" height="12"/>
+  <rect class="vols" x="224" y="294" width="12" height="10"/>
+  <rect class="volr" x="250" y="296" width="12" height="8"/>
+  <rect class="volg" x="318" y="248" width="12" height="46"/>
+  <rect class="volg" x="346" y="256" width="12" height="38"/>
+  <rect class="volg" x="374" y="264" width="12" height="30"/>
+  <text class="t-g" x="36" y="328">冲动扩张</text>
+  <text class="t-bl" x="168" y="328">旗面收缩</text>
+  <text class="t-g" x="318" y="328">突破再扩张</text>
+  <text class="t-r" x="470" y="248">失败警告</text>
+  <text class="t" x="470" y="266">回撤红量 &gt; 旗杆</text>
+  <text class="t" x="470" y="282">突破量大但不前进</text>
+  <text class="t" x="470" y="298">立刻跌回旗面</text>
+  <text class="t" x="470" y="314">点差突然拉宽</text>
+
+  <line class="div" x1="20" y1="344" x2="740" y2="344"/>
+
+  <!-- ========== B: fake vs accept ========== -->
+  <text class="t-b" x="20" y="368">B. 假突破 Failed break vs 接受 Acceptance</text>
+
+  <text class="t-r" x="28" y="392">不是突破：影线插过旗高又收回</text>
+  <line class="lvl" x1="36" y1="448" x2="250" y2="448"/>
+  <text class="t-a" x="184" y="442">旗面上沿</text>
+  <line class="dn wk" x1="60" y1="456" x2="60" y2="508"/><rect class="dn" x="54" y="464" width="12" height="32"/>
+  <line class="up wk" x1="92" y1="452" x2="92" y2="500"/><rect class="up" x="86" y="460" width="12" height="28"/>
+  <line class="up wk" x1="128" y1="396" x2="128" y2="500"/><rect class="up" x="122" y="452" width="12" height="36"/>
+  <line class="dn wk" x1="164" y1="456" x2="164" y2="530"/><rect class="dn" x="158" y="468" width="12" height="48"/>
+  <line class="dn wk" x1="200" y1="490" x2="200" y2="548"/><rect class="dn" x="194" y="502" width="12" height="34"/>
+  <line class="stop" x1="36" y1="536" x2="250" y2="536"/>
+  <text class="t-r" x="36" y="560">价格回到旗面内 = 触发作废</text>
+  <text class="t" x="36" y="576">按旗面低离场。不自动反手。</text>
+
+  <text class="t-g" x="400" y="392">才是突破：实体站上，回落不还线</text>
+  <line class="lvl" x1="408" y1="448" x2="622" y2="448"/>
+  <text class="t-a" x="556" y="442">旗面上沿</text>
+  <line class="dn wk" x1="432" y1="456" x2="432" y2="508"/><rect class="dn" x="426" y="464" width="12" height="32"/>
+  <line class="up wk" x1="464" y1="452" x2="464" y2="500"/><rect class="up" x="458" y="460" width="12" height="28"/>
+  <line class="up wk" x1="500" y1="400" x2="500" y2="478"/><rect class="up" x="494" y="412" width="12" height="54"/>
+  <line class="dn wk" x1="536" y1="418" x2="536" y2="468"/><rect class="dn" x="530" y="430" width="12" height="26"/>
+  <line class="up wk" x1="572" y1="378" x2="572" y2="446"/><rect class="up" x="566" y="388" width="12" height="46"/>
+  <line class="stop" x1="408" y1="536" x2="622" y2="536"/>
+  <text class="t-g" x="408" y="560">回落守住旧上沿</text>
+  <text class="t" x="408" y="576">未收盘最高价 ≠ 已经突破</text>
+
+  <line class="div" x1="20" y1="596" x2="740" y2="596"/>
+
+  <!-- ========== C: 1st vs 3rd PB ========== -->
+  <text class="t-b" x="20" y="620">C. 第 1 次回撤 vs 第 3 次回撤：形状可以一样，样本不能混</text>
+  <text class="t" x="20" y="638">必须先声明周期和 reset 规则。1 分钟第三次小回撤，5 分钟可能仍是一根扩张 K。</text>
+
+  <text class="t-g" x="28" y="662">第 1 次 PB（同一 5 分钟）</text>
+  <line class="up wk" x1="44" y1="760" x2="44" y2="820"/><rect class="up" x="38" y="772" width="12" height="36"/>
+  <line class="up wk" x1="68" y1="720" x2="68" y2="788"/><rect class="up" x="62" y="732" width="12" height="44"/>
+  <line class="up wk" x1="92" y1="688" x2="92" y2="752"/><rect class="up" x="86" y="698" width="12" height="42"/>
+  <rect class="flag" x="108" y="686" width="92" height="72"/>
+  <line class="dn wk" x1="128" y1="700" x2="128" y2="746"/><rect class="dn" x="122" y="708" width="12" height="26"/>
+  <line class="up wk" x1="154" y1="696" x2="154" y2="742"/><rect class="up" x="148" y="704" width="12" height="26"/>
+  <line class="up wk" x1="220" y1="660" x2="220" y2="724"/><rect class="up" x="214" y="670" width="12" height="42"/>
+  <line class="lvl" x1="36" y1="832" x2="248" y2="832"/>
+  <text class="t-a" x="36" y="848">更近原始动量 / VWAP</text>
+  <text class="t" x="36" y="864">上方口袋还在</text>
+  <text class="t" x="36" y="880">单独记：TF=5m · seq=1</text>
+
+  <text class="t-r" x="400" y="662">第 3 次 PB（同一 5 分钟）</text>
+  <line class="up wk" x1="416" y1="790" x2="416" y2="830"/><rect class="up" x="410" y="798" width="12" height="24"/>
+  <line class="up wk" x1="440" y1="760" x2="440" y2="808"/><rect class="up" x="434" y="768" width="12" height="30"/>
+  <line class="dn wk" x1="464" y1="768" x2="464" y2="804"/><rect class="dn" x="458" y="776" width="12" height="20"/>
+  <line class="up wk" x1="488" y1="732" x2="488" y2="784"/><rect class="up" x="482" y="740" width="12" height="32"/>
+  <line class="dn wk" x1="512" y1="740" x2="512" y2="780"/><rect class="dn" x="506" y="748" width="12" height="22"/>
+  <line class="up wk" x1="536" y1="704" x2="536" y2="756"/><rect class="up" x="530" y="712" width="12" height="32"/>
+  <rect class="flag" x="552" y="688" width="88" height="68"/>
+  <line class="dn wk" x1="572" y1="700" x2="572" y2="746"/><rect class="dn" x="566" y="708" width="12" height="26"/>
+  <line class="up wk" x1="598" y1="696" x2="598" y2="740"/><rect class="up" x="592" y="704" width="12" height="24"/>
+  <line class="up wk" x1="660" y1="668" x2="660" y2="720"/><rect class="up" x="654" y="676" width="12" height="32"/>
+  <line class="lvl" x1="408" y1="668" x2="720" y2="668"/>
+  <text class="t-r" x="668" y="662">日线阻力 / HOD</text>
+  <text class="t" x="400" y="848">离基础支撑更远</text>
+  <text class="t" x="400" y="864">获利盘、套牢盘更厚</text>
+  <text class="t-r" x="400" y="880">单独记：TF=5m · seq=3 · 默认更严</text>
+
+  <text class="t" x="20" y="910">连续成功的前几次会诱使后续追高。最后一段绿不能反过来证明中间每一笔都该做。</text>
+  <text class="t" x="20" y="928">旗面若跌回旗杆大部分区间，延续假设变弱。趋势尚未走出足够空间时的过早回撤（premature pullback），失败更常见。</text>
+  <text class="t" x="20" y="946">同一形状还可以出现在无新闻宽点差股、盘前薄量、高位第 4 次拉升。形状相似 ≠ 同一分布。</text>
+  <text class="t" x="20" y="964">一笔交易只能有一个主风险周期：用 5 分钟旗面低做失效，就不能按 1 分钟很窄距离算仓。</text>
+</svg>

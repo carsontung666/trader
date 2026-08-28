@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="上升趋势是更高高点加更高低点；下降是更低低点加更低高点；横盘高低点近似水平">
+  <title>趋势看摆动点序列，不看单根涨跌</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: none; stroke: #16A34A; stroke-width: 2.2; }
+    .dn { fill: none; stroke: #DC2626; stroke-width: 2.2; }
+    .sd { fill: none; stroke: #8A94A0; stroke-width: 2.2; }
+    .dotg { fill: #16A34A; }
+    .dotr { fill: #DC2626; }
+    .dotn { fill: #8A94A0; }
+    .box { fill: none; stroke: #D0D5DB; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; } .t-a { fill: #E0A93A; }
+      .up { stroke: #2FBF71; } .dn { stroke: #EF5350; } .sd { stroke: #6E7884; }
+      .dotg { fill: #2FBF71; } .dotr { fill: #EF5350; } .dotn { fill: #6E7884; }
+      .box { stroke: #3A424C; }
+    }
+  </style>
+  <rect class="box" x="20" y="20" width="230" height="250" rx="6"/>
+  <text class="t-b t-g" x="32" y="44">Uptrend / Front side</text>
+  <polyline class="up" points="40,230 80,170 110,200 155,120 185,155 230,80"/>
+  <circle class="dotg" cx="80" cy="170" r="3.5"/>
+  <circle class="dotg" cx="110" cy="200" r="3.5"/>
+  <circle class="dotg" cx="155" cy="120" r="3.5"/>
+  <circle class="dotg" cx="185" cy="155" r="3.5"/>
+  <circle class="dotg" cx="230" cy="80" r="3.5"/>
+  <text class="t" x="70" y="162">HH</text>
+  <text class="t" x="116" y="214">HL</text>
+  <text class="t" x="148" y="110">HH</text>
+  <text class="t" x="190" y="170">HL</text>
+  <text class="t" x="32" y="252">HH → HL → HH → HL</text>
+
+  <rect class="box" x="265" y="20" width="230" height="250" rx="6"/>
+  <text class="t-b t-a" x="277" y="44">Consolidation</text>
+  <polyline class="sd" points="285,100 320,200 360,95 400,195 440,105 475,190"/>
+  <circle class="dotn" cx="320" cy="200" r="3.5"/>
+  <circle class="dotn" cx="360" cy="95" r="3.5"/>
+  <circle class="dotn" cx="400" cy="195" r="3.5"/>
+  <circle class="dotn" cx="440" cy="105" r="3.5"/>
+  <text class="t" x="277" y="252">高低点近似水平，波幅可收窄</text>
+
+  <rect class="box" x="510" y="20" width="230" height="250" rx="6"/>
+  <text class="t-b t-r" x="522" y="44">Downtrend / Back side</text>
+  <polyline class="dn" points="530,70 570,140 600,105 640,190 670,155 720,240"/>
+  <circle class="dotr" cx="570" cy="140" r="3.5"/>
+  <circle class="dotr" cx="600" cy="105" r="3.5"/>
+  <circle class="dotr" cx="640" cy="190" r="3.5"/>
+  <circle class="dotr" cx="670" cy="155" r="3.5"/>
+  <circle class="dotr" cx="720" cy="240" r="3.5"/>
+  <text class="t" x="548" y="154">LL</text>
+  <text class="t" x="606" y="96">LH</text>
+  <text class="t" x="630" y="206">LL</text>
+  <text class="t" x="676" y="148">LH</text>
+  <text class="t" x="522" y="252">LL → LH → LL → LH</text>
+
+  <text class="t" x="20" y="298">比较的是摆动点，不是相邻两根 K。标签必须带时间范围：同一只股票可以 1 分钟跌、5 分钟只是回撤。</text>
+</svg>

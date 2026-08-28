@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="SBS 是行权价放在现价上方的 Short Straddle，初始正 Delta，上涨仍有裸 Call">
+  <title>SBS 仍是倒 V，不是持股曲线</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .ax { stroke: #C5CCD3; stroke-width: 1.2; }
+    .pay { stroke: #3D6A94; stroke-width: 2.6; fill: none; }
+    .spot { stroke: #9AA5B1; stroke-width: 1.2; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .ax { stroke: #3A424C; } .pay { stroke: #7FA9CE; } .spot { stroke: #5A6570; }
+    }
+  </style>
+  <text class="t-b" x="40" y="30">到期：同一 K 的 Short Call + Short Put，且 K 放在现价上方</text>
+  <line class="ax" x1="40" y1="170" x2="730" y2="170"/>
+  <line class="spot" x1="220" y1="50" x2="220" y2="250"/>
+  <polyline class="pay" points="40,250 480,70 730,230"/>
+  <text class="t" x="196" y="270">现价 S0</text>
+  <text class="t" x="464" y="270">共同 K</text>
+  <text class="t-g" x="400" y="60">最多赚总 Credit</text>
+  <text class="t-r" x="40" y="236">下跌有界</text>
+  <text class="t-r" x="600" y="210">上涨理论无上限</text>
+  <text class="t t-r" x="40" y="296">「比 Covered Call 风险更低」与这张图冲突：Covered Call 的 Call 有股票覆盖，SBS 的 Call 是 Naked。</text>
+  <text class="t" x="40" y="314">初始净 Delta 为正只说明小幅行情的局部敏感度，不代表尾部更小。</text>
+</svg>

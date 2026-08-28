@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" width="760" height="240" role="img" aria-label="Locate 费按买入的股数计，实际成交股少则每股成本上升">
+  <title>Locate 费按申请股数算，不是按成交股数算</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .n { fill: #EEF3F8; stroke: #3D6A94; }
+    .g { fill: #E7F6EC; stroke: #15803D; }
+    .r { fill: #FDE8E8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-r { fill: #EF6B5E; }
+      .n { fill: #1C2833; stroke: #7FA9CE; }
+      .g { fill: #1C3326; stroke: #35C07B; }
+      .r { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="n" x="20" y="28" width="200" height="112" rx="8"/>
+  <text class="t-b" x="48" y="58">Locate 100 股</text>
+  <text class="t" x="40" y="84">已付总费 $7.65</text>
+  <text class="t" x="40" y="106">费用已经发生</text>
+  <text class="t" x="40" y="126">尚未持仓</text>
+
+  <text class="t-b" x="232" y="86">→</text>
+
+  <rect class="g" x="258" y="28" width="220" height="112" rx="8"/>
+  <text class="t-b" x="286" y="58">全部卖空 100 股</text>
+  <text class="t" x="276" y="84">每股须先赚回 $0.0765</text>
+  <text class="t" x="276" y="106">才覆盖 Locate 费</text>
+  <text class="t" x="276" y="126">还未计佣金和滑点</text>
+
+  <text class="t-b" x="490" y="86">→</text>
+
+  <rect class="r" x="516" y="28" width="224" height="112" rx="8"/>
+  <text class="t-b t-r" x="540" y="58">只用了 50 股</text>
+  <text class="t" x="534" y="84">总费仍是 $7.65</text>
+  <text class="t" x="534" y="106">每股须赚回 $0.153</text>
+  <text class="t" x="534" y="126">门槛几乎翻倍</text>
+
+  <text class="t" x="20" y="172">Locate 报价会变：同一代码几分钟后可能更贵，也可能没有库存。</text>
+  <text class="t" x="20" y="194">借得到不等于仓位许可。股数仍由失效距离和可亏金额反推，不能由 Available 数字决定。</text>
+  <text class="t" x="20" y="216">Credit 是退未用库存，Cover 才是平掉空头。两者不是同一个按钮。</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="R 是入场到失效的距离；目标至少 2R 时，胜率不必过半也能有正期望">
+  <title>计划风险 R 与 2R 目标</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .bar-r { fill: #FDE8E8; }
+    .bar-g { fill: #E7F6EC; }
+    .ent { stroke: #3D6A94; stroke-width: 2; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-b { fill: #E8EEF4; }
+      .t-r { fill: #EF6B5E; }
+      .t-g { fill: #35C07B; }
+      .bar-r { fill: #3A2424; }
+      .bar-g { fill: #1C3326; }
+      .ent { stroke: #7FA9CE; }
+    }
+  </style>
+  <text class="t-b" x="40" y="36">先定失效价，再反推股数。R 是这笔计划里你愿意亏的那一截。</text>
+  <line class="ent" x1="80" y1="180" x2="680" y2="180"/>
+  <text class="t" x="690" y="184">入场</text>
+  <rect class="bar-r" x="200" y="180" width="18" height="70"/>
+  <rect class="bar-g" x="200" y="40" width="18" height="140"/>
+  <text class="t-r" x="230" y="230">1R 止损</text>
+  <text class="t-g" x="230" y="90">2R 第一目标</text>
+  <text class="t" x="40" y="270">错 6 次亏 1R、对 4 次赚 2R：−6 + 8 = +2R。胜率 40% 也可以是正期望。</text>
+  <text class="t" x="40" y="292">前提：止损真的执行，目标真的能成交，成本另计。</text>
+</svg>

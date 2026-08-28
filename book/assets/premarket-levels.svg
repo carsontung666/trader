@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="开盘前画好昨收、盘前高、盘前低、局部pivot、整美元和日线阻力">
+  <title>开盘前必须画好的线</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-b { fill: #3D6A94; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .pm { fill: #F4F1E8; }
+    .pc { stroke: #8A94A0; stroke-width: 1.4; stroke-dasharray: 3 3; }
+    .hod { stroke: #C08A12; stroke-width: 1.8; }
+    .pv { stroke: #3D6A94; stroke-width: 1.6; }
+    .dol { stroke: #6B4E16; stroke-width: 1.4; stroke-dasharray: 6 4; }
+    .lo { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-a { fill: #E0A93A; } .t-b { fill: #7FA9CE; } .t-r { fill: #EF6B5E; } .t-g { fill: #35C07B; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .pm { fill: #2A2820; } .pc { stroke: #6E7884; } .hod { stroke: #DDA33A; }
+      .pv { stroke: #7FA9CE; } .dol { stroke: #C4A35A; } .lo { stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="pm" x="36" y="40" width="250" height="230"/>
+  <text class="t-a" x="44" y="28">盘前：先把线钉死，再谈开盘触发</text>
+  <line class="up wk" x1="70" y1="150" x2="70" y2="210"/><rect class="up" x="64" y="162" width="12" height="34"/>
+  <line class="up wk" x1="110" y1="95" x2="110" y2="170"/><rect class="up" x="104" y="110" width="12" height="48"/>
+  <line class="dn wk" x1="150" y1="120" x2="150" y2="230"/><rect class="dn" x="144" y="150" width="12" height="55"/>
+  <line class="up wk" x1="190" y1="130" x2="190" y2="210"/><rect class="up" x="184" y="148" width="12" height="42"/>
+  <line class="dn wk" x1="230" y1="135" x2="230" y2="200"/><rect class="dn" x="224" y="150" width="12" height="32"/>
+
+  <line class="hod" x1="36" y1="95" x2="720" y2="95"/>
+  <text class="t-a" x="560" y="88">盘前高</text>
+  <line class="dol" x1="36" y1="78" x2="720" y2="78"/>
+  <text class="t" x="560" y="72">日线阻力 / 整美元</text>
+  <line class="pv" x1="36" y1="130" x2="720" y2="130"/>
+  <text class="t-b" x="560" y="148">盘前 pivot</text>
+  <line class="pc" x1="36" y1="210" x2="720" y2="210"/>
+  <text class="t" x="560" y="204">昨收</text>
+  <line class="lo" x1="36" y1="230" x2="430" y2="230"/>
+  <text class="t-r" x="44" y="250">盘前低 = 常见失效候选</text>
+
+  <text class="t-g" x="310" y="300">VWAP 开盘前几分钟样本少，先画，不要当铁支撑。</text>
+  <text class="t" x="36" y="328">线画成区，宽度至少覆盖点差。事后改线，样本作废。</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="扫描器漏斗：催化、相对量、流通盘之后才打开图表，不是买入信号">
+  <title>选股是漏斗，不是信号</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-w { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .f1 { fill: #D6E8F5; stroke: #3D6A94; }
+    .f2 { fill: #C5E4D4; stroke: #15803D; }
+    .f3 { fill: #F8E7B0; stroke: #B07D0A; }
+    .f4 { fill: #F5D0C8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-w { fill: #E8EEF4; }
+      .f1 { fill: #1C2833; stroke: #7FA9CE; }
+      .f2 { fill: #1C3326; stroke: #35C07B; }
+      .f3 { fill: #3A3420; stroke: #E0A93A; }
+      .f4 { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <polygon class="f1" points="80,30 680,30 620,90 140,90"/>
+  <text class="t-b" x="250" y="66">全市场异动 → 扫描器名单</text>
+  <polygon class="f2" points="140,100 620,100 560,160 200,160"/>
+  <text class="t-b" x="270" y="136">有催化、相对量异常</text>
+  <polygon class="f3" points="200,170 560,170 500,230 260,230"/>
+  <text class="t-b" x="285" y="206">流通盘 / 点差 / 停牌风险过关</text>
+  <polygon class="f4" points="260,240 500,240 440,300 320,300"/>
+  <text class="t-b" x="318" y="276">3–5 只观察</text>
+  <text class="t" x="80" y="330">漏斗底不是买入。打开图表之后，还要有形状、位置、触发和失效。</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-label="左：已在 VWAP 上方，量缩回撤后更高低并破微高。右：穿过 VWAP 后在下方被接受，bounce 失效">
+  <title>VWAP Bounce：上方回撤有反应才是触发；线下接受即失效</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-b { fill: #3D6A94; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .vw { fill: none; stroke: #3D6A94; stroke-width: 2.2; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    .trg { stroke: #15803D; stroke-width: 1.5; }
+    .box { fill: #F7F8FA; stroke: #D0D5DB; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .t-a { fill: #E0A93A; } .t-b { fill: #7FA9CE; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .vw { stroke: #7FA9CE; } .stop { stroke: #EF6B5E; } .trg { stroke: #35C07B; }
+      .box { fill: #1C2228; stroke: #3A424C; }
+    }
+  </style>
+  <text class="t-a" x="24" y="26">左边：Bounce。右边：线下被接受，假说结束。碰线本身不是入场。</text>
+
+  <rect class="box" x="16" y="40" width="356" height="250" rx="6"/>
+  <text class="t-g" x="28" y="62">已在上方 · 量缩回撤 · 更高低</text>
+  <polyline class="vw" points="36,230 90,224 150,218 210,214 270,208 352,200"/>
+  <text class="t-b" x="300" y="192">VWAP</text>
+  <line class="up wk" x1="56" y1="150" x2="56" y2="210"/><rect class="up" x="50" y="162" width="12" height="38"/>
+  <line class="up wk" x1="96" y1="108" x2="96" y2="185"/><rect class="up" x="90" y="122" width="12" height="50"/>
+  <line class="dn wk" x1="140" y1="130" x2="140" y2="200"/><rect class="dn" x="134" y="148" width="12" height="38"/>
+  <line class="dn wk" x1="180" y1="165" x2="180" y2="218"/><rect class="dn" x="174" y="178" width="12" height="28"/>
+  <line class="up wk" x1="224" y1="155" x2="224" y2="220"/><rect class="up" x="218" y="168" width="12" height="36"/>
+  <line class="up wk" x1="272" y1="100" x2="272" y2="180"/><rect class="up" x="266" y="112" width="12" height="52"/>
+  <line class="up wk" x1="316" y1="78" x2="316" y2="145"/><rect class="up" x="310" y="90" width="12" height="42"/>
+  <line class="trg" x1="210" y1="155" x2="350" y2="155"/>
+  <line class="stop" x1="160" y1="228" x2="300" y2="228"/>
+  <text class="t" x="28" y="272">触发：区内更高低后破微高。失效在更高低下，不钉在线上。</text>
+
+  <rect class="box" x="388" y="40" width="356" height="250" rx="6"/>
+  <text class="t-r" x="400" y="62">穿过后在下方留下实体 = 失效</text>
+  <polyline class="vw" points="408,210 470,206 530,202 590,198 650,194 728,188"/>
+  <text class="t-b" x="668" y="180">VWAP</text>
+  <line class="up wk" x1="428" y1="145" x2="428" y2="200"/><rect class="up" x="422" y="156" width="12" height="34"/>
+  <line class="up wk" x1="472" y1="108" x2="472" y2="185"/><rect class="up" x="466" y="122" width="12" height="50"/>
+  <line class="dn wk" x1="516" y1="130" x2="516" y2="215"/><rect class="dn" x="510" y="150" width="12" height="48"/>
+  <line class="dn wk" x1="560" y1="175" x2="560" y2="250"/><rect class="dn" x="554" y="198" width="12" height="40"/>
+  <line class="dn wk" x1="608" y1="205" x2="608" y2="280"/><rect class="dn" x="602" y="220" width="12" height="44"/>
+  <line class="dn wk" x1="656" y1="225" x2="656" y2="300"/><rect class="dn" x="650" y="240" width="12" height="42"/>
+  <text class="t-r" x="400" y="272">不要改口成 pop 反向、fade 或「更深回踩」。</text>
+
+  <text class="t" x="24" y="314">VWAP 随成交移动。计划写「当时的 VWAP 一带」，不要钉死早上某一个价。</text>
+  <text class="t" x="24" y="336">第一次触碰失败很常见。开盘样本少时，更不要把第一根下影当支撑。</text>
+</svg>

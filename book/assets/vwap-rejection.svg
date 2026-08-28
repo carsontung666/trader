@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-label="左图：线下弱势、弱反弹、更低高、再向下接受才是 VWAP Rejection。右图：两根收在线上是失效，不是 fade。">
+  <title>VWAP Rejection：弱反弹后必须在线下被接受</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .vw { fill: none; stroke: #3D6A94; stroke-width: 2.1; }
+    .micro { fill: none; stroke: #9AA3AD; stroke-width: 1.2; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; } .t-a { fill: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .vw { stroke: #7FA9CE; } .micro { stroke: #6B7580; }
+    }
+  </style>
+
+  <text class="t-b" x="28" y="22">左边才是本章。右边已经在线上被接受，记失效或另开 pop，不要改口继续空。</text>
+
+  <polyline class="vw" points="24,118 80,120 160,122 240,124 330,126"/>
+  <text class="t" x="292" y="108">VWAP</text>
+  <line class="dn wk" x1="48" y1="150" x2="48" y2="210"/><rect class="dn" x="42" y="168" width="12" height="32"/>
+  <line class="dn wk" x1="82" y1="178" x2="82" y2="248"/><rect class="dn" x="76" y="198" width="12" height="38"/>
+  <text class="t-a" x="28" y="268">1 线下接受</text>
+  <line class="up wk" x1="124" y1="168" x2="124" y2="232"/><rect class="up" x="118" y="188" width="12" height="30"/>
+  <line class="up wk" x1="158" y1="138" x2="158" y2="200"/><rect class="up" x="152" y="154" width="12" height="32"/>
+  <line class="up wk" x1="192" y1="118" x2="192" y2="172"/><rect class="up" x="186" y="136" width="12" height="26"/>
+  <text class="t-a" x="118" y="288">2 弱反弹量缩</text>
+  <line class="dn wk" x1="226" y1="112" x2="226" y2="176"/><rect class="dn" x="220" y="128" width="12" height="32"/>
+  <text class="t-r" x="206" y="100">3 更低高</text>
+  <line class="micro" x1="108" y1="232" x2="280" y2="232"/>
+  <line class="dn wk" x1="268" y1="170" x2="268" y2="250"/><rect class="dn" x="262" y="188" width="12" height="48"/>
+  <text class="t-r" x="236" y="268">4 破微观低并接受</text>
+  <text class="t-g" x="28" y="322">碰线不是入场。触发是拒绝之后的向下接受。</text>
+  <text class="t" x="28" y="342">失效：重新站上 VWAP 并在线上保持你写死的根数。</text>
+
+  <polyline class="vw" points="400,118 470,120 560,122 650,124 732,126"/>
+  <text class="t" x="688" y="108">VWAP</text>
+  <line class="dn wk" x1="428" y1="160" x2="428" y2="220"/><rect class="dn" x="422" y="178" width="12" height="32"/>
+  <line class="dn wk" x1="462" y1="188" x2="462" y2="250"/><rect class="dn" x="456" y="206" width="12" height="32"/>
+  <line class="up wk" x1="504" y1="150" x2="504" y2="230"/><rect class="up" x="498" y="168" width="12" height="42"/>
+  <line class="up wk" x1="548" y1="88" x2="548" y2="170"/><rect class="up" x="542" y="102" width="12" height="52"/>
+  <line class="up wk" x1="592" y1="70" x2="592" y2="140"/><rect class="up" x="586" y="82" width="12" height="42"/>
+  <line class="dn wk" x1="636" y1="86" x2="636" y2="136"/><rect class="dn" x="630" y="100" width="12" height="22"/>
+  <line class="up wk" x1="680" y1="52" x2="680" y2="118"/><rect class="up" x="674" y="64" width="12" height="40"/>
+  <text class="t-r" x="500" y="288">两根实体收在线上 = 接受</text>
+  <text class="t" x="400" y="322">这不是「更深的 fade」。空单按失效走。</text>
+  <text class="t" x="400" y="342">若还要做多，另开 pop / 收回，另算 locate 以外的计划。</text>
+</svg>

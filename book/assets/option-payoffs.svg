@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-label="到期盈亏：买 Call 右边赚钱；买 Put 左边赚钱；亏损上限是已付权利金">
+  <title>Long Call 与 Long Put 的到期盈亏示意</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .ax { stroke: #C5CCD3; stroke-width: 1.2; }
+    .call { stroke: #16A34A; stroke-width: 2.4; fill: none; }
+    .put { stroke: #3D6A94; stroke-width: 2.4; fill: none; }
+    .box { fill: none; stroke: #D0D5DB; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-b { fill: #E8EEF4; }
+      .t-g { fill: #35C07B; }
+      .t-r { fill: #EF6B5E; }
+      .ax { stroke: #3A424C; }
+      .call { stroke: #2FBF71; }
+      .put { stroke: #7FA9CE; }
+      .box { stroke: #3A424C; }
+    }
+  </style>
+  <rect class="box" x="20" y="20" width="350" height="240" rx="8"/>
+  <text class="t-b" x="40" y="48">到期：Long Call</text>
+  <line class="ax" x1="50" y1="150" x2="340" y2="150"/>
+  <line class="ax" x1="160" y1="50" x2="160" y2="240"/>
+  <polyline class="call" points="50,180 160,180 320,70"/>
+  <text class="t" x="40" y="200">最多亏权利金</text>
+  <text class="t-g" x="230" y="90">标的涨过行权价</text>
+  <text class="t" x="148" y="258">行权价</text>
+
+  <rect class="box" x="390" y="20" width="350" height="240" rx="8"/>
+  <text class="t-b" x="410" y="48">到期：Long Put</text>
+  <line class="ax" x1="420" y1="150" x2="710" y2="150"/>
+  <line class="ax" x1="560" y1="50" x2="560" y2="240"/>
+  <polyline class="put" points="430,70 560,180 710,180"/>
+  <text class="t" x="580" y="200">最多亏权利金</text>
+  <text class="t-g" x="430" y="90">标的跌破行权价</text>
+  <text class="t" x="536" y="258">行权价</text>
+
+  <text class="t" x="20" y="300">这是到期瞬间的损益。到期前曲线更圆：时间价值和隐含波动率会让你即使方向对了也亏钱。</text>
+  <text class="t" x="20" y="322">卖方的到期图与买方对称。 Naked Short Call 右边不封顶。Covered Call 仍承担股票跌向零的大部分风险。</text>
+  <text class="t t-r" x="20" y="352">「卖 Call = 看跌」「卖 Put = 看涨」都不严谨。Covered Call 卖方可以仍看涨，只是不认为会大涨。</text>
+  <text class="t" x="20" y="374">标准美股期权常见乘数 100；公司行动后的调整合约可能不是 100。报价 3.90 通常指每股，名义权利金约 390 美元。</text>
+  <text class="t" x="20" y="396">美股/ETF 期权多为美式，到期前可被行权。部分指数期权是欧式、现金结算。</text>
+</svg>

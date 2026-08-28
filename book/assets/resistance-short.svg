@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="碰到阻力不是做空许可；拒绝之后向下接受才是触发">
+  <title>阻力做空：拒绝之后才空，不要猜顶</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .res { fill: #FDE8E8; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; } .t-g { fill: #35C07B; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .res { fill: #3A2424; } .stop { stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="res" x="60" y="48" width="640" height="44"/>
+  <text class="t-a" x="80" y="36">历史阻力区：预先画好，不是碰到就空</text>
+  <line class="up wk" x1="90" y1="200" x2="90" y2="260"/><rect class="up" x="84" y="210" width="12" height="40"/>
+  <line class="up wk" x1="140" y1="150" x2="140" y2="220"/><rect class="up" x="134" y="160" width="12" height="50"/>
+  <line class="up wk" x1="190" y1="90" x2="190" y2="170"/><rect class="up" x="184" y="100" width="12" height="55"/>
+  <line class="dn wk" x1="240" y1="55" x2="240" y2="150"/><rect class="dn" x="234" y="70" width="12" height="55"/>
+  <text class="t" x="220" y="180">上影 = 试探</text>
+  <line class="up wk" x1="290" y1="100" x2="290" y2="165"/><rect class="up" x="284" y="115" width="12" height="35"/>
+  <line class="dn wk" x1="340" y1="90" x2="340" y2="200"/><rect class="dn" x="334" y="120" width="12" height="60"/>
+  <text class="t-r" x="360" y="160">触发：向下被接受</text>
+  <line class="dn wk" x1="430" y1="160" x2="430" y2="250"/><rect class="dn" x="424" y="180" width="12" height="50"/>
+  <line class="dn wk" x1="480" y1="200" x2="480" y2="280"/><rect class="dn" x="474" y="215" width="12" height="50"/>
+  <line class="stop" x1="220" y1="70" x2="620" y2="70"/>
+  <text class="t-r" x="630" y="74">止损：拒绝高点上</text>
+  <text class="t" x="60" y="310">强趋势可以连着吃掉好几层「看起来很硬」的阻力。新高中途因为涨太多而空，不是策略。</text>
+</svg>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="760" height="460" role="img" aria-label="ABCD 计量延续：A到B冲动，B到C回撤且C在A上方，C后穿过B才触发，失效在C低点，D是等距计量不是承诺。对照旗形：旗面短浅，触发在旗面上沿。">
+  <title>ABCD：穿过 B 才触发；失效在 C；D 是计量</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-s { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #3D6A94; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .b { stroke: #C08A12; stroke-width: 1.8; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 4; }
+    .path { fill: none; stroke: #3D6A94; stroke-width: 1.5; stroke-dasharray: 5 4; }
+    .meas { fill: none; stroke: #15803D; stroke-width: 1.4; stroke-dasharray: 3 3; }
+    .zone { fill: #F4E8C8; opacity: 0.45; }
+    .volg { fill: #86D4A4; }
+    .volr { fill: #E7A09A; }
+    .box { fill: none; stroke: #D0D5DB; stroke-width: 1; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-s { fill: #A3ADB9; }
+      .t-b { fill: #7FA9CE; } .t-r { fill: #EF6B5E; }
+      .t-g { fill: #35C07B; } .t-a { fill: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .b { stroke: #DDA33A; } .stop { stroke: #EF6B5E; } .path { stroke: #7FA9CE; }
+      .meas { stroke: #35C07B; } .zone { fill: #3A3420; opacity: 0.55; }
+      .volg { fill: #2A6B44; } .volr { fill: #6B3330; }
+      .box { stroke: #3A424C; }
+    }
+  </style>
+
+  <text class="t-a" x="24" y="24">A→B 冲动。B→C 回撤（C 仍在 A 上）。C 后穿过 B 并被接受，才是触发。D 是计量。</text>
+
+  <!-- wait-for-B zone between B and the break -->
+  <rect class="zone" x="188" y="88" width="248" height="126"/>
+  <text class="t-s" x="248" y="178">此处还不是触发</text>
+
+  <polyline class="path" points="56,268 196,90 352,204 548,88 668,28"/>
+
+  <!-- A-B candles -->
+  <line class="up wk" x1="64" y1="248" x2="64" y2="286"/><rect class="up" x="58" y="258" width="12" height="20"/>
+  <line class="up wk" x1="108" y1="196" x2="108" y2="262"/><rect class="up" x="102" y="210" width="12" height="42"/>
+  <line class="up wk" x1="152" y1="128" x2="152" y2="214"/><rect class="up" x="146" y="142" width="12" height="52"/>
+  <line class="up wk" x1="196" y1="88" x2="196" y2="168"/><rect class="up" x="190" y="100" width="12" height="48"/>
+
+  <!-- B-C pullback -->
+  <line class="dn wk" x1="240" y1="98" x2="240" y2="168"/><rect class="dn" x="234" y="112" width="12" height="40"/>
+  <line class="up wk" x1="280" y1="128" x2="280" y2="186"/><rect class="up" x="274" y="142" width="12" height="28"/>
+  <line class="dn wk" x1="320" y1="150" x2="320" y2="208"/><rect class="dn" x="314" y="162" width="12" height="32"/>
+  <line class="dn wk" x1="352" y1="168" x2="352" y2="222"/><rect class="dn" x="346" y="180" width="12" height="28"/>
+
+  <!-- C-D resume through B -->
+  <line class="up wk" x1="396" y1="148" x2="396" y2="210"/><rect class="up" x="390" y="162" width="12" height="32"/>
+  <line class="up wk" x1="440" y1="108" x2="440" y2="178"/><rect class="up" x="434" y="122" width="12" height="42"/>
+  <line class="up wk" x1="484" y1="72" x2="484" y2="148"/><rect class="up" x="478" y="86" width="12" height="48"/>
+  <line class="up wk" x1="528" y1="48" x2="528" y2="108"/><rect class="up" x="522" y="58" width="12" height="38"/>
+  <line class="up wk" x1="572" y1="32" x2="572" y2="78"/><rect class="up" x="566" y="40" width="12" height="28"/>
+  <line class="up wk" x1="616" y1="22" x2="616" y2="58"/><rect class="up" x="610" y="28" width="12" height="22"/>
+
+  <text class="t-b" x="44" y="304">A</text>
+  <text class="t-a" x="186" y="78">B</text>
+  <text class="t-r" x="340" y="240">C</text>
+  <text class="t-g" x="628" y="20">D？</text>
+
+  <line class="b" x1="178" y1="88" x2="700" y2="88"/>
+  <text class="t-a" x="638" y="80">触发：穿过 B</text>
+  <line class="stop" x1="240" y1="214" x2="620" y2="214"/>
+  <text class="t-r" x="628" y="218">失效：C 低点</text>
+
+  <!-- A floor -->
+  <line class="stop" x1="50" y1="278" x2="160" y2="278" stroke-dasharray="2 3"/>
+  <text class="t-s" x="50" y="294">A 的低点。C 若回到这里，延续假设坏了。</text>
+
+  <!-- measured move brackets -->
+  <line class="meas" x1="28" y1="88" x2="28" y2="278"/>
+  <line class="meas" x1="22" y1="88" x2="34" y2="88"/>
+  <line class="meas" x1="22" y1="278" x2="34" y2="278"/>
+  <text class="t-g" x="8" y="190" transform="rotate(-90 8 190)">A–B 高度</text>
+  <line class="meas" x1="668" y1="28" x2="668" y2="214"/>
+  <line class="meas" x1="662" y1="28" x2="674" y2="28"/>
+  <line class="meas" x1="662" y1="214" x2="674" y2="214"/>
+  <text class="t-g" x="678" y="128">C + |A–B|</text>
+  <text class="t-s" x="678" y="146">纸上的 D</text>
+
+  <!-- volume -->
+  <rect class="volg" x="58" y="328" width="12" height="18"/>
+  <rect class="volg" x="102" y="318" width="12" height="28"/>
+  <rect class="volg" x="146" y="308" width="12" height="38"/>
+  <rect class="volg" x="190" y="300" width="12" height="46"/>
+  <rect class="volr" x="234" y="332" width="12" height="14"/>
+  <rect class="volr" x="274" y="336" width="12" height="10"/>
+  <rect class="volr" x="314" y="334" width="12" height="12"/>
+  <rect class="volr" x="346" y="338" width="12" height="8"/>
+  <rect class="volg" x="390" y="328" width="12" height="18"/>
+  <rect class="volg" x="434" y="318" width="12" height="28"/>
+  <rect class="volg" x="478" y="304" width="12" height="42"/>
+  <rect class="volg" x="522" y="298" width="12" height="48"/>
+  <text class="t-s" x="58" y="362">量能偏好：冲动扩张 → 回撤收缩 → 穿过 B 再扩张。柱高不等于推进。</text>
+
+  <!-- contrast strip -->
+  <rect class="box" x="24" y="376" width="352" height="72" rx="6"/>
+  <rect class="box" x="384" y="376" width="352" height="72" rx="6"/>
+  <text class="t-b" x="36" y="396">对照：旗形</text>
+  <text class="t-s" x="36" y="416">旗面短、浅、量缩。触发在旗面上沿，</text>
+  <text class="t-s" x="36" y="434">可以低于 B。见 5.1。</text>
+  <text class="t-b" x="396" y="396">对照：事后三段</text>
+  <text class="t-s" x="396" y="416">涨完再把任意三个摆动点连成 ABCD，</text>
+  <text class="t-s" x="396" y="434">没有事前锚点，没有统计意义。</text>
+</svg>

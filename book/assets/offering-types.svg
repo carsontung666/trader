@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="IPO、公司发新股、老股东转售、货架注册不是同一个词；钱进谁口袋要读文件">
+  <title>Offering 不是一个动作</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .n { fill: #EEF3F8; stroke: #3D6A94; }
+    .g { fill: #E7F6EC; stroke: #15803D; }
+    .w { fill: #F8E7B0; stroke: #B07D0A; }
+    .r { fill: #FDE8E8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .n { fill: #1C2833; stroke: #7FA9CE; }
+      .g { fill: #1C3326; stroke: #35C07B; }
+      .w { fill: #3A3420; stroke: #E0A93A; }
+      .r { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <text class="t-b" x="24" y="26">看到 offering 先问：谁在卖、多少股、钱进谁口袋、何时可售。</text>
+  <rect class="n" x="16" y="44" width="140" height="120" rx="8"/>
+  <text class="t-b" x="64" y="72">IPO</text>
+  <text class="t" x="28" y="96">第一次向公众</text>
+  <text class="t" x="28" y="114">发行。定价与</text>
+  <text class="t" x="28" y="132">开盘发现波动大</text>
+  <rect class="w" x="168" y="44" width="140" height="120" rx="8"/>
+  <text class="t-b" x="188" y="72">Primary</text>
+  <text class="t" x="180" y="96">公司发新股</text>
+  <text class="t" x="180" y="114">钱进公司</text>
+  <text class="t" x="180" y="132">可能稀释股本</text>
+  <rect class="r" x="320" y="44" width="140" height="120" rx="8"/>
+  <text class="t-b" x="336" y="72">Secondary</text>
+  <text class="t" x="332" y="96">老股东转售</text>
+  <text class="t" x="332" y="114">钱不一定进公司</text>
+  <text class="t" x="332" y="132">仍增加可卖供给</text>
+  <rect class="g" x="472" y="44" width="132" height="120" rx="8"/>
+  <text class="t-b" x="508" y="72">Shelf</text>
+  <text class="t" x="484" y="96">未来发行框架</text>
+  <text class="t" x="484" y="114">≠ 今天已卖完</text>
+  <text class="t" x="484" y="132">不是定时炸弹</text>
+  <rect class="w" x="616" y="44" width="128" height="120" rx="8"/>
+  <text class="t-b" x="648" y="72">ATM /</text>
+  <text class="t-b" x="636" y="90">Warrant</text>
+  <text class="t" x="628" y="114">潜在持续供给</text>
+  <text class="t" x="628" y="132">条款决定压力</text>
+  <text class="t" x="16" y="192">一次交易可以同时含 primary 与 secondary。注册声明、prospectus supplement、定价公告才是原文。</text>
+  <text class="t" x="16" y="214">三步：注册能力 → 具体交易条款公布 → 股份真正进入市场或发生转换，才改变供给。</text>
+  <text class="t" x="16" y="236">「融资必跌」不是规则。折价稀释通常有压力，但融资也可能缓解破产风险。盘中反应看条款、预期差和流动性。</text>
+  <text class="t" x="16" y="258">课程把 S-3 比成「手榴弹已拔销」过于确定。Shelf 是能力，不是时间承诺；隔夜或长持有仍应折价评估。</text>
+  <text class="t" x="16" y="280">还要查旧 shelf、可转债、已注册转售、低执行价认股权证和 ATM 销售协议。</text>
+</svg>

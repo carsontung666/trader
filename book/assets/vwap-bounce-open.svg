@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="开盘 VWAP 样本少、线乱跳、第一次触碰噪声高；午前样本够了以后回踩才更像 Bounce">
+  <title>开盘 VWAP 噪声高，不能当铁支撑</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-b { fill: #3D6A94; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .vw { fill: none; stroke: #3D6A94; stroke-width: 2.2; }
+    .box { fill: #F7F8FA; stroke: #D0D5DB; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .t-a { fill: #E0A93A; } .t-b { fill: #7FA9CE; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .vw { stroke: #7FA9CE; }
+      .box { fill: #1C2228; stroke: #3A424C; }
+    }
+  </style>
+  <text class="t-a" x="24" y="26">同一规则不能默认跨时段有效。开盘的 VWAP 不是铁支撑。</text>
+
+  <rect class="box" x="16" y="40" width="356" height="230" rx="6"/>
+  <text class="t-r" x="28" y="62">开盘：样本少，线在跳，第一次触碰噪声高</text>
+  <polyline class="vw" points="36,150 80,190 120,125 165,200 210,140 255,185 310,155 352,170"/>
+  <line class="up wk" x1="56" y1="90" x2="56" y2="175"/><rect class="up" x="50" y="110" width="12" height="45"/>
+  <line class="dn wk" x1="100" y1="120" x2="100" y2="220"/><rect class="dn" x="94" y="150" width="12" height="52"/>
+  <line class="up wk" x1="150" y1="80" x2="150" y2="195"/><rect class="up" x="144" y="100" width="12" height="70"/>
+  <line class="dn wk" x1="200" y1="130" x2="200" y2="230"/><rect class="dn" x="194" y="165" width="12" height="48"/>
+  <line class="up wk" x1="250" y1="95" x2="250" y2="200"/><rect class="up" x="244" y="125" width="12" height="55"/>
+  <line class="dn wk" x1="300" y1="140" x2="300" y2="215"/><rect class="dn" x="294" y="160" width="12" height="40"/>
+  <text class="t" x="28" y="250">点差大、催化还在定价。第一根下影穿过均价，不是 Bounce。</text>
+
+  <rect class="box" x="388" y="40" width="356" height="230" rx="6"/>
+  <text class="t-g" x="400" y="62">午前以后：线更稳，回撤才有资格叫 Bounce</text>
+  <polyline class="vw" points="408,210 470,204 530,198 590,192 650,188 728,182"/>
+  <text class="t-b" x="668" y="172">VWAP</text>
+  <line class="up wk" x1="428" y1="145" x2="428" y2="205"/><rect class="up" x="422" y="158" width="12" height="36"/>
+  <line class="up wk" x1="476" y1="100" x2="476" y2="180"/><rect class="up" x="470" y="115" width="12" height="52"/>
+  <line class="dn wk" x1="528" y1="125" x2="528" y2="200"/><rect class="dn" x="522" y="145" width="12" height="40"/>
+  <line class="dn wk" x1="572" y1="160" x2="572" y2="205"/><rect class="dn" x="566" y="172" width="12" height="24"/>
+  <line class="up wk" x1="624" y1="130" x2="624" y2="200"/><rect class="up" x="618" y="145" width="12" height="40"/>
+  <line class="up wk" x1="676" y1="85" x2="676" y2="165"/><rect class="up" x="670" y="98" width="12" height="50"/>
+  <text class="t" x="400" y="250">仍要更高低 + 破微高。线稳了也不等于碰线就买。</text>
+
+  <text class="t" x="24" y="296">启发式：开盘后前 N 分钟，只允许带额外结构的回踩（旗面 / 更高低已在），禁止第一次穿越的触线单。</text>
+</svg>

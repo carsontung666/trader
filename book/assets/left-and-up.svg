@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="从最新价向左看，被大K挡住就不要跨进去挑内部小点，再从该K高点向左向上找下一层">
+  <title>Left and up：少画线，优先明显高点</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .lvl { stroke: #3D6A94; stroke-width: 1.6; }
+    .skip { stroke: #C0392B; stroke-width: 1.4; stroke-dasharray: 4 3; }
+    .now { stroke: #B07D0A; stroke-width: 1.5; stroke-dasharray: 3 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .lvl { stroke: #7FA9CE; } .skip { stroke: #EF6B5E; } .now { stroke: #E0A93A; }
+    }
+  </style>
+  <text class="t-b" x="36" y="28">找上方日线阻力：向左看，被挡住就不要跨进那根大 K 里面挑小点</text>
+
+  <line class="up wk" x1="70" y1="70" x2="70" y2="160"/><rect class="up" x="64" y="80" width="12" height="60"/>
+  <line class="dn wk" x1="110" y1="90" x2="110" y2="200"/><rect class="dn" x="104" y="110" width="12" height="70"/>
+  <line class="up wk" x1="190" y1="50" x2="190" y2="220"/><rect class="up" x="178" y="70" width="24" height="130"/>
+  <line class="dn wk" x1="250" y1="160" x2="250" y2="250"/><rect class="dn" x="244" y="180" width="12" height="50"/>
+  <line class="up wk" x1="290" y1="170" x2="290" y2="260"/><rect class="up" x="284" y="185" width="12" height="50"/>
+  <line class="dn wk" x1="330" y1="150" x2="330" y2="230"/><rect class="dn" x="324" y="165" width="12" height="50"/>
+  <line class="up wk" x1="370" y1="140" x2="370" y2="220"/><rect class="up" x="364" y="155" width="12" height="50"/>
+  <line class="up wk" x1="430" y1="155" x2="430" y2="230"/><rect class="up" x="424" y="170" width="12" height="45"/>
+  <line class="dn wk" x1="470" y1="165" x2="470" y2="240"/><rect class="dn" x="464" y="180" width="12" height="40"/>
+  <line class="up wk" x1="520" y1="150" x2="520" y2="220"/><rect class="up" x="514" y="165" width="12" height="40"/>
+
+  <line class="now" x1="500" y1="165" x2="700" y2="165"/>
+  <text class="t-a" x="610" y="158">现在</text>
+
+  <line class="lvl" x1="70" y1="50" x2="700" y2="50"/>
+  <text class="t" x="610" y="44">下一层明显 high</text>
+  <line class="lvl" x1="178" y1="70" x2="700" y2="70"/>
+  <text class="t" x="560" y="88">这根大 K 的 high</text>
+
+  <line class="skip" x1="190" y1="110" x2="190" y2="110"/>
+  <text class="t-r" x="210" y="130">不要在这根内部挑小高点</text>
+
+  <text class="t" x="36" y="292">优点：图上线少，先留看得见的价。缺点：「挡住」「明显」主观；已被突破的旧价仍可能因持仓成本再起反应，不要机械删除。</text>
+  <text class="t" x="36" y="314">过近的线合并成区域。入场前只留最近失效、第一目标、下一重要目标。</text>
+</svg>

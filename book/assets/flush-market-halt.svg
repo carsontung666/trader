@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="下杀中市价买入：计划买在长下影，实际成交更高，随后 halt down，恢复价远离止损">
+  <title>Flush 里的市价单与 halt-down 尾部</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .halt { fill: #F4F1E8; stroke: #C08A12; }
+    .stop { stroke: #C0392B; stroke-width: 1.6; stroke-dasharray: 4 3; }
+    .want { stroke: #3D6A94; stroke-width: 1.6; stroke-dasharray: 3 3; }
+    .fill { stroke: #B07D0A; stroke-width: 1.8; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; } .t-g { fill: #35C07B; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .halt { fill: #2A2820; stroke: #DDA33A; }
+      .stop { stroke: #EF6B5E; }
+      .want { stroke: #7FA9CE; }
+      .fill { stroke: #E0A93A; }
+    }
+  </style>
+  <text class="t-b" x="24" y="26">下杀中打市价：你以为买在长下影，账单上是另一价，下一跳可能是 halt down。</text>
+
+  <line class="up wk" x1="56" y1="70" x2="56" y2="118"/><rect class="up" x="50" y="80" width="12" height="28"/>
+  <line class="up wk" x1="96" y1="56" x2="96" y2="108"/><rect class="up" x="90" y="64" width="12" height="32"/>
+  <line class="dn wk" x1="146" y1="72" x2="146" y2="168"/><rect class="dn" x="140" y="90" width="12" height="58"/>
+  <line class="dn wk" x1="196" y1="140" x2="196" y2="228"/><rect class="dn" x="190" y="156" width="12" height="52"/>
+
+  <line class="want" x1="24" y1="220" x2="300" y2="220"/>
+  <text class="t" x="24" y="212">想买 8.10</text>
+  <line class="fill" x1="24" y1="168" x2="300" y2="168"/>
+  <text class="t-a" x="24" y="160">成交均价 8.21</text>
+  <line class="stop" x1="24" y1="232" x2="720" y2="232"/>
+  <text class="t-r" x="24" y="248">计划止损 8.05</text>
+
+  <rect class="halt" x="310" y="56" width="150" height="200" rx="6"/>
+  <text class="t-a" x="344" y="140">Halt down</text>
+  <text class="t" x="334" y="162">无法成交</text>
+  <text class="t" x="326" y="182">止损出不去</text>
+
+  <line class="dn wk" x1="500" y1="200" x2="500" y2="290"/><rect class="dn" x="494" y="220" width="12" height="48"/>
+  <line class="dn wk" x1="550" y1="210" x2="550" y2="304"/><rect class="dn" x="544" y="228" width="12" height="52"/>
+  <line class="up wk" x1="600" y1="218" x2="600" y2="278"/><rect class="up" x="594" y="236" width="12" height="28"/>
+  <text class="t-r" x="488" y="318">恢复 7.55。计划 1R 和真实亏损不是同一个数。</text>
+
+  <text class="t" x="488" y="70">可成交限价限制最坏买价。</text>
+  <text class="t" x="488" y="90">未成交就放弃，不向下改价追。</text>
+  <text class="t-r" x="488" y="110">挂市价等复牌 ≠ 安全方案。</text>
+</svg>

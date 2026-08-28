@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" width="760" height="260" role="img" aria-label="到期前三选一：平仓、移仓、进入结算；移仓是关旧开新，不是改代码">
+  <title>期货到期：平仓、移仓或结算</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .box { fill: #EEF3F8; stroke: #3D6A94; }
+    .warn { fill: #FFF7E0; stroke: #B07D0A; }
+    .bad { fill: #FDE8E8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .box { fill: #1C2833; stroke: #7FA9CE; }
+      .warn { fill: #3A3420; stroke: #E0A93A; }
+      .bad { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="box" x="20" y="20" width="220" height="150" rx="8"/>
+  <text class="t-b" x="40" y="50">1. 平仓 Offset</text>
+  <text class="t" x="36" y="80">同一月份反向等量</text>
+  <text class="t" x="36" y="104">净仓归零</text>
+  <text class="t" x="36" y="128">旧合约盈亏结算完毕</text>
+  <text class="t" x="36" y="152">无新敞口</text>
+
+  <rect class="warn" x="270" y="20" width="220" height="150" rx="8"/>
+  <text class="t-b" x="290" y="50">2. 移仓 Roll</text>
+  <text class="t" x="286" y="80">平近月 + 开远月</text>
+  <text class="t" x="286" y="104">两份独立合约</text>
+  <text class="t" x="286" y="128">价差、费用各算一次</text>
+  <text class="t" x="286" y="152">入场价不继承</text>
+
+  <rect class="bad" x="520" y="20" width="220" height="150" rx="8"/>
+  <text class="t-b" x="540" y="50">3. 持有进结算</text>
+  <text class="t" x="536" y="80">现金结算或实物交割</text>
+  <text class="t" x="536" y="104">通知日 / 最后交易日</text>
+  <text class="t" x="536" y="128">券商截止往往更早</text>
+  <text class="t" x="536" y="152">多数投机者不该走到这</text>
+
+  <text class="t" x="20" y="200">移仓价差 = 远月价 − 近月价。升水/贴水是真实现金流，不是手续费里的一行。</text>
+  <text class="t" x="20" y="224">连续合约图常做回调，适合看结构，不显示真实移仓盈亏。下单只认具体月份代码。</text>
+  <text class="t" x="20" y="248">先比近远月成交量与未平仓量，再执行；不要机械等到最后一天。</text>
+</svg>

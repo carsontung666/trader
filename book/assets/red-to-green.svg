@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="开盘先跌破昨天收盘，再站回去；触发在收复前收盘，止损在 flush 低点">
+  <title>Red-to-Green：前收盘是位置，不是开关</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .pc { stroke: #C08A12; stroke-width: 2; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 4; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; }
+      .t-a { fill: #E0A93A; }
+      .t-g { fill: #35C07B; }
+      .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; }
+      .dn { fill: #EF5350; stroke: #EF5350; }
+      .pc { stroke: #DDA33A; }
+      .stop { stroke: #EF6B5E; }
+    }
+  </style>
+  <line class="pc" x1="60" y1="140" x2="700" y2="140"/>
+  <text class="t-a" x="60" y="36">前收盘价：昨天就知道，今天开盘前可以画好</text>
+  <text class="t-a" x="610" y="132">前收盘</text>
+  <line class="dn wk" x1="90" y1="150" x2="90" y2="210"/><rect class="dn" x="84" y="160" width="12" height="40"/>
+  <line class="dn wk" x1="130" y1="180" x2="130" y2="270"/><rect class="dn" x="124" y="200" width="12" height="55"/>
+  <line class="up wk" x1="170" y1="200" x2="170" y2="275"/><rect class="up" x="164" y="215" width="12" height="40"/>
+  <line class="up wk" x1="210" y1="160" x2="210" y2="230"/><rect class="up" x="204" y="175" width="12" height="40"/>
+  <line class="up wk" x1="250" y1="110" x2="250" y2="185"/><rect class="up" x="244" y="120" width="12" height="50"/>
+  <line class="up wk" x1="290" y1="80" x2="290" y2="140"/><rect class="up" x="284" y="90" width="12" height="40"/>
+  <line class="up wk" x1="330" y1="55" x2="330" y2="110"/><rect class="up" x="324" y="65" width="12" height="35"/>
+  <line class="stop" x1="110" y1="278" x2="500" y2="278"/>
+  <text class="t-r" x="508" y="282">flush 低点 = 失效</text>
+  <text class="t-g" x="60" y="318">触发：重新站上前收并在上方成交。前收盘本身不是因果开关。</text>
+</svg>

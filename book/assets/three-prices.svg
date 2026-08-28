@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" width="760" height="260" role="img" aria-label="三个价格：屏幕上看到的、允许的最差、账单上的实际成交">
+  <title>三个必须分开记的价格</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .a { fill: #EEF3F8; stroke: #3D6A94; }
+    .b { fill: #FFF7E0; stroke: #C08A12; }
+    .c { fill: #E7F6EC; stroke: #15803D; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .a { fill: #1C2833; stroke: #7FA9CE; }
+      .b { fill: #3A3420; stroke: #DDA33A; }
+      .c { fill: #1C3326; stroke: #35C07B; }
+    }
+  </style>
+  <rect class="a" x="20" y="28" width="220" height="150" rx="8"/>
+  <text class="t-b" x="48" y="62">1 看到的价格</text>
+  <text class="t" x="40" y="92">Last / Bid / Ask</text>
+  <text class="t" x="40" y="114">屏幕上的瞬时报价</text>
+  <text class="t" x="40" y="136">可能已经落后</text>
+  <text class="t" x="40" y="158">复盘时最容易被当成「成交价」</text>
+
+  <rect class="b" x="270" y="28" width="220" height="150" rx="8"/>
+  <text class="t-b" x="292" y="62">2 允许的最差价格</text>
+  <text class="t" x="290" y="92">限价，或你能接受的滑点</text>
+  <text class="t" x="290" y="114">计划里必须先写死</text>
+  <text class="t" x="290" y="136">超过它就应放弃或改单</text>
+  <text class="t" x="290" y="158">市价单等于没有这一栏</text>
+
+  <rect class="c" x="520" y="28" width="220" height="150" rx="8"/>
+  <text class="t-b" x="548" y="62">3 实际成交均价</text>
+  <text class="t" x="540" y="92">账单 / executions 里的数</text>
+  <text class="t" x="540" y="114">可能跨越多档</text>
+  <text class="t" x="540" y="136">还要加佣金与路由费</text>
+  <text class="t" x="540" y="158">绩效只认这一栏</text>
+
+  <text class="t" x="20" y="210">三者经常不一致。只拿「看到的价格」算盈亏，会高估自己的执行。</text>
+  <text class="t" x="20" y="232">买 600 股时，Ask 200 @10.05、下一档 10.12：看到的是 10.05，允许的最差可能是 10.10，实际均价可能已经高于 10.05。</text>
+</svg>

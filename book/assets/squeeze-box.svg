@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="横盘区间方向事先未知，只做上沿被接受的突破；跌回区间即失效">
+  <title>横盘挤压：只做向上被接受，下沿也可以破</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .box { fill: none; stroke: #8A94A0; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; } .t-a { fill: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .box { stroke: #6E7884; }
+    }
+  </style>
+  <rect class="box" x="70" y="110" width="380" height="90"/>
+  <text class="t-a" x="40" y="32">长时间横盘：方向事先未知。图表证明不了里面堆了多少空头。</text>
+  <line class="up wk" x1="90" y1="130" x2="90" y2="185"/><rect class="up" x="84" y="140" width="12" height="30"/>
+  <line class="dn wk" x1="130" y1="125" x2="130" y2="190"/><rect class="dn" x="124" y="135" width="12" height="40"/>
+  <line class="up wk" x1="170" y1="135" x2="170" y2="188"/><rect class="up" x="164" y="145" width="12" height="28"/>
+  <line class="dn wk" x1="210" y1="128" x2="210" y2="185"/><rect class="dn" x="204" y="140" width="12" height="30"/>
+  <line class="up wk" x1="250" y1="138" x2="250" y2="182"/><rect class="up" x="244" y="148" width="12" height="22"/>
+  <line class="dn wk" x1="290" y1="140" x2="290" y2="180"/><rect class="dn" x="284" y="150" width="12" height="18"/>
+  <line class="up wk" x1="330" y1="142" x2="330" y2="178"/><rect class="up" x="324" y="150" width="12" height="16"/>
+  <line class="dn wk" x1="370" y1="145" x2="370" y2="175"/><rect class="dn" x="364" y="152" width="12" height="14"/>
+  <line class="up wk" x1="410" y1="148" x2="410" y2="172"/><rect class="up" x="404" y="154" width="12" height="12"/>
+  <line class="up wk" x1="480" y1="40" x2="480" y2="160"/><rect class="up" x="474" y="50" width="12" height="80"/>
+  <text class="t-g" x="500" y="90">只做：上沿被接受</text>
+  <text class="t-r" x="500" y="230">也可以向下破</text>
+  <text class="t" x="70" y="230">区间越长 ≠ 一定向上</text>
+  <text class="t" x="40" y="280">失效：突破后立刻跌回箱子里。低量横盘里放大仓，破位滑点会很差。</text>
+</svg>

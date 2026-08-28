@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="上升是更高高点与更高低点；下降对称；假突破加大红K是转换预警">
+  <title>趋势是高低点序列，不是单根K线颜色</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .box { fill: none; stroke: #D0D5DB; }
+    .ln { fill: none; stroke-width: 2.2; }
+    .up { stroke: #16A34A; }
+    .dn { stroke: #DC2626; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .box { stroke: #3A424C; } .up { stroke: #2FBF71; } .dn { stroke: #EF5350; }
+    }
+  </style>
+  <rect class="box" x="16" y="16" width="232" height="200" rx="8"/>
+  <text class="t-b t-g" x="32" y="40">Uptrend</text>
+  <text class="t" x="32" y="60">HH → HL → HH</text>
+  <polyline class="ln up" points="40,180 80,120 110,150 150,90 180,120 220,60"/>
+  <text class="t" x="32" y="250">更高的高点 + 更高的低点</text>
+
+  <rect class="box" x="264" y="16" width="232" height="200" rx="8"/>
+  <text class="t-b t-r" x="280" y="40">Downtrend</text>
+  <text class="t" x="280" y="60">LL → LH → LL</text>
+  <polyline class="ln dn" points="288,60 328,120 358,90 398,160 428,130 472,190"/>
+  <text class="t" x="280" y="250">更低的低点 + 更低的高点</text>
+
+  <rect class="box" x="512" y="16" width="232" height="200" rx="8"/>
+  <text class="t-b" x="528" y="40">转换预警</text>
+  <text class="t" x="528" y="60">高量假突破 + 大红K</text>
+  <polyline class="ln up" points="536,150 572,100 600,120 640,70"/>
+  <polyline class="ln dn" points="640,70 668,160 720,180"/>
+  <text class="t-r" x="628" y="96">未站稳</text>
+  <text class="t" x="528" y="250">一根红K是预警，不是完整下降趋势</text>
+</svg>

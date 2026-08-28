@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="左边是相邻时段没有重叠的缺口；右边是历史高点之间几乎没有转折的宽区间，课程称为window">
+  <title>Gap 是相邻时段空隙；Window 是课程观察用语</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .gap { fill: #F4F1E8; }
+    .win { fill: #E8F0F6; }
+    .lvl { stroke: #3D6A94; stroke-width: 1.5; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .gap { fill: #2A2820; } .win { fill: #1E2A33; } .lvl { stroke: #7FA9CE; }
+    }
+  </style>
+  <text class="t-b" x="36" y="28">左：严格 gap。右：课程把历史高点之间的空档叫 window，不是统一术语。</text>
+
+  <text class="t-a" x="40" y="56">相邻交易日的 gap</text>
+  <line class="up wk" x1="70" y1="180" x2="70" y2="260"/><rect class="up" x="62" y="195" width="16" height="50"/>
+  <line class="dn wk" x1="120" y1="170" x2="120" y2="250"/><rect class="dn" x="112" y="185" width="16" height="50"/>
+  <rect class="gap" x="150" y="110" width="70" height="70"/>
+  <text class="t-a" x="160" y="150">无成交</text>
+  <line class="up wk" x1="250" y1="70" x2="250" y2="150"/><rect class="up" x="242" y="80" width="16" height="50"/>
+  <line class="up wk" x1="300" y1="60" x2="300" y2="140"/><rect class="up" x="292" y="75" width="16" height="45"/>
+  <text class="t" x="40" y="290">昨收与今开没有重叠区间</text>
+  <text class="t" x="40" y="310">存在 ≠ 一定回补</text>
+
+  <text class="t-a" x="400" y="56">历史 high 之间的 window</text>
+  <line class="lvl" x1="400" y1="70" x2="720" y2="70"/>
+  <line class="lvl" x1="400" y1="200" x2="720" y2="200"/>
+  <rect class="win" x="430" y="78" width="250" height="114"/>
+  <text class="t" x="470" y="140">中间几乎没有转折</text>
+  <line class="up wk" x1="420" y1="200" x2="420" y2="260"/><rect class="up" x="412" y="215" width="16" height="35"/>
+  <line class="up wk" x1="680" y1="40" x2="680" y2="90"/><rect class="up" x="672" y="48" width="16" height="30"/>
+  <text class="t" x="400" y="290">把 gap / window 当目标前，先量到边界的距离</text>
+  <text class="t" x="400" y="310">和中间是否真的缺少阻力</text>
+</svg>

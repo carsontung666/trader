@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="信息源从 SEC 原文到社交转述逐级变弱，越靠后越要回到原文">
+  <title>信息源层级：越靠后越要回原文</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .a { fill: #D6E8F5; stroke: #3D6A94; }
+    .b { fill: #C5E4D4; stroke: #15803D; }
+    .c { fill: #E7F0D8; stroke: #6B8F3A; }
+    .d { fill: #F8E7B0; stroke: #B07D0A; }
+    .e { fill: #F5D0C8; stroke: #C0392B; }
+    .f { fill: #E8D5E8; stroke: #8B4A8B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .a { fill: #1C2833; stroke: #7FA9CE; }
+      .b { fill: #1C3326; stroke: #35C07B; }
+      .c { fill: #2A3320; stroke: #A3C45A; }
+      .d { fill: #3A3420; stroke: #E0A93A; }
+      .e { fill: #3A2424; stroke: #EF6B5E; }
+      .f { fill: #332033; stroke: #C98BC9; }
+    }
+  </style>
+  <text class="t-b" x="24" y="26">标题里的 positive / strategic / breakthrough 是措辞，不是交易结论。</text>
+  <rect class="a" x="40" y="42" width="680" height="40" rx="6"/><text class="t-b" x="56" y="68">1  SEC EDGAR：10-K / 10-Q / 8-K / S-3 / prospectus / 13D / Form 4</text>
+  <rect class="b" x="60" y="90" width="640" height="36" rx="6"/><text class="t-b" x="76" y="114">2  公司 IR 页面与正式新闻稿</text>
+  <rect class="c" x="80" y="134" width="600" height="36" rx="6"/><text class="t-b" x="96" y="158">3  交易所公告、停复牌、合规通知</text>
+  <rect class="d" x="100" y="178" width="560" height="36" rx="6"/><text class="t-b" x="116" y="202">4  监管机构或政府部门原文</text>
+  <rect class="e" x="120" y="222" width="520" height="36" rx="6"/><text class="t-b" x="136" y="246">5  专业新闻服务（仍要回原文）</text>
+  <rect class="f" x="140" y="266" width="480" height="36" rx="6"/><text class="t-b" x="156" y="290">6  媒体摘要、聊天室、社交转述</text>
+  <text class="t" x="40" y="326">越靠下越需要回到第 1、2 层核对：谁发的、何时发、是新信息还是旧闻重发。</text>
+</svg>

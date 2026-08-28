@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="从 gap 扫描到 A/B/观察名单：扫描器只负责发现，计划写成条件式">
+  <title>扫描器到观察名单的处理顺序</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .n { fill: #EEF3F8; stroke: #3D6A94; }
+    .g { fill: #E7F6EC; stroke: #15803D; }
+    .w { fill: #F8E7B0; stroke: #B07D0A; }
+    .r { fill: #FDE8E8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .n { fill: #1C2833; stroke: #7FA9CE; }
+      .g { fill: #1C3326; stroke: #35C07B; }
+      .w { fill: #3A3420; stroke: #E0A93A; }
+      .r { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <text class="t-b" x="24" y="26">扫描器找的是「值得打开图表的股票」，不是「应该马上买的股票」。</text>
+  <rect class="n" x="20" y="44" width="136" height="70" rx="8"/><text class="t-b" x="42" y="74">1 Gap / 动量</text><text class="t" x="36" y="96">前 5–10 只</text>
+  <text class="t-b" x="160" y="82">→</text>
+  <rect class="n" x="180" y="44" width="136" height="70" rx="8"/><text class="t-b" x="202" y="74">2 核验</text><text class="t" x="190" y="96">代码、新闻、融资</text>
+  <text class="t-b" x="320" y="82">→</text>
+  <rect class="w" x="340" y="44" width="136" height="70" rx="8"/><text class="t-b" x="356" y="74">3 画关键价</text><text class="t" x="348" y="96">盘前高/低、前收</text>
+  <text class="t-b" x="480" y="82">→</text>
+  <rect class="w" x="500" y="44" width="110" height="70" rx="8"/><text class="t-b" x="522" y="74">4 算 R</text><text class="t" x="510" y="96">第一目标前</text>
+  <text class="t-b" x="614" y="82">→</text>
+  <rect class="g" x="634" y="44" width="106" height="70" rx="8"/><text class="t-b" x="650" y="74">5 排序</text><text class="t" x="644" y="96">A / B / 观察</text>
+  <rect class="g" x="20" y="136" width="360" height="88" rx="8"/>
+  <text class="t-b" x="36" y="162">合格：条件式计划</text>
+  <text class="t" x="36" y="184">Above 4.80 with volume → test 5.05</text>
+  <text class="t" x="36" y="204">Below 4.55 → invalid　spread &gt; 0.08 → no trade</text>
+  <rect class="r" x="400" y="136" width="340" height="88" rx="8"/>
+  <text class="t-b" x="416" y="162">不合格：方向故事</text>
+  <text class="t" x="416" y="184">Great company, should go to $10</text>
+  <text class="t" x="416" y="204">Shorts trapped　Everyone is watching</text>
+  <text class="t" x="24" y="250">最终名单可以只有一到三只。错过名单外的大行情是漏斗的设计，不是失败。</text>
+  <text class="t" x="24" y="272">同一股票同时命中多个扫描条件，不等于多份独立证据：字段常常高度相关。</text>
+  <text class="t" x="24" y="294">Alert 之后先打开图和公告，颜色高亮不是下单许可。</text>
+</svg>

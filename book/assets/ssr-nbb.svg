@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="SSR 不是禁止做空：普通空单不能在当前最优买价或更低显示或执行">
+  <title>SSR：必须高于当前 NBB，不是做空禁令</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .ok { fill: #E7F6EC; stroke: #15803D; }
+    .no { fill: #FDE8E8; stroke: #C0392B; }
+    .bid { fill: #EEF3F8; stroke: #3D6A94; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .ok { fill: #1C3326; stroke: #35C07B; }
+      .no { fill: #3A2424; stroke: #EF6B5E; }
+      .bid { fill: #1C2833; stroke: #7FA9CE; }
+    }
+  </style>
+  <text class="t-b" x="24" y="28">触发：上市市场确认常规时段相对前一常规时段收盘至少跌 10%</text>
+
+  <rect class="ok" x="20" y="48" width="230" height="150" rx="8"/>
+  <text class="t-b" x="48" y="80">允许的空单价格</text>
+  <text class="t" x="40" y="110">必须高于当前 NBB</text>
+  <text class="t" x="40" y="132">例如 NBB = 9.50</text>
+  <text class="t" x="40" y="154">空单至少 9.51 才可</text>
+  <text class="t" x="40" y="176">显示或执行</text>
+
+  <rect class="bid" x="265" y="48" width="230" height="150" rx="8"/>
+  <text class="t-b" x="300" y="80">当前最优买价</text>
+  <text class="t" x="292" y="110">National Best Bid</text>
+  <text class="t" x="292" y="132">NBB = 9.50</text>
+  <text class="t" x="292" y="154">立刻卖会打到这里</text>
+  <text class="t" x="292" y="176">普通空单打不到</text>
+
+  <rect class="no" x="510" y="48" width="230" height="150" rx="8"/>
+  <text class="t-b" x="538" y="80">被挡住的区域</text>
+  <text class="t" x="530" y="110">NBB 或更低</text>
+  <text class="t" x="530" y="132">不能显示</text>
+  <text class="t" x="530" y="154">也不能执行</text>
+  <text class="t" x="530" y="176">不等于不能做空</text>
+
+  <text class="t" x="20" y="226">限制持续到当天结束以及下一个交易日；次日再跌 10% 可再触发、再延长一天。</text>
+  <text class="t" x="20" y="248">判定只发生在常规时段；一旦触发，在仍有持续 NBBO 的扩展时段也可以适用。</text>
+  <text class="t" x="20" y="270">SSR 不保证上涨，不制造 squeeze，也不阻止继续下跌。不要自行把订单标成 short exempt。</text>
+</svg>

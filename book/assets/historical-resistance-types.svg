@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-label="四类历史阻力：旧底部跳空、旧底部跌破、小山顶上影区、大突破套牢区">
+  <title>四类 Historical Resistance</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.2; }
+    .zone { fill: #FDE8E8; }
+    .box { fill: none; stroke: #C8D0D8; stroke-width: 1; }
+    .lvl { stroke: #C08A12; stroke-width: 1.5; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .zone { fill: #3A2424; } .box { stroke: #3A4550; } .lvl { stroke: #DDA33A; }
+    }
+  </style>
+
+  <text class="t-b" x="20" y="22">四类都是事前区域。碰到不是空；拒绝之后向下接受才是触发。</text>
+
+  <rect class="box" x="16" y="36" width="360" height="178"/>
+  <text class="t-a" x="28" y="56">1 旧底部跳空</text>
+  <rect class="zone" x="36" y="78" width="320" height="18"/>
+  <line class="lvl" x1="36" y1="87" x2="356" y2="87"/>
+  <line class="up wk" x1="60" y1="70" x2="60" y2="130"/><rect class="up" x="54" y="88" width="12" height="32"/>
+  <line class="dn wk" x1="110" y1="88" x2="110" y2="150"/><rect class="dn" x="104" y="100" width="12" height="38"/>
+  <text class="t" x="128" y="148">跳空离开</text>
+  <line class="dn wk" x1="190" y1="150" x2="190" y2="198"/><rect class="dn" x="184" y="162" width="12" height="28"/>
+  <line class="up wk" x1="250" y1="120" x2="250" y2="190"/><rect class="up" x="244" y="140" width="12" height="40"/>
+  <line class="dn wk" x1="310" y1="78" x2="310" y2="150"/><rect class="dn" x="304" y="92" width="12" height="42"/>
+  <text class="t-r" x="250" y="204">回测旧低</text>
+
+  <rect class="box" x="384" y="36" width="360" height="178"/>
+  <text class="t-a" x="396" y="56">2 旧底部跌破</text>
+  <rect class="zone" x="404" y="88" width="320" height="18"/>
+  <line class="lvl" x1="404" y1="97" x2="724" y2="97"/>
+  <line class="up wk" x1="428" y1="80" x2="428" y2="140"/><rect class="up" x="422" y="98" width="12" height="32"/>
+  <line class="dn wk" x1="478" y1="90" x2="478" y2="170"/><rect class="dn" x="472" y="110" width="12" height="48"/>
+  <text class="t" x="496" y="168">正式跌破</text>
+  <line class="dn wk" x1="558" y1="150" x2="558" y2="200"/><rect class="dn" x="552" y="162" width="12" height="28"/>
+  <line class="up wk" x1="618" y1="110" x2="618" y2="190"/><rect class="up" x="612" y="128" width="12" height="50"/>
+  <line class="dn wk" x1="678" y1="82" x2="678" y2="150"/><rect class="dn" x="672" y="96" width="12" height="40"/>
+  <text class="t-r" x="618" y="204">回测旧支撑</text>
+
+  <rect class="box" x="16" y="226" width="360" height="178"/>
+  <text class="t-a" x="28" y="246">3 小山顶（较弱）</text>
+  <rect class="zone" x="36" y="258" width="320" height="28"/>
+  <line class="up wk" x1="70" y1="252" x2="70" y2="330"/><rect class="up" x="64" y="286" width="12" height="32"/>
+  <line class="dn wk" x1="130" y1="252" x2="130" y2="340"/><rect class="dn" x="124" y="286" width="12" height="40"/>
+  <line class="up wk" x1="200" y1="254" x2="200" y2="348"/><rect class="up" x="194" y="288" width="12" height="48"/>
+  <line class="dn wk" x1="270" y1="256" x2="270" y2="360"/><rect class="dn" x="264" y="290" width="12" height="52"/>
+  <text class="t" x="36" y="380">标上影区：最高价 → 实体顶，不是最高点细线</text>
+
+  <rect class="box" x="384" y="226" width="360" height="178"/>
+  <text class="t-a" x="396" y="246">4 大突破套牢区（较强）</text>
+  <rect class="zone" x="470" y="262" width="90" height="46"/>
+  <line class="up wk" x1="430" y1="280" x2="430" y2="360"/><rect class="up" x="424" y="300" width="12" height="48"/>
+  <line class="up wk" x1="490" y1="258" x2="490" y2="320"/><rect class="up" x="484" y="268" width="12" height="40"/>
+  <line class="up wk" x1="530" y1="260" x2="530" y2="318"/><rect class="up" x="524" y="270" width="12" height="36"/>
+  <line class="dn wk" x1="590" y1="268" x2="590" y2="390"/><rect class="dn" x="584" y="300" width="12" height="70"/>
+  <line class="up wk" x1="670" y1="268" x2="670" y2="340"/><rect class="up" x="664" y="286" width="12" height="40"/>
+  <line class="dn wk" x1="710" y1="262" x2="710" y2="330"/><rect class="dn" x="704" y="276" width="12" height="40"/>
+  <text class="t" x="396" y="380">日线找大日子；分时图标横盘 / flush 前平台</text>
+</svg>

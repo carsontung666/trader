@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" width="760" height="200" role="img" aria-label="学习顺序：概念、静态图、模拟、记录、小资金，不要倒过来">
+  <title>正确的学习顺序</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .n { fill: #EEF3F8; stroke: #3D6A94; }
+    .bad { fill: #FDE8E8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .n { fill: #1C2833; stroke: #7FA9CE; }
+      .bad { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="n" x="16" y="24" width="130" height="64" rx="8"/><text class="t-b" x="36" y="50">概念能讲清</text><text class="t" x="40" y="70">触发和失效</text>
+  <text class="t-b" x="150" y="58">→</text>
+  <rect class="n" x="172" y="24" width="130" height="64" rx="8"/><text class="t-b" x="186" y="50">静态图标出来</text><text class="t" x="198" y="70">线画在哪</text>
+  <text class="t-b" x="306" y="58">→</text>
+  <rect class="n" x="328" y="24" width="130" height="64" rx="8"/><text class="t-b" x="350" y="50">模拟盘按计划</text><text class="t" x="358" y="70">不临时改规则</text>
+  <text class="t-b" x="462" y="58">→</text>
+  <rect class="n" x="484" y="24" width="120" height="64" rx="8"/><text class="t-b" x="512" y="50">分开统计</text><text class="t" x="508" y="70">同一 setup</text>
+  <text class="t-b" x="608" y="58">→</text>
+  <rect class="n" x="630" y="24" width="114" height="64" rx="8"/><text class="t-b" x="648" y="50">极小实盘</text><text class="t" x="644" y="70">再考虑放大</text>
+
+  <rect class="bad" x="16" y="112" width="728" height="64" rx="8"/>
+  <text class="t-b" x="36" y="140">不合理：刷完视频 → 模仿别人下单 → 用盈亏判断自己会不会</text>
+  <text class="t" x="36" y="162">单笔绿不证明策略，模拟盘也不训练真亏钱之后的行为。</text>
+</svg>

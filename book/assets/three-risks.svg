@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="三类风险：波动、敞口、情绪。只控制止损价不够">
+  <title>三类风险：波动、敞口、情绪</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 14px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .box { fill: none; stroke: #D0D5DB; stroke-width: 1.2; }
+    .a { fill: #EEF3F8; }
+    .b { fill: #FFF7E0; }
+    .c { fill: #FDE8E8; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .box { stroke: #3A424C; } .a { fill: #1C2833; } .b { fill: #3A3420; } .c { fill: #3A2424; }
+    }
+  </style>
+  <rect class="a box" x="16" y="24" width="236" height="210" rx="8"/>
+  <text class="t-b" x="36" y="56">波动风险</text>
+  <text class="t" x="36" y="88">新闻 / halt / offering</text>
+  <text class="t" x="36" y="112">点差突然变宽</text>
+  <text class="t" x="36" y="136">路径脱离图形</text>
+  <text class="t" x="36" y="172">对策：按尾部砍仓</text>
+  <text class="t" x="36" y="196">点差失控就放弃</text>
+
+  <rect class="b box" x="262" y="24" width="236" height="210" rx="8"/>
+  <text class="t-b" x="282" y="56">敞口风险</text>
+  <text class="t" x="282" y="88">止损距离 × 股数</text>
+  <text class="t" x="282" y="112">加仓会抬高全仓风险</text>
+  <text class="t" x="282" y="136">相关持仓会叠加</text>
+  <text class="t" x="282" y="172">对策：先放失效位</text>
+  <text class="t" x="282" y="196">再反推股数</text>
+
+  <rect class="c box" x="508" y="24" width="236" height="210" rx="8"/>
+  <text class="t-b" x="528" y="56">情绪风险</text>
+  <text class="t" x="528" y="88">错过就追、亏了摊平</text>
+  <text class="t" x="528" y="112">连点、下移止损</text>
+  <text class="t" x="528" y="136">把日内单改隔夜</text>
+  <text class="t" x="528" y="172">对策：日亏损硬锁</text>
+  <text class="t" x="528" y="196">不靠意志力</text>
+</svg>

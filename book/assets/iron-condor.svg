@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="Iron Condor：中间赚净权利金，两侧最大亏损由翼腿宽度限定">
+  <title>Iron Condor 把 Short Strangle 的尾部截断</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .ax { stroke: #C5CCD3; stroke-width: 1.2; }
+    .pay { stroke: #15803D; stroke-width: 2.6; fill: none; }
+    .dash { stroke: #C0392B; stroke-width: 1.4; stroke-dasharray: 5 3; fill: none; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .ax { stroke: #3A424C; } .pay { stroke: #35C07B; } .dash { stroke: #EF6B5E; }
+    }
+  </style>
+  <text class="t-b" x="40" y="30">到期：Put Credit Spread + Call Credit Spread</text>
+  <line class="ax" x1="40" y1="160" x2="730" y2="160"/>
+  <polyline class="dash" points="40,250 220,80 500,80 730,250"/>
+  <polyline class="pay" points="40,220 140,220 250,90 470,90 580,220 730,220"/>
+  <text class="t" x="128" y="250">Long Put</text>
+  <text class="t" x="230" y="250">Short Put</text>
+  <text class="t" x="448" y="250">Short Call</text>
+  <text class="t" x="560" y="250">Long Call</text>
+  <text class="t-g" x="300" y="76">最多赚净 Credit</text>
+  <text class="t-r" x="40" y="208">最大亏 ≈ 100(W−c)</text>
+  <text class="t" x="40" y="278">虚线是裸 Short Strangle。Defined Risk 仍可能亏满；到期夹在两 Strike 之间仍有指派和 Pin。</text>
+</svg>

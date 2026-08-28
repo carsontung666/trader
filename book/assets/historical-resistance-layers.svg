@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="日线定位哪一天，历史分时找筹码带，今天只观察价格进入该带后的拒绝与向下接受">
+  <title>日线、历史分时、今天三层对照</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.2; }
+    .zone { fill: #FDE8E8; }
+    .box { fill: none; stroke: #C8D0D8; stroke-width: 1; }
+    .lvl { stroke: #C08A12; stroke-width: 1.4; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .zone { fill: #3A2424; } .box { stroke: #3A4550; } .lvl { stroke: #DDA33A; }
+    }
+  </style>
+
+  <text class="t-b" x="20" y="22">三张图缺一不可。只看日线不知道筹码在哪；只看今天不知道这几条线为何存在。</text>
+
+  <rect class="box" x="16" y="36" width="236" height="230"/>
+  <text class="t-a" x="28" y="56">日线：哪一天值得研究</text>
+  <line class="up wk" x1="48" y1="150" x2="48" y2="230"/><rect class="up" x="42" y="170" width="12" height="48"/>
+  <line class="dn wk" x1="78" y1="160" x2="78" y2="240"/><rect class="dn" x="72" y="180" width="12" height="48"/>
+  <line class="up wk" x1="130" y1="70" x2="130" y2="210"/><rect class="up" x="118" y="90" width="24" height="100"/>
+  <text class="t-r" x="108" y="84">高量大日子</text>
+  <line class="dn wk" x1="176" y1="160" x2="176" y2="240"/><rect class="dn" x="170" y="180" width="12" height="48"/>
+  <line class="up wk" x1="216" y1="170" x2="216" y2="246"/><rect class="up" x="210" y="190" width="12" height="42"/>
+  <text class="t" x="28" y="258">不要把整根大 K 当阻力</text>
+
+  <rect class="box" x="262" y="36" width="236" height="230"/>
+  <text class="t-a" x="274" y="56">历史分时：筹码集中带</text>
+  <rect class="zone" x="290" y="88" width="180" height="52"/>
+  <line class="lvl" x1="290" y1="88" x2="470" y2="88"/>
+  <line class="lvl" x1="290" y1="140" x2="470" y2="140"/>
+  <line class="up wk" x1="308" y1="120" x2="308" y2="200"/><rect class="up" x="302" y="140" width="12" height="48"/>
+  <line class="up wk" x1="348" y1="92" x2="348" y2="150"/><rect class="up" x="342" y="100" width="12" height="36"/>
+  <line class="up wk" x1="388" y1="94" x2="388" y2="148"/><rect class="up" x="382" y="102" width="12" height="32"/>
+  <line class="dn wk" x1="438" y1="100" x2="438" y2="230"/><rect class="dn" x="432" y="140" width="12" height="70"/>
+  <text class="t" x="274" y="248">横盘高低 + flush 前平台</text>
+
+  <rect class="box" x="508" y="36" width="236" height="230"/>
+  <text class="t-a" x="520" y="56">今天：拒绝后向下接受</text>
+  <rect class="zone" x="528" y="88" width="196" height="28"/>
+  <line class="up wk" x1="548" y1="140" x2="548" y2="210"/><rect class="up" x="542" y="155" width="12" height="42"/>
+  <line class="up wk" x1="588" y1="80" x2="588" y2="170"/><rect class="up" x="582" y="110" width="12" height="48"/>
+  <text class="t" x="604" y="78">试探</text>
+  <line class="up wk" x1="638" y1="100" x2="638" y2="168"/><rect class="up" x="632" y="118" width="12" height="36"/>
+  <text class="t-r" x="652" y="114">更低高点</text>
+  <line class="dn wk" x1="688" y1="118" x2="688" y2="230"/><rect class="dn" x="682" y="145" width="12" height="62"/>
+  <text class="t-r" x="520" y="258">止损在更低高点之上</text>
+</svg>

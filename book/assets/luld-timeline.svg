@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="LULD：碰到价格带进入 Limit State，约十五秒后可暂停约五分钟；最后十分钟不再恢复连续交易">
+  <title>LULD 时间线与最后十分钟</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .s1 { fill: #EEF3F8; stroke: #3D6A94; }
+    .s2 { fill: #FFF7E0; stroke: #C08A12; }
+    .s3 { fill: #FDE8E8; stroke: #C0392B; }
+    .s4 { fill: #F4F1E8; stroke: #8A7340; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .s1 { fill: #1C2833; stroke: #7FA9CE; }
+      .s2 { fill: #3A3420; stroke: #DDA33A; }
+      .s3 { fill: #3A2424; stroke: #EF6B5E; }
+      .s4 { fill: #2A2820; stroke: #C4A35A; }
+    }
+  </style>
+  <rect class="s1" x="16" y="24" width="170" height="110" rx="8"/>
+  <text class="t-b" x="36" y="52">1 价格带</text>
+  <text class="t" x="28" y="76">约五分钟合格成交</text>
+  <text class="t" x="28" y="96">均价 × 百分比</text>
+  <text class="t" x="28" y="116">常规时段、NMS</text>
+
+  <rect class="s2" x="202" y="24" width="170" height="110" rx="8"/>
+  <text class="t-b" x="218" y="52">2 Limit State</text>
+  <text class="t" x="214" y="76">报价贴到带子</text>
+  <text class="t" x="214" y="96">还不是停牌</text>
+  <text class="t" x="214" y="116">约 15 秒可离开</text>
+
+  <rect class="s3" x="388" y="24" width="170" height="110" rx="8"/>
+  <text class="t-b" x="408" y="52">3 Trading Pause</text>
+  <text class="t" x="400" y="76">约五分钟，可再延</text>
+  <text class="t" x="400" y="96">全市场停止连续交易</text>
+  <text class="t" x="400" y="116">止损单出不去</text>
+
+  <rect class="s4" x="574" y="24" width="170" height="110" rx="8"/>
+  <text class="t-b" x="592" y="52">4 最后 10 分钟</text>
+  <text class="t" x="586" y="76">若仍在暂停</text>
+  <text class="t" x="586" y="96">不再恢复连续交易</text>
+  <text class="t" x="586" y="116">改走收盘程序</text>
+
+  <text class="t-b" x="16" y="168">这不是 A 股每天固定 ±10% 的涨跌停。</text>
+  <text class="t" x="16" y="192">带子随参考价更新。课程里的旧百分比表不要背。以 luldplan.com 为准。</text>
+  <text class="t" x="16" y="216">「五分钟」不是复牌承诺：失衡、拍卖领口、转成监管停牌都会拉长。</text>
+  <text class="t" x="16" y="240">最后 10 分钟仍暂停 ≠ 今天再也没有价格；收盘程序仍可能给出收盘价。</text>
+  <text class="t" x="16" y="264">暂停期间挂市价等恢复，不是安全方案。仓位必须在进去之前按跳空砍过。</text>
+  <text class="t" x="16" y="288">T1 新闻待披露、设备故障、SEC 停牌的恢复方式与 LULD 不一样。</text>
+</svg>

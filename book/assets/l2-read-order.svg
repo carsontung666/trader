@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="Level 2 固定阅读顺序：图表位置、点差、相对大单、变化、成交、价格结果、是否对齐计划">
+  <title>盘口阅读顺序</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .n { fill: #EEF3F8; stroke: #3D6A94; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .n { fill: #1C2833; stroke: #7FA9CE; }
+    }
+  </style>
+  <rect class="n" x="16" y="24" width="100" height="70" rx="6"/>
+  <text class="t-b" x="48" y="52">1 图表</text>
+  <text class="t" x="28" y="74">预先的位置</text>
+
+  <text class="t-b" x="122" y="62">→</text>
+  <rect class="n" x="144" y="24" width="100" height="70" rx="6"/>
+  <text class="t-b" x="168" y="52">2 点差</text>
+  <text class="t" x="154" y="74">进出成本</text>
+
+  <text class="t-b" x="250" y="62">→</text>
+  <rect class="n" x="272" y="24" width="100" height="70" rx="6"/>
+  <text class="t-b" x="288" y="52">3 相对大单</text>
+  <text class="t" x="282" y="74">比流速</text>
+
+  <text class="t-b" x="378" y="62">→</text>
+  <rect class="n" x="400" y="24" width="100" height="70" rx="6"/>
+  <text class="t-b" x="428" y="52">4 变化</text>
+  <text class="t" x="410" y="74">补 / 撤 / 吃</text>
+
+  <text class="t-b" x="506" y="62">→</text>
+  <rect class="n" x="528" y="24" width="100" height="70" rx="6"/>
+  <text class="t-b" x="556" y="52">5 Tape</text>
+  <text class="t" x="538" y="74">是否真成交</text>
+
+  <text class="t-b" x="634" y="62">→</text>
+  <rect class="n" x="656" y="24" width="88" height="70" rx="6"/>
+  <text class="t-b" x="668" y="52">6 结果</text>
+  <text class="t" x="664" y="74">价动了吗</text>
+
+  <rect class="n" x="16" y="118" width="728" height="90" rx="6"/>
+  <text class="t-b" x="36" y="148">7 与计划对齐：支持 / 否定 / 无关</text>
+  <text class="t" x="36" y="174">没有预先画好的触发线和失效位，盘口上永远能找到一个「看起来有意义」的数字。</text>
+  <text class="t" x="36" y="196">Level 2 微调执行；图表定义方向。反过来用，就是在用噪声下单。</text>
+
+  <text class="t" x="16" y="236">相对强度 ≈ 显示股数 ÷ 当前每分钟成交量。3 万股对每分钟 5 万是墙，对每分钟 100 万可能只是一层皮。</text>
+  <text class="t" x="16" y="258">颜色是软件编码，不是买卖意图。连续打 Ask 而价格不走，叫吸收，不叫「主力看多」。</text>
+</svg>

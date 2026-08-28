@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-label="Collar：持股加买 Put 加卖 Call，下方有底、上方封顶">
+  <title>Collar 把一段区间锁住</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .ax { stroke: #C5CCD3; stroke-width: 1.2; }
+    .pay { stroke: #3D6A94; stroke-width: 2.6; fill: none; }
+    .dash { stroke: #9AA5B1; stroke-width: 1.2; stroke-dasharray: 4 3; fill: none; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .ax { stroke: #3A424C; } .pay { stroke: #7FA9CE; } .dash { stroke: #5A6570; }
+    }
+  </style>
+  <text class="t-b" x="40" y="32">到期：100 股 + Long Put（K_P）+ Short Call（K_C）</text>
+  <line class="ax" x1="50" y1="190" x2="720" y2="190"/>
+  <line class="ax" x1="200" y1="50" x2="200" y2="280"/>
+  <polyline class="dash" points="50,250 200,190 720,70"/>
+  <polyline class="pay" points="50,230 280,230 500,90 720,90"/>
+  <text class="t" x="40" y="270">虚线：只持股</text>
+  <text class="t-r" x="56" y="218">跌破 Put 后不再扩大</text>
+  <text class="t" x="262" y="300">K_P</text>
+  <text class="t" x="186" y="300">成本</text>
+  <text class="t" x="486" y="300">K_C</text>
+  <text class="t-g" x="530" y="78">涨过 Call 后不再增加</text>
+  <text class="t" x="40" y="328">「零成本」只指初始净权利金接近零。中间仍有自留跌幅，上方仍有机会成本，Short Call 仍可能提前被指派。</text>
+  <text class="t" x="40" y="350">等距离 OTM 的 Put 与 Call 价格通常不相等（Put Skew）。行权价应由保护底线和可接受卖出价决定。</text>
+</svg>

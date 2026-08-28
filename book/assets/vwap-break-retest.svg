@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" role="img" aria-label="左：先破 VWAP 并在上方接受、离开后再回踩守住。右：回踩重新穿回并在下方接受，立即失效">
+  <title>VWAP 突破后回踩：先离开再测试；回踩失败不是「还在转换」</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .vw { fill: none; stroke: #3D6A94; stroke-width: 2.1; }
+    .box { fill: none; stroke: #D0D5DB; stroke-width: 1; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; } .t-a { fill: #E0A93A; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .vw { stroke: #7FA9CE; } .box { stroke: #3A424C; }
+    }
+  </style>
+  <rect class="box" x="16" y="40" width="356" height="268" rx="6"/>
+  <text class="t-g" x="28" y="28">左边：破了、离开、回踩守住</text>
+  <polyline class="vw" points="36,168 80,166 140,162 200,158 260,154 350,150"/>
+  <text class="t-a" x="292" y="142">VWAP</text>
+  <line class="dn wk" x1="52" y1="178" x2="52" y2="228"/><rect class="dn" x="46" y="190" width="12" height="28"/>
+  <line class="dn wk" x1="84" y1="172" x2="84" y2="230"/><rect class="dn" x="78" y="186" width="12" height="32"/>
+  <text class="t" x="40" y="248">1 线下</text>
+  <line class="up wk" x1="124" y1="118" x2="124" y2="178"/><rect class="up" x="118" y="128" width="12" height="38"/>
+  <line class="up wk" x1="156" y1="102" x2="156" y2="168"/><rect class="up" x="150" y="112" width="12" height="42"/>
+  <text class="t-g" x="118" y="94">2 接受</text>
+  <line class="up wk" x1="196" y1="72" x2="196" y2="140"/><rect class="up" x="190" y="82" width="12" height="46"/>
+  <text class="t" x="186" y="64">3 离开</text>
+  <line class="dn wk" x1="236" y1="92" x2="236" y2="162"/><rect class="dn" x="230" y="118" width="12" height="28"/>
+  <line class="up wk" x1="276" y1="108" x2="276" y2="168"/><rect class="up" x="270" y="122" width="12" height="30"/>
+  <text class="t-g" x="248" y="196">4 守住</text>
+  <line class="up wk" x1="316" y1="70" x2="316" y2="140"/><rect class="up" x="310" y="80" width="12" height="46"/>
+  <text class="t" x="28" y="288">入场在 4，不在 2。2 是门票，不是触发。</text>
+
+  <rect class="box" x="388" y="40" width="356" height="268" rx="6"/>
+  <text class="t-r" x="400" y="28">右边：回踩失败，立刻失效</text>
+  <polyline class="vw" points="408,168 452,166 512,162 572,158 632,154 724,150"/>
+  <text class="t-a" x="668" y="142">VWAP</text>
+  <line class="dn wk" x1="424" y1="178" x2="424" y2="228"/><rect class="dn" x="418" y="190" width="12" height="28"/>
+  <line class="dn wk" x1="456" y1="172" x2="456" y2="230"/><rect class="dn" x="450" y="186" width="12" height="32"/>
+  <line class="up wk" x1="496" y1="118" x2="496" y2="178"/><rect class="up" x="490" y="128" width="12" height="38"/>
+  <line class="up wk" x1="528" y1="102" x2="528" y2="168"/><rect class="up" x="522" y="112" width="12" height="42"/>
+  <line class="up wk" x1="568" y1="72" x2="568" y2="140"/><rect class="up" x="562" y="82" width="12" height="46"/>
+  <line class="dn wk" x1="608" y1="92" x2="608" y2="210"/><rect class="dn" x="602" y="130" width="12" height="62"/>
+  <text class="t-r" x="592" y="228">穿回</text>
+  <line class="dn wk" x1="648" y1="168" x2="648" y2="250"/><rect class="dn" x="642" y="188" width="12" height="44"/>
+  <line class="dn wk" x1="688" y1="190" x2="688" y2="268"/><rect class="dn" x="682" y="208" width="12" height="42"/>
+  <text class="t-r" x="400" y="288">线下被接受 = 转换假说结束，不要改口。</text>
+
+  <text class="t" x="16" y="332">第一次刺穿、影线扫过、还没离开就回头，都不是本章。右图走完也不自动反手，空头是另一张卡。</text>
+  <text class="t" x="16" y="352">VWAP 会随成交移动。回踩测的是当时的线附近，不是早上写下的那个固定价。</text>
+</svg>

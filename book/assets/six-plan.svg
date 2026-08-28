@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="下单前六栏：setup trigger invalidation size exit no-trade">
+  <title>一笔交易的六栏，写不齐就没有这一笔</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .c { fill: #F7F8FA; stroke: #D0D5DB; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .c { fill: #1C2228; stroke: #3A424C; }
+    }
+  </style>
+  <rect class="c" x="16" y="24" width="236" height="100" rx="8"/>
+  <text class="t-b" x="32" y="52">1 Setup</text>
+  <text class="t" x="32" y="76">形状 + 位置</text>
+  <text class="t" x="32" y="96">为什么可能有优势</text>
+
+  <rect class="c" x="262" y="24" width="236" height="100" rx="8"/>
+  <text class="t-b" x="278" y="52">2 Trigger</text>
+  <text class="t" x="278" y="76">哪条线被接受才进</text>
+  <text class="t" x="278" y="96">不是「看起来要涨」</text>
+
+  <rect class="c" x="508" y="24" width="236" height="100" rx="8"/>
+  <text class="t-b" x="524" y="52">3 Invalidation</text>
+  <text class="t" x="524" y="76">什么事实说明错了</text>
+  <text class="t" x="524" y="96">和触发同一周期</text>
+
+  <rect class="c" x="16" y="140" width="236" height="100" rx="8"/>
+  <text class="t-b" x="32" y="168">4 Size</text>
+  <text class="t" x="32" y="192">可亏 ÷ 每股风险</text>
+  <text class="t" x="32" y="212">含滑点预留</text>
+
+  <rect class="c" x="262" y="140" width="236" height="100" rx="8"/>
+  <text class="t-b" x="278" y="168">5 Exit</text>
+  <text class="t" x="278" y="192">目标 / 分批 / 时间</text>
+  <text class="t" x="278" y="212">止损只能往有利移</text>
+
+  <rect class="c" x="508" y="140" width="236" height="100" rx="8"/>
+  <text class="t-b" x="524" y="168">6 No-trade</text>
+  <text class="t" x="524" y="192">点差、停牌、离线太远</text>
+  <text class="t" x="524" y="212">写不出来 = 放弃</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="四种 VWAP setup：回踩、收回、拒绝回落、突破回踩，分开统计">
+  <title>VWAP 是均衡参考，四种走法不要混成一个胜率</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .c { fill: #F7F8FA; stroke: #D0D5DB; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .c { fill: #1C2228; stroke: #3A424C; }
+    }
+  </style>
+  <rect class="c" x="16" y="16" width="360" height="120" rx="8"/>
+  <text class="t-b" x="32" y="44">1 回踩 Bounce</text>
+  <text class="t" x="32" y="70">上方强势回撤到 VWAP</text>
+  <text class="t" x="32" y="92">触发：反应 + 更高低点</text>
+  <text class="t" x="32" y="114">失效：在 VWAP 下方被接受</text>
+
+  <rect class="c" x="388" y="16" width="356" height="120" rx="8"/>
+  <text class="t-b" x="404" y="44">2 收回 / Pop</text>
+  <text class="t" x="404" y="70">从下方恢复站上</text>
+  <text class="t" x="404" y="92">触发：收回并守住</text>
+  <text class="t" x="404" y="114">失效：跌回并破微观低点</text>
+
+  <rect class="c" x="16" y="152" width="360" height="120" rx="8"/>
+  <text class="t-b" x="32" y="180">3 拒绝 / Fade</text>
+  <text class="t" x="32" y="206">下方弱势反弹到 VWAP</text>
+  <text class="t" x="32" y="228">触发：更低高点 / 破微观低点</text>
+  <text class="t" x="32" y="250">失效：在 VWAP 上方被接受</text>
+
+  <rect class="c" x="388" y="152" width="356" height="120" rx="8"/>
+  <text class="t-b" x="404" y="180">4 突破后回踩</text>
+  <text class="t" x="404" y="206">趋势转换后的 retest</text>
+  <text class="t" x="404" y="228">触发：破了再回踩守住</text>
+  <text class="t" x="404" y="250">失效：回踩失败，重新穿回</text>
+</svg>

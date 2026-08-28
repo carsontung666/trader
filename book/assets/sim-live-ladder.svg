@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="从模拟到实盘是阶梯：机制、单一setup、保守成交、最小实盘、受控放大；恶化就退回">
+  <title>模拟到实盘是阶梯，不是一次毕业</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .n { fill: #EEF3F8; stroke: #3D6A94; }
+    .bad { fill: #FDE8E8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .n { fill: #1C2833; stroke: #7FA9CE; }
+      .bad { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="n" x="16" y="24" width="130" height="72" rx="8"/><text class="t-b" x="44" y="52">A 机制</text><text class="t" x="28" y="74">热键、订单、日志</text>
+  <text class="t-b" x="150" y="62">→</text>
+  <rect class="n" x="172" y="24" width="130" height="72" rx="8"/><text class="t-b" x="188" y="52">B 单一 setup</text><text class="t" x="182" y="74">全部信号入库</text>
+  <text class="t-b" x="306" y="62">→</text>
+  <rect class="n" x="328" y="24" width="130" height="72" rx="8"/><text class="t-b" x="344" y="52">C 保守成交</text><text class="t" x="336" y="74">加滑点与费用</text>
+  <text class="t-b" x="462" y="62">→</text>
+  <rect class="n" x="484" y="24" width="120" height="72" rx="8"/><text class="t-b" x="500" y="52">D 最小实盘</text><text class="t" x="494" y="74">只验执行情绪</text>
+  <text class="t-b" x="608" y="62">→</text>
+  <rect class="n" x="630" y="24" width="114" height="72" rx="8"/><text class="t-b" x="646" y="52">E 受控放大</text><text class="t" x="640" y="74">一次只升一档</text>
+  <rect class="bad" x="16" y="120" width="728" height="64" rx="8"/>
+  <text class="t-b" x="36" y="148">任何一档指标恶化或规则违约：退回上一档，不是硬扛</text>
+  <text class="t" x="36" y="170">日历三个月、模拟赚多少钱，都不能单独当毕业条件。</text>
+  <text class="t" x="20" y="214">门槛看：样本量、成本后期望值、最大回撤、执行错误率、规则遵守率、实盘与模拟的成交差。</text>
+  <text class="t" x="20" y="236">任何阶段都可以得出「这套策略不适合我」。停止是风险决策。</text>
+  <text class="t" x="20" y="258">小账户不需要冒更大比例风险；它需要更慢、更小、更能活过样本不足。</text>
+</svg>

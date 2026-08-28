@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="三层风险：单笔、当日、账户；停牌跳空是计划止损盖不住的尾部">
+  <title>只控制单笔止损，仍可能一天把账户打穿</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .a { fill: #EEF3F8; stroke: #3D6A94; }
+    .b { fill: #FFF7E0; stroke: #B07D0A; }
+    .c { fill: #F5D0C8; stroke: #C0392B; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .a { fill: #1C2833; stroke: #7FA9CE; }
+      .b { fill: #3A3420; stroke: #E0A93A; }
+      .c { fill: #3A2424; stroke: #EF6B5E; }
+    }
+  </style>
+  <rect class="a" x="20" y="24" width="230" height="200" rx="8"/>
+  <text class="t-b" x="40" y="52">单笔风险</text>
+  <text class="t" x="40" y="80">入场到失效</text>
+  <text class="t" x="40" y="104">点差 / 滑点 / 部分成交</text>
+  <text class="t" x="40" y="128">停牌 / 跳空</text>
+  <text class="t" x="40" y="152">借股 / 费用</text>
+  <text class="t" x="40" y="184">计划 1R ≠ 最大亏损</text>
+
+  <rect class="b" x="265" y="24" width="230" height="200" rx="8"/>
+  <text class="t-b" x="285" y="52">当日风险</text>
+  <text class="t" x="285" y="80">日亏损上限</text>
+  <text class="t" x="285" y="104">相关持仓 / 未完成单</text>
+  <text class="t" x="285" y="128">情绪升级</text>
+  <text class="t" x="285" y="152">平台故障</text>
+  <text class="t" x="285" y="184">次数 × 1R 会叠穿</text>
+
+  <rect class="c" x="510" y="24" width="230" height="200" rx="8"/>
+  <text class="t-b" x="530" y="52">账户风险</text>
+  <text class="t" x="530" y="80">杠杆 / 集中度</text>
+  <text class="t" x="530" y="104">回撤 / 抽资</text>
+  <text class="t" x="530" y="128">税务 / 结算义务</text>
+  <text class="t" x="530" y="152">小账户更激进是错的</text>
+  <text class="t" x="530" y="184">先保住验证资格</text>
+
+  <text class="t" x="20" y="250">尾部：停牌恢复价可以远离止损线。这一层只能用仓位和禁做清单压，不能用「我会及时点卖」压。</text>
+</svg>

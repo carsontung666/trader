@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="头肩顶只有形成后才能命名；触发在颈线跌破或回抽失败，目标投射不是保证">
+  <title>头肩顶：先形成，再命名</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .neck { stroke: #C08A12; stroke-width: 1.8; }
+    .path { fill: none; stroke: #3D6A94; stroke-width: 1.5; stroke-dasharray: 5 4; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .neck { stroke: #DDA33A; } .path { stroke: #7FA9CE; }
+    }
+  </style>
+  <text class="t-a" x="40" y="28">左肩、头、右肩只有走完才可完整命名。画不清就不做。</text>
+  <polyline class="path" points="70,200 160,110 250,190 360,50 460,190 560,130 660,230"/>
+  <text class="t" x="140" y="96">左肩</text>
+  <text class="t" x="348" y="40">头</text>
+  <text class="t" x="540" y="118">右肩</text>
+  <line class="neck" x1="80" y1="190" x2="700" y2="190"/>
+  <text class="t-a" x="620" y="182">颈线</text>
+  <line class="up wk" x1="120" y1="130" x2="120" y2="210"/><rect class="up" x="114" y="150" width="12" height="40"/>
+  <line class="dn wk" x1="200" y1="140" x2="200" y2="205"/><rect class="dn" x="194" y="160" width="12" height="30"/>
+  <line class="up wk" x1="320" y1="60" x2="320" y2="200"/><rect class="up" x="314" y="80" width="12" height="90"/>
+  <line class="dn wk" x1="400" y1="90" x2="400" y2="205"/><rect class="dn" x="394" y="130" width="12" height="55"/>
+  <line class="up wk" x1="520" y1="140" x2="520" y2="205"/><rect class="up" x="514" y="155" width="12" height="35"/>
+  <line class="dn wk" x1="620" y1="180" x2="620" y2="250"/><rect class="dn" x="614" y="200" width="12" height="35"/>
+  <text class="t-r" x="40" y="268">触发：颈线被向下接受，或回抽颈线失败。失效：头的高点，或右肩高点（按你写死的版本）。</text>
+  <text class="t" x="40" y="290">测量目标要先看下方支撑。两个交易者画的结构完全不同，就不适合当机械触发。</text>
+</svg>

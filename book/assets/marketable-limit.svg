@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="可成交限价会立刻吃对手盘直到限价；不可成交限价在簿上排队">
+  <title>可成交限价与不可成交限价</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .ask { fill: #FDE8E8; stroke: #DC2626; }
+    .bid { fill: #E7F6EC; stroke: #16A34A; }
+    .lim { fill: #FFF7E0; stroke: #C08A12; }
+    .box { fill: none; stroke: #D0D5DB; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .ask { fill: #3A2424; stroke: #EF5350; }
+      .bid { fill: #1C3326; stroke: #2FBF71; }
+      .lim { fill: #3A3420; stroke: #DDA33A; }
+      .box { stroke: #3A424C; }
+    }
+  </style>
+  <text class="t-b" x="24" y="28">报价：Bid 9.99 × 400　/　Ask 10.02 × 600</text>
+
+  <rect class="box" x="20" y="44" width="350" height="200" rx="8"/>
+  <text class="t-b" x="40" y="72">可成交限价（Marketable）</text>
+  <rect class="lim" x="40" y="86" width="310" height="36" rx="4"/>
+  <text class="t" x="52" y="110">Buy limit 10.10　买 3,000 股</text>
+  <text class="t" x="40" y="146">不是「等涨到 10.10 才买」。</text>
+  <text class="t" x="40" y="168">先吃 600 @10.02，再向更高档走，</text>
+  <text class="t" x="40" y="190">但不能高于 10.10。</text>
+  <text class="t" x="40" y="220">剩余可能留在簿上，仍不保证全成。</text>
+
+  <rect class="box" x="390" y="44" width="350" height="200" rx="8"/>
+  <text class="t-b" x="410" y="72">不可成交限价（排队）</text>
+  <rect class="bid" x="410" y="86" width="310" height="36" rx="4"/>
+  <text class="t" x="422" y="110">Buy limit 9.95　买 3,000 股</text>
+  <text class="t" x="410" y="146">挂在当前 bid 下方等待。</text>
+  <text class="t" x="410" y="168">Last 打印过 9.95 ≠ 你成交了。</text>
+  <text class="t" x="410" y="190">队列、隐藏单、其他场所都会抢先。</text>
+  <text class="t" x="410" y="220">价格保护强，成交确定性低。</text>
+
+  <text class="t" x="24" y="270">Offset 只是给可成交范围留余量，不是全成保证。固定 0.05 / 0.10 不能套所有标的。</text>
+  <text class="t" x="24" y="290">卖出时：limit 挂在 bid 下方才可能立刻成交；涨得太快或跌穿限价，剩余仓位仍在。</text>
+</svg>

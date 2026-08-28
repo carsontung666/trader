@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="显示很小的 Ask 被远超显示量的成交打中后仍补回，才可能是隐藏卖方">
+  <title>隐藏流动性：显示量小、成交量大、价格卡住</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .ask { fill: #FDE8E8; }
+    .row { fill: #F7F8FA; }
+    .box { fill: none; stroke: #D0D5DB; }
+    .warn { fill: #FFF7E0; stroke: #C08A12; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-r { fill: #EF6B5E; }
+      .ask { fill: #3A2424; } .row { fill: #1C2228; } .box { stroke: #3A424C; }
+      .warn { fill: #3A3420; stroke: #DDA33A; }
+    }
+  </style>
+  <text class="t-b" x="24" y="28">Ask 5.04 只显示 200 股，但 Tape 连续在 5.04 打出远大于 200 的成交</text>
+
+  <rect class="box" x="20" y="44" width="300" height="170" rx="6"/>
+  <text class="t-b" x="36" y="68">Level 2（可见）</text>
+  <rect class="ask" x="36" y="80" width="268" height="28"/>
+  <text class="t-r" x="48" y="100">5.04 × 200　← 一直还在</text>
+  <rect class="row" x="36" y="112" width="268" height="28"/>
+  <text class="t" x="48" y="132">5.05 × 1,200</text>
+  <text class="t" x="36" y="168">只看「小」不能证明隐藏。</text>
+  <text class="t" x="36" y="190">必须对照右边的成交。</text>
+
+  <rect class="box" x="340" y="44" width="400" height="170" rx="6"/>
+  <text class="t-b" x="356" y="68">Time &amp; Sales（已经发生）</text>
+  <text class="t-r" x="356" y="96">5.04　1,800</text>
+  <text class="t-r" x="356" y="118">5.04　2,200</text>
+  <text class="t-r" x="356" y="140">5.04　1,000</text>
+  <text class="t" x="356" y="170">成交远超显示量，价位仍卡住。</text>
+  <text class="t" x="356" y="192">这才是隐藏 / 补充卖方的观察。</text>
+
+  <rect class="warn" x="20" y="228" width="720" height="52" rx="6"/>
+  <text class="t" x="36" y="250">隐藏不等于无限大，也不等于永远打不穿。高量、强催化仍可能把它吃完。</text>
+  <text class="t" x="36" y="270">不知道剩余总量时，超短线更合理的动作是离场，而不是猜墙有多厚。</text>
+</svg>

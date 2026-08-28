@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" width="760" height="260" role="img" aria-label="催化五层验证：来源、新旧、确定性、规模、市场是否用成交量确认">
+  <title>有新闻之后先问这五句</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .n { fill: #EEF3F8; stroke: #3D6A94; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; }
+      .n { fill: #1C2833; stroke: #7FA9CE; }
+    }
+  </style>
+  <text class="t-b" x="24" y="26">新闻回答「为什么今天有人看它」。技术和订单回答「现在值不值得用明确风险参与」。</text>
+  <rect class="n" x="16" y="44" width="138" height="120" rx="8"/>
+  <text class="t-b" x="56" y="72">1 来源</text>
+  <text class="t" x="28" y="96">公司原文 /</text>
+  <text class="t" x="28" y="114">SEC / 交易所</text>
+  <text class="t" x="28" y="132">还是转述？</text>
+  <rect class="n" x="166" y="44" width="138" height="120" rx="8"/>
+  <text class="t-b" x="206" y="72">2 新旧</text>
+  <text class="t" x="178" y="96">首次发布</text>
+  <text class="t" x="178" y="114">还是旧闻</text>
+  <text class="t" x="178" y="132">重新包装？</text>
+  <rect class="n" x="316" y="44" width="138" height="120" rx="8"/>
+  <text class="t-b" x="344" y="72">3 确定性</text>
+  <text class="t" x="328" y="96">完成、签署、</text>
+  <text class="t" x="328" y="114">获批，还是</text>
+  <text class="t" x="328" y="132">计划、意向？</text>
+  <rect class="n" x="466" y="44" width="138" height="120" rx="8"/>
+  <text class="t-b" x="508" y="72">4 规模</text>
+  <text class="t" x="478" y="96">相对收入、</text>
+  <text class="t" x="478" y="114">市值、现金</text>
+  <text class="t" x="478" y="132">消耗重要吗？</text>
+  <rect class="n" x="616" y="44" width="128" height="120" rx="8"/>
+  <text class="t-b" x="640" y="72">5 确认</text>
+  <text class="t" x="628" y="96">量、点差、</text>
+  <text class="t" x="628" y="114">趋势、回撤</text>
+  <text class="t" x="628" y="132">是否支持？</text>
+  <text class="t" x="16" y="192">「positive results」≠ 产品获批。「FDA related」≠ FDA approval。合同要问是否 binding、金额相对年收入。</text>
+  <text class="t" x="16" y="214">催化变强不能取消技术止损。缺一层证据时，应降低仓位或放弃，不要用故事填补。</text>
+  <text class="t" x="16" y="236">同一家公司可能连发多条；要判断哪一条真的改变收入、现金流、股本或预期。</text>
+</svg>

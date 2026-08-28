@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" role="img" aria-label="价格走到布林上轨外出现长上影小实体，触发是跌破该K低点，不是碰到轨道">
+  <title>布林外侧 Pin：轨外是筛选，破 Pin 低点才是触发</title>
+  <style>
+    .t { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b { fill: #1F2933; font-weight: 600; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-a { fill: #B07D0A; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .band { fill: #EEF3F8; }
+    .bb { fill: none; stroke: #3D6A94; stroke-width: 1.6; }
+    .mid { fill: none; stroke: #8A94A0; stroke-width: 1.2; stroke-dasharray: 4 3; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.4; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-b { fill: #E8EEF4; } .t-a { fill: #E0A93A; } .t-r { fill: #EF6B5E; } .t-g { fill: #35C07B; }
+      .band { fill: #1C2833; } .bb { stroke: #7FA9CE; } .mid { stroke: #6E7884; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .stop { stroke: #EF6B5E; }
+    }
+  </style>
+  <text class="t-b" x="36" y="24">布林带来自均值和历史波动。到轨外只说明 extended，不是必反转。</text>
+  <path class="band" d="M50,70 C180,55 320,48 460,58 C560,66 640,80 710,95 L710,210 C640,198 560,188 460,182 C320,174 180,180 50,192 Z"/>
+  <path class="bb" d="M50,70 C180,55 320,48 460,58 C560,66 640,80 710,95"/>
+  <path class="bb" d="M50,192 C180,180 320,174 460,182 C560,188 640,198 710,210"/>
+  <path class="mid" d="M50,131 C180,118 320,111 460,120 C560,127 640,139 710,152"/>
+  <text class="t" x="620" y="52">上轨</text>
+  <text class="t" x="620" y="226">下轨</text>
+
+  <line class="up wk" x1="90" y1="140" x2="90" y2="185"/><rect class="up" x="84" y="150" width="12" height="24"/>
+  <line class="up wk" x1="150" y1="120" x2="150" y2="170"/><rect class="up" x="144" y="130" width="12" height="28"/>
+  <line class="up wk" x1="210" y1="100" x2="210" y2="155"/><rect class="up" x="204" y="112" width="12" height="30"/>
+  <text class="t-a" x="80" y="210">walk the band</text>
+
+  <line class="up wk" x1="300" y1="28" x2="300" y2="120"/>
+  <rect class="up" x="292" y="88" width="16" height="18"/>
+  <text class="t-a" x="320" y="42">Pin：长上影、小实体</text>
+  <line class="stop" x1="280" y1="28" x2="700" y2="28"/>
+  <text class="t-r" x="620" y="24">失效：极端高</text>
+
+  <line class="dn wk" x1="380" y1="95" x2="380" y2="175"/><rect class="dn" x="374" y="118" width="12" height="42"/>
+  <text class="t-g" x="360" y="194">触发：破 Pin 低</text>
+  <line class="dn wk" x1="450" y1="140" x2="450" y2="220"/><rect class="dn" x="444" y="160" width="12" height="42"/>
+  <line class="up wk" x1="520" y1="155" x2="520" y2="210"/><rect class="up" x="514" y="170" width="12" height="26"/>
+  <line class="dn wk" x1="590" y1="175" x2="590" y2="250"/><rect class="dn" x="584" y="195" width="12" height="38"/>
+
+  <text class="t" x="36" y="280">强趋势可以长时间贴轨走。提前做空会连续止损。参数（如 20 周期、2 倍标准差）必须固定。</text>
+  <text class="t" x="36" y="300">复盘不能用后来那根大红 K 的收盘，假装自己在 Pin 顶端成交。</text>
+</svg>

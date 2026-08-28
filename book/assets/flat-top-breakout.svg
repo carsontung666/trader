@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-label="贴顶突破结构图：价格四次测试当日最高价 8.30，回落低点从 8.15 抬高到 8.24 且一次比一次浅，随后放量突破，买入 8.35、止损 8.10、第一目标 8.85">
+  <title>贴顶突破：入场、止损与第一目标</title>
+  <style>
+    .bg   { fill: none; }
+    .grid { stroke: #E2E5E9; stroke-width: 1; }
+    .ax   { fill: #6B7581; font-size: 11px; font-family: ui-monospace, Menlo, Consolas, monospace; }
+    .ax-a { fill: #B07D0A; font-weight: 700; }
+    .ax-r { fill: #C0392B; font-weight: 700; }
+    .ax-g { fill: #15803D; font-weight: 700; }
+    .hod  { stroke: #C08A12; stroke-width: 2; }
+    .box  { fill: none; stroke: #8A94A0; stroke-width: 1.1; stroke-dasharray: 4 3; }
+    .lows { fill: none; stroke: #3D6A94; stroke-width: 1.8; stroke-dasharray: 5 4; }
+    .dot  { fill: #3D6A94; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 4; }
+    .tgt  { stroke: #15803D; stroke-width: 1.5; stroke-dasharray: 4 4; }
+    .ent  { stroke: #15803D; stroke-width: 2; }
+    .entf { fill: #15803D; }
+    .up   { fill: #16A34A; stroke: #16A34A; }
+    .dn   { fill: #DC2626; stroke: #DC2626; }
+    .wk   { stroke-width: 1.4; }
+    .t    { fill: #56606C; font-size: 12px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-b  { fill: #3D6A94; font-weight: 600; }
+    .t-r  { fill: #C0392B; font-weight: 600; }
+    .t-g  { fill: #15803D; font-weight: 600; }
+    .t-a  { fill: #B07D0A; font-weight: 600; }
+    .mR   { stroke: #C0392B; stroke-width: 1.6; }
+    .mG   { stroke: #15803D; stroke-width: 1.6; }
+    .halo { fill: none; stroke: #C08A12; stroke-width: 1.4; opacity: .6; }
+    @media (prefers-color-scheme: dark) {
+      .grid { stroke: #2A3038; }
+      .ax   { fill: #8B95A1; }
+      .ax-a { fill: #E0A93A; }
+      .ax-r { fill: #EF6B5E; }
+      .ax-g { fill: #35C07B; }
+      .hod  { stroke: #DDA33A; }
+      .box  { stroke: #6E7884; }
+      .lows { stroke: #7FA9CE; }
+      .dot  { fill: #7FA9CE; }
+      .stop { stroke: #EF6B5E; }
+      .tgt  { stroke: #35C07B; }
+      .ent  { stroke: #35C07B; }
+      .entf { fill: #35C07B; }
+      .up   { fill: #2FBF71; stroke: #2FBF71; }
+      .dn   { fill: #EF5350; stroke: #EF5350; }
+      .t    { fill: #A3ADB9; }
+      .t-b  { fill: #7FA9CE; }
+      .t-r  { fill: #EF6B5E; }
+      .t-g  { fill: #35C07B; }
+      .t-a  { fill: #E0A93A; }
+      .halo { stroke: #DDA33A; }
+    }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="760" height="400"/>
+
+  <line class="grid" x1="72" y1="150.5" x2="620" y2="150.5"/>
+  <line class="grid" x1="72" y1="340" x2="620" y2="340"/>
+
+  <text class="ax ax-g" x="62" y="75.6" text-anchor="end">8.85</text>
+  <text class="ax"      x="62" y="154.5" text-anchor="end">8.60</text>
+  <text class="ax ax-a" x="62" y="249.3" text-anchor="end">8.30</text>
+  <text class="ax ax-r" x="62" y="312.4" text-anchor="end">8.10</text>
+
+  <rect class="box" x="130" y="245.3" width="312" height="47.3"/>
+
+  <line class="hod"  x1="72"  y1="245.3" x2="620" y2="245.3"/>
+  <line class="stop" x1="400" y1="308.4" x2="624" y2="308.4"/>
+  <line class="tgt"  x1="440" y1="71.6"  x2="624" y2="71.6"/>
+
+  <polyline class="lows" points="142,292.6 220,276.8 272,264.2"/>
+  <circle class="dot" cx="142" cy="292.6" r="3.4"/>
+  <circle class="dot" cx="220" cy="276.8" r="3.4"/>
+  <circle class="dot" cx="272" cy="264.2" r="3.4"/>
+
+  <line class="ent" x1="424" y1="229.5" x2="438" y2="229.5"/>
+  <path class="entf" d="M438 225.5 L446 229.5 L438 233.5 Z"/>
+
+  <text class="t t-a" x="78"  y="238">① 当日最高 8.30　四次撞它都没过</text>
+  <text class="t t-b" x="136" y="322">② 低点 8.15 → 8.20 → 8.24　抬高</text>
+  <text class="t t-b" x="136" y="340">　 回落 0.15 → 0.10 → 0.06　越来越浅</text>
+  <text class="t t-g" x="300" y="222">③ 放量穿过 → 买入 8.35</text>
+  <text class="t t-g" x="446" y="66">⑤ 第一目标 8.85　卖一半，剩余止损提到成本价</text>
+
+  <line class="up wk" x1="90"  y1="295.8" x2="90"  y2="330.5"/><rect class="up" x="84"  y="302.1" width="12" height="22.1"/>
+  <line class="up wk" x1="116" y1="245.3" x2="116" y2="305.3"/><rect class="up" x="110" y="254.7" width="12" height="47.4"/>
+  <line class="dn wk" x1="142" y1="251.6" x2="142" y2="292.6"/><rect class="dn" x="136" y="254.7" width="12" height="31.6"/>
+  <line class="up wk" x1="168" y1="257.9" x2="168" y2="289.5"/><rect class="up" x="162" y="264.2" width="12" height="22.1"/>
+  <line class="up wk" x1="194" y1="245.3" x2="194" y2="267.4"/><rect class="up" x="188" y="251.6" width="12" height="12.6"/>
+  <line class="dn wk" x1="220" y1="248.4" x2="220" y2="276.8"/><rect class="dn" x="214" y="251.6" width="12" height="18.9"/>
+  <line class="up wk" x1="246" y1="245.3" x2="246" y2="273.7"/><rect class="up" x="240" y="251.6" width="12" height="18.9"/>
+  <line class="dn wk" x1="272" y1="248.4" x2="272" y2="264.2"/><rect class="dn" x="266" y="251.6" width="12" height="9.5"/>
+  <line class="up wk" x1="298" y1="248.4" x2="298" y2="264.2"/><rect class="up" x="292" y="251.6" width="12" height="9.5"/>
+  <line class="dn wk" x1="324" y1="245.3" x2="324" y2="257.9"/><rect class="dn" x="318" y="251.6" width="12" height="3.1"/>
+  <line class="up wk" x1="350" y1="248.4" x2="350" y2="257.9"/><rect class="up" x="344" y="251.6" width="12" height="3.1"/>
+  <line class="dn wk" x1="376" y1="245.3" x2="376" y2="254.7"/><rect class="dn" x="370" y="248.4" width="12" height="3.2"/>
+  <line class="up wk" x1="402" y1="245.3" x2="402" y2="254.7"/><rect class="up" x="396" y="248.4" width="12" height="3.2"/>
+  <line class="dn wk" x1="428" y1="245.3" x2="428" y2="254.7"/><rect class="dn" x="422" y="248.4" width="12" height="3.2"/>
+  <line class="up wk" x1="454" y1="175.8" x2="454" y2="254.7"/><rect class="up" x="448" y="182.1" width="12" height="69.5"/>
+  <rect class="halo" x="443" y="171" width="22" height="88.5" rx="3"/>
+  <line class="dn wk" x1="480" y1="163.2" x2="480" y2="201.1"/><rect class="dn" x="474" y="182.1" width="12" height="12.7"/>
+  <line class="up wk" x1="506" y1="144.2" x2="506" y2="197.9"/><rect class="up" x="500" y="150.5" width="12" height="44.3"/>
+  <line class="up wk" x1="532" y1="112.6" x2="532" y2="156.9"/><rect class="up" x="526" y="118.9" width="12" height="31.6"/>
+  <line class="up wk" x1="558" y1="62.1"  x2="558" y2="125.2"/><rect class="up" x="552" y="68.4"  width="12" height="50.5"/>
+  <line class="up wk" x1="584" y1="43.2"  x2="584" y2="81"/><rect class="up" x="578" y="49.5"  width="12" height="18.9"/>
+
+  <text class="t t-r" x="628" y="312">④ 止损 8.10</text>
+  <text class="t t-r" x="40" y="392">最近抬高低点 8.24；8.10 是再留滑点后的失效，不是贴着低点的像素。</text>
+
+  <line class="mR" x1="660" y1="229.5" x2="660" y2="308.4"/>
+  <line class="mR" x1="655" y1="229.5" x2="665" y2="229.5"/>
+  <line class="mR" x1="655" y1="308.4" x2="665" y2="308.4"/>
+  <text class="t t-r" x="672" y="266">风险</text>
+  <text class="t t-r" x="672" y="282">0.25</text>
+
+  <line class="mG" x1="722" y1="71.6" x2="722" y2="229.5"/>
+  <line class="mG" x1="717" y1="71.6" x2="727" y2="71.6"/>
+  <line class="mG" x1="717" y1="229.5" x2="727" y2="229.5"/>
+  <text class="t t-g" x="686" y="146">收益 0.50</text>
+  <text class="t t-g" x="686" y="162">= 2 倍风险</text>
+</svg>

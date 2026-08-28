@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="左边按计划在触发处买入止损近；右边错过以后追高，同样止损距离变成更大的每股风险">
+  <title>追的定义是离失效位远</title>
+  <style>
+    .t { fill: #56606C; font-size: 13px; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .t-g { fill: #15803D; font-weight: 600; }
+    .t-r { fill: #C0392B; font-weight: 600; }
+    .up { fill: #16A34A; stroke: #16A34A; }
+    .dn { fill: #DC2626; stroke: #DC2626; }
+    .wk { stroke-width: 1.3; }
+    .stop { stroke: #C0392B; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    .ent { stroke: #15803D; stroke-width: 2; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #A3ADB9; } .t-g { fill: #35C07B; } .t-r { fill: #EF6B5E; }
+      .up { fill: #2FBF71; stroke: #2FBF71; } .dn { fill: #EF5350; stroke: #EF5350; }
+      .stop { stroke: #EF6B5E; } .ent { stroke: #35C07B; }
+    }
+  </style>
+  <text class="t-g" x="40" y="28">按计划：触发处买，失效近</text>
+  <line class="up wk" x1="60" y1="160" x2="60" y2="210"/><rect class="up" x="54" y="170" width="12" height="30"/>
+  <line class="up wk" x1="100" y1="120" x2="100" y2="180"/><rect class="up" x="94" y="130" width="12" height="40"/>
+  <line class="dn wk" x1="140" y1="130" x2="140" y2="175"/><rect class="dn" x="134" y="140" width="12" height="25"/>
+  <line class="up wk" x1="180" y1="90" x2="180" y2="150"/><rect class="up" x="174" y="100" width="12" height="40"/>
+  <line class="ent" x1="170" y1="100" x2="230" y2="100"/>
+  <line class="stop" x1="50" y1="210" x2="240" y2="210"/>
+  <text class="t" x="50" y="248">风险短，股数可以按公式算</text>
+
+  <text class="t-r" x="400" y="28">错过以后追：止损还在原地</text>
+  <line class="up wk" x1="420" y1="160" x2="420" y2="210"/><rect class="up" x="414" y="170" width="12" height="30"/>
+  <line class="up wk" x1="460" y1="120" x2="460" y2="180"/><rect class="up" x="454" y="130" width="12" height="40"/>
+  <line class="dn wk" x1="500" y1="130" x2="500" y2="175"/><rect class="dn" x="494" y="140" width="12" height="25"/>
+  <line class="up wk" x1="540" y1="90" x2="540" y2="150"/><rect class="up" x="534" y="100" width="12" height="40"/>
+  <line class="up wk" x1="600" y1="40" x2="600" y2="100"/><rect class="up" x="594" y="50" width="12" height="40"/>
+  <line class="ent" x1="590" y1="50" x2="680" y2="50"/>
+  <line class="stop" x1="410" y1="210" x2="680" y2="210"/>
+  <text class="t-r" x="400" y="248">同样失效位，每股风险大了 → 必须减股或不做</text>
+  <text class="t" x="40" y="272">FOMO 的修复不是「再给一次机会」，是 No-trade 栏：离失效位太远就不做。</text>
+</svg>
