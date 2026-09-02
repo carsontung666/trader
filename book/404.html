@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>主动交易手册</title>
+  <meta http-equiv="refresh" content="0; url=/trader/">
+  <script>
+    (function () {
+      var base = '/trader';
+      var path = location.pathname || '/';
+      if (path.indexOf(base) === 0) path = path.slice(base.length);
+      if (!path || path === '/404.html') path = '/';
+      location.replace(base + '/#' + path + (location.search || ''));
+    })();
+  </script>
+</head>
+<body>
+  <p><a href="/trader/">打开手册</a></p>
+</body>
+</html>
